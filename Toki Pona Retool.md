@@ -30,7 +30,7 @@ but I think that its inability to express fundamental parts of human existence s
 This document is a work-in-progress.
 
 Word Definition Changes
------------------------
+=====
 
 No conflation between size/height/importance, simplicity/good;
     remove the common human fallacy of spatial-social equality double-meanings
@@ -60,8 +60,8 @@ High != hierarchy
     - why not 'sowelo moku suli' (hopefully meaning large food land-quadruped)?
 * remove 'humble', 'lowly', 'bowing down' meanings from anpa
 
-### Opinion on Toki Pona's Connotations
-
+Opinion on Toki Pona's Connotations
+------------
 Toki pona sometimes implies something is an objective truth when it's not; 
 I think it needs to indicate the subjectivity of human opinion more, in its choice of the meanings combined into a single word.
 
@@ -76,7 +76,8 @@ This isn't just Toki Pona's problem; it's a problem with human thought,
 probably caused by evolutionary psychological biases: in pre-history, those at the highest point had the best chance of spotting predators. This probably gave those with a genetically-predisposed preference for being higher up, a better chance of survival.
 
 New Words
----------
+=========
+
 * 'pusiki' important (from welsh bwysig)
 * proper comparatives:
     - 'molo' more
@@ -108,7 +109,7 @@ metal
 * sharp (as in knife)/spicy/sour/tangy
 
 Reinstated Words
-----------------
+================
 
 * 'kapesi' brown/grey: colour of slate, mud, metal
 * 'leko' square, cube, block, square-shaped, cube-shaped
@@ -116,7 +117,7 @@ Reinstated Words
 * 'pasila' easy, simple, light (opposite of heavy)
 
 New Grammar-Words
--------------
+=================
 
 * question marker word - turns a statement into a question of whether the statement is so.
    - a direct translation of the word would be 'is it that', or 'is the following true'
@@ -127,7 +128,8 @@ New Grammar-Words
 * conversion/transformation/application transitive verb? to make something <adjective>?
 
 Word Name/Spelling Changes
---------------------------
+==========================
+
 * spread out words across the phonological space more evenly; reduce similar-sounding wordgroups:
     - ijo/ilo
     - poki/poka
@@ -149,9 +151,10 @@ Word Name/Spelling Changes
     (maybe it has phonotactic rules that have emerged as a result of its vocabulary?)
     - It's also quite long.
 
-### Phonic Space
+Phonology
+=========
 
-I will definitely not add to the phonology;
+I will definitely not add sounds (phonemes) to the phonology;
 I don't know enough about linguistic typology to choose new sounds
 (or new phonotactic rules) that are as easy for all humans to pronounce.
 
@@ -181,12 +184,23 @@ The optional n is forbidden if the next syllable begins with m or n."
 These rules produce over 6000 potential dual-syllable words;
 so why does Toki Pona (a language with ~120 words) even HAVE 3-syllable words?
 
+The Argument for removing sounds
+-------------
+
+We don't even need as many different sounds as toki pona already has,
+in order to express the tiny number of words it has.
+
+Conlang Critic suggests that toki pona could use 3 vowels
+to be made even easier for speakers of 3-vowel languages (eg for speakers of Arabic).
+
+Should we remove one of the nasal sounds?
+they CAN be hard to distinguish from each other when speeking
+
 ### New Phonotactic Provisional Rules
 
 * should all vowels in a word harmonise?
 * should all consonant clusters be removed? (nanpa, unpa, tenpo, monsi, linja)
-* remove one of the nasal sounds?
-    - they can be hard to distinguish from each other
+
 
 Orthography
 ----------
