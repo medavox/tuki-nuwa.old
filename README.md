@@ -25,7 +25,7 @@ The goal of this offshoot is different from that of Toki Pona's --
 or at least different from its original goal.
 
 Its simplicity is its greatest strength; 
-but I think that its inability to express fundamental parts of human existence should be fixed.
+but I think that its inability to express fundamental parts of human existence should be changed.
 
 This document is a work-in-progress.
 
@@ -59,21 +59,6 @@ High != hierarchy
     - In fact why do we even need a word for cattle?
     - why not 'sowelo moku suli' (hopefully meaning large food land-quadruped)?
 * remove 'humble', 'lowly', 'bowing down' meanings from anpa
-
-Opinion on Toki Pona's Connotations
-------------
-Toki pona sometimes implies something is an objective truth when it's not; 
-I think it needs to indicate the subjectivity of human opinion more, in its choice of the meanings combined into a single word.
-
-I also disagree with its conflation of ideas for size with importance, and its conflation of altitude with status.
-These are classic 'metaphors' in many human languages, but ones which I think damage objectivity.
-Are miners of low status? are astronaut practically kings? Their altitude shouldn't matter!
-
-It's hard to find examples that don't reinforce this trope, it turns out.
-People pay much more money for the top floor of a tall building.
-
-This isn't just Toki Pona's problem; it's a problem with human thought,
-probably caused by evolutionary psychological biases: in pre-history, those at the highest point had the best chance of spotting predators. This probably gave those with a genetically-predisposed preference for being higher up, a better chance of survival.
 
 New Words
 =========
@@ -195,6 +180,40 @@ to be made even easier for speakers of 3-vowel languages (eg for speakers of Ara
 
 Should we remove one of the nasal sounds?
 they CAN be hard to distinguish from each other when speeking
+
+* Merge i and e vowels
+
+These sounds have always been hard to keep separate in my head,
+possibly because of the english dialect I was raised in.
+
+I can tell them apart, but I can't always remember which one goes where.
+
+I can't imagine I'm the only one that struggles to disinguish these sounds.
+
+As I said earlier, toki pona has an overabundance of sounds;
+it doesn't need all the sounds it does have.
+
+So why not simplify?
+
+* There is a similar argument for l and w.
+
+/l/, and its merged phoneme  /r/, vary a lot in their pronunciation.
+These variations may prove to be mutually unintelligible.
+If we can afford to leave out a sound we can't all agree on, we should.
+
+If Toki Nawa sounds a bit like baby speak, that probably means I've achieved my aim:
+It should sound so simplistic as to be familiar to everyone.
+
+So, Toki Nawa's phonemes are:-
+
+p t k m n s w j
+
+a i o u
+
+I'm still not sure about differentiating m and n, as these are easily mistaken for one another.
+
+This new sound-set means that some close-sounding words are currently homophones; I'll need to fix that.
+
 
 ### New Phonotactic Provisional Rules
 
