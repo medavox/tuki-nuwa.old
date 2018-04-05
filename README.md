@@ -92,6 +92,12 @@ metal
 * keep, stop, again
 * stranger
 * sharp (as in knife)/spicy/sour/tangy
+* sorry
+* thank you
+* fast
+* danger
+* smell
+* OK
 
 Reinstated Words
 ================
@@ -111,6 +117,7 @@ New Grammar-Words
     so 'pana' means give, 'po pana' means is given (receive)
     'utala' means attack, 'po utala' means is attacked
 * conversion/transformation/application transitive verb? to make something <adjective>?
+* marker word for a person or thing that is the one doing the action, eg emitter
 
 Word Name/Spelling Changes
 ==========================
