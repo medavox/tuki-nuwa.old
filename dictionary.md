@@ -24,7 +24,6 @@ a
 
 akesi
     n	non-cute animal, reptile, amphibian
-
     noun creeping animal, a scaly or slimy animal that creeps on land
     noun reptile, any air-breathing cold-blooded animal that crawls on land and has scales and bones; reptile
     noun amphibian, any cold-blooded animal with bones that lives on both land and in water; amphibian
@@ -36,7 +35,6 @@ ala
     mod	no, not, none, un-
     n	nothing, negation, zero
     interj	no!
-
     describer not, not such; no, not
     describer no, zero, no quantity of; no, zero
     describer un-, opposite of; un-
@@ -44,7 +42,6 @@ ala
     interjection a short, sudden or emotional expression of ala; no! 
 
 alasa
-    * This wasn't on the classic list.
     transitive verb to gather, to collect food, resources or material needed for daily life and survival; to gather, harvest
     transitive verb to hunt, to pursue and kill animals to use as food and clothing; to hunt
 
@@ -303,7 +300,6 @@ mute
     [multi]
 
 namako
-    * this word is new
     extra, addtional, spice
 
 nanpa
@@ -412,7 +408,6 @@ pona
     interj	great! good! thanks! OK! cool! yay!
     vt	improve, fix, repair, make good
     [bonam]
-
     describer beneficial; good
     describer benevolent; altruistic, kind, symbiotic
     describer helpful; cooperating
@@ -429,7 +424,6 @@ seli
     n	fire, warmth, heat
     mod	hot, warm, cooked
     vt	heat, warm up, cook
-
     noun fire, a force of nature or chemical reaction that releases heat and light, potentially causing destruction; fire, lightning, explosion, exothermic reaction
     noun heat source, something that provides heat
     noun cooking source, something that provides heat for preparing food
@@ -445,7 +439,6 @@ seme
 sewi
     n	high, up, above, top, over, on
     mod	superior, elevated, religious, formal
-
     awe-inspiring, inspiring a feeling of wonder, respect and fear; venerable, reverend, estimable, honourable, awe-inspiring, humbling, mesmerizing, venerable, reverend, honourable, looked up to in adoration
     captivating, causing a hypnotizing effect, able to hold people in an uncontrollable state of admiration; spellbinding, fascinating, mesmerizing, hypnotic, mysteriously impressive, captivating, enchanting
     having higher powers or effects
@@ -478,7 +471,6 @@ sinpin
 sitelen
     n	picture, image
     vt	draw, write
-
     noun representation, a visual or tactile work that serves to show, describe, explain or remind us of something else; representation, model
     noun picture, specific lines and shapes marked on a surface; drawing, print, painting, image, sign, sketch, outline, blueprint, etching, picture, 
     noun diagram, chart, graph
@@ -502,12 +494,10 @@ suli
 
 suno
     n	sun, light
-
     describer having the qualities or characteristics of suno, shiny
 
 supa
     n	horizontal surface, e.g furniture, table, chair, pillow, floor
-
     noun supporting platform, surface
 
 suwi
@@ -537,7 +527,6 @@ tawa
 telo
     n	water, liquid, juice, sauce
     vt	water, wash with water
-
     noun liquid, a flowing wet substance; liquid, fluid, water
     noun beverage, a liquid for drinking; beverage, drink, water, juice
     noun a liquid for washing; water
@@ -548,7 +537,6 @@ telo
 
 tenpo
     n	time, period of time, moment, duration, situation
-
     moment
     occasion
 
@@ -558,14 +546,12 @@ toki
     vt	say
     vi	talk, chat, communicate
     interj	hello! hi!
-
     transitive verb to give and receive (e: information) (tawa: with); to communicate
     transitive verb to put together (e: thoughts or ideas); to think out
 
 tomo
     n	indoor constructed space, e.g. house, home, room, building
     mod	urban, domestic, household
-
     shelter
     building
     home
@@ -587,7 +573,6 @@ unpa
 uta
     n	mouth
     mod	oral
-
     noun
         mouth
         the part of the human body that includes the lips and everything inside the mouth and throat; mouth, oral cavity, throat, pharynx, lips
@@ -597,7 +582,6 @@ uta
 utala
     n	conflict, disharmony, competition, fight, war, battle, attack, blow, argument, physical or verbal violence
     vt	hit, strike, attack, compete against
-
     competition
     conflict
     struggle
@@ -620,7 +604,6 @@ wawa
     n	energy, strength, power
     mod	energetic, strong, fierce, intense, sure, confident
     vt	strengthen, energize, empower
-
         intense
         strong
         fast
@@ -651,16 +634,7 @@ Parts of Speech
     cont	context word used before la
     conj	conjuncion
     oth	special, other word
-Words are in a variety of status:
-    Official- usually refers to base words., e.g. kiwen
-    Unofficial- usually refers to phrases that are being used like "compound words", e.g. jan pona. Linguists would call these lexemes because they are used like words, require memorization, behave differently (less likely to be split), etc.
-    Obsolete- These words were either never used by the community, or were used for very litle time, e.g. pata. However, since people use toki pona as a natural language, if you use "pata", you likely would be understood, the same as if you had said "wench" or "knave" in English.
-    Possibly obsolete- These are the words that have been used for years, but may become deprecated. e.g. noka
-    Considered, but never used- words used in polls.
-    Considered in jest - The April fool's day word. e.g. kijetesantakalu
-    Reserved/Potentially new- Some new words are not defined,eg. pu
-    Community innovations- this includes both proper modifiers being used outside of names of unique things and suggestions for new base words and intentional and accidental homonymy, eg. moku Soja, or pan used to mean "life"
 
-This is a fan site. The creator of toki pona is jan Sonja, which isn't me. All Content create by me is Creative Commons, by Attribution. Feel free to make derivatives to the extent you can or want to. The toki pona corpus texts come from a variety of locations and I believe its usage is acceptable, noncommercial fair use. If you don't think so, email me and tell me what document is yours and I will remove it.
+The creator of toki pona is jan Sonja, which isn't me. All Content create by me is Creative Commons, by Attribution. Feel free to make derivatives to the extent you can or want to. The toki pona corpus texts come from a variety of locations and I believe its usage is acceptable, noncommercial fair use. If you don't think so, email me and tell me what document is yours and I will remove it.
 Creative Commons License
 This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
