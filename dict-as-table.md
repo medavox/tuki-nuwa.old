@@ -3,7 +3,7 @@
 | a | | | | | ah, ha, uh, oh, ooh, aw, well |
 | akesi | non-cute animal, reptile, amphibian | | | | |
 | ala | nothing, negation, zero | | | no, not, none, un | no ! |
-| ali / ale | everything, anything, life, the universe | | | all, every, complete, whole | |
+| ali | everything, anything, life, the universe | | | all, every, complete, whole | |
 | anpa | bottom, lower part, under, below, floor, beneath | lower, defeat | | all, every, complete, whole | |
 | ante | difference | change, alter, modify | | different | | otherwise, or else
 | anu | | | | | | or
@@ -27,23 +27,23 @@
 | kepeken | | use | | | | (prep) with
 | kili | fruit, pulpy vegetable, mushroom | | | | |
 | kin | | | | also, too, even, indeed (emphasizes the word(s) before it | |
-| kiwen | hard thing, rock, stone, metal, mineral, clay | | | hard, solid, stone-like, made of stone or metal | |
+| kiwin | hard thing, rock, stone, metal, mineral, clay | | | hard, solid, stone-like, made of stone or metal | |
 | ko | ko n semi-solid or squishy substance, e.g. paste, powder, gum | | | | |
 | kon | air, wind, smell, soul | | | air-like, ethereal, gaseous | |
-| kule | colour, paint | colour, paint | | colourful | |
-| kute | | listen, hear | | auditory, hearing | |
+| kuli | colour, paint | colour, paint | | colourful | |
+| kuti | | listen, hear | | auditory, hearing | |
 | kulupu | group, community, society, company, people | | form a group, get together | communal, shared, public, of the society | |
 | la | | | | | | separator between adverb or phrase of context and sentence
-| lape | sleep, rest | | sleep, rest | sleeping, of sleep | |
+| lapi | sleep, rest | | sleep, rest | sleeping, of sleep | |
 | laso | | | | blue, blue-green | |
 | lawa | head, mind | lead, control, rule, steer | | main, leading, in charge | |
-| len | clothing, cloth, fabric | | clothe, dress decorate | | |
-| lete | cold | cool down, chill, freeze | | cold, uncooked | |
+| lin | clothing, cloth, fabric | | clothe, dress decorate | | |
+| liti | cold | cool down, chill, freeze | | cold, uncooked | |
 | li | | | | | | separator
 | lili | | reduce, shorten, shrink, lessen | | small, little, young, a bit, short, few, less | |
 | linja | long, very thin, floppy thing, e.g. string, rope, hair, thread, cord, chain | | | | |
 | lipu | flat and bendable thing, e.g. paper, card, ticket | | | | |
-| loje | | | | red | |
+| loji | | | | red | |
 | lon | | put in place | be there, be present, be real/true, exist, be awake | | | prep be (located) in/at/on
 | luka | hand, arm | to touch with hand | | five (5) | |
 | lukin | | see, look at, watch, read | look, watch out, pay attention | visual(ly) | |
