@@ -10,10 +10,9 @@ anu | | | | | or
 awen | | stay, wait, remain | keep | remaining, stationary, permanent, sedentary
 e | | | | | marks start of object noun-phrase
 en | | | | | and
-esun | shop, store, place of commerce | buy sth | shop | |
+esun | shop, store, place of commerce, trade | buy sth, trade, barter | shop | |
 ijo | thing, something, stuff, anything, object | objectify | | of something |
 ike | negativity, badness, evil | to make bad, to worsen, to have a negative effect upon | to be bad, to suck | bad, negative, wrong, evil | oh dear! woe! alas!
-ilo | tool, device, machine, thing, used for a specific purpose | | | |
 insa | inside, inner world, center, stomach | | | |
 jaki | dirt, pollution, garbage, filth | pollute, dirty | to get dirty | dirty, gross, filthy | ew! yuck!
 jan | person, people, human, being, somebody, anybody | personify, humanize, personalize | | human, somebody's, personal, of people |
@@ -21,11 +20,11 @@ jelo | yellowness, the colour yellow | to make sth yellow | to become yellow | y
 jo | having, ownership, property | have, contain | | | kama receive, get, take, obtain
 kala | fish, sea creature | | | |
 kalama | sound, noise, voice sound, ring, play (an instrument) | make noise | |
+kalisa | long, mostly hard object, e.g. rod, stick, branch | | | |
 kama | event, happening, chance, arrival, beginning | bring about, summon | come, become, arrive, happen, pursue actions to arrive to (a certain state), manage to, start to | coming, future |
 kapesi | | | | brown/grey: colour of slate, mud, metal
 kasi | plant, leaf, herb, tree, wood | to green sth (esp. an area) | to grow | plant-based |
 ken | possibility, ability, power to do things, permission | make possible, enable, allow, permit | can, is able to, is allowed to, may, is possible | | (conj) it is possible that
-kepeken | usage | use | | | (prep) with (using)
 kili | fruit, pulpy vegetable, mushroom | | | |
 kin | | | | also, too, even, indeed (emphasizes the word(s) before it |
 kiwen | hard thing, rock, stone, metal, mineral, clay | | | hard, solid, stone-like, made of stone or metal |
@@ -38,6 +37,7 @@ la | | | | | context-phrase marker, topicaliser
 lape | sleep, rest | to make someone sleep | sleep, rest | sleeping, of sleep |
 laso | grueness, the colour grue | to make sth grue-coloured | | blue-green |
 lawa | head, mind | lead, control, rule, steer | | main, leading, in charge |
+leko | square, cube, block | | | square-shaped, cube-shaped |
 len | clothing, cloth, fabric | to clothe someone | clothe, dress decorate | |
 lete | cold | cool down, chill, freeze | | cold, uncooked |
 li | | | | | separator
@@ -73,12 +73,13 @@ o | | | | | sep O (Vocative or imperative) interj hey! (calling somebody's atten
 oko | eye | | | |
 olin | love | to love (a person) | | love |
 ona | she, he, it, they | | | her, his, its, their |
+opaka | weight, difficulty | | | heavy, difficult |
 open | | open, turn on | | |
-cereal, grain, rice, bread, pasta | | | |
 pakala | blunder, accident, mistake, destruction, damage, breaking | screw up, botch, ruin, break, hurt, injure, damage, spoil, ruin | screw up, fall apart, break | | damn !
 pali | activity, work, deed, project | vt do, make, build, create | vi act, work, function | active, work-related, operating, working |
-palisa | long, mostly hard object, e.g. rod, stick, branch | | | |
+pan | cereal, grain, rice, bread, pasta | | | |
 pana | giving, transfer, exchange | give, put, send, place, release, emit, cause | | |
+pasila | simplicity | to simplify sth, to lighten (reduce the weight) of sth | | simple, easy, light (as in weight)
 pi | | | | | sep of, belonging to
 pilin | feelings, emotion, heart | feel, think, sense, touch | feel | |
 pimeja | darkness, shadows | darken | | black, dark |
@@ -86,21 +87,21 @@ pini | end, tip | finish, close, end, turn off | | completed, finished, past, do
 pipi | bug, insect, spider | | | |
 poka | side, hip, next to | | | neighbouring | prep in the accompaniment of, with
 poki | container, box, bowl, cup, glass | | | |
-pona | good, simplicity, positivity | improve, fix, repair, make good | | good, simple, positive, nice, correct, right | great! good! thanks! oK! Cool! yay!
+pona | good, positivity | improve, fix, repair, make good | | good, positive, nice, correct, right | great! good! thanks! OK! Cool! yay!
+pusiki | importance | to treat sth as important | | important |
 sama | | | | same, similar, equal, of equal status or position | prep like, as, seem
 seli | fire, warmth, heat | heat, warm up, cook | | hot, warm, cooked |
 selo | outside, surface, skin, shell, bark, shape, peel | | | |
 seme | | | | | oth what, which, wh- (question word)
-sewi | high, up, above, top, over, on | raise up | | superior, elevated, religious, formal |
+sewi | high, up, above, top, over, on | raise up | | elevated, religious, formal |
+si | you | | | your |
 sijelo | body, physical state | | | |
 sike | circle, wheel, sphere, ball, cycle | | | round, cyclical |
-sin | | renew, renovate, freshen | | new, fresh, another, more |
-sina | you | | | your |
+nawa | news, newness, novelty | renew, renovate, freshen | | new, fresh, another, more |
 sunpin | front, chest, torso, face, wall | | | |
-sitelen | picture, image | draw, write | | |
 sona | knowledge, wisdom, intelligence, understanding | know, understand, know how to; kama learn, study | know, understand | |
 soweli | animal, especially land mammal, lovable animal | | | |
-suli | size | enlarge, lengthen | | big, tall, long, adult, important, heavy |
+suli | size | enlarge, lengthen | | big, tall, long, adult |
 suno | sun, light | | | |
 supa | horizontal surface, e.g furniture, table, chair, pillow, floor | | | |
 suwi | candy, sweet food | sweeten | | sweet, cute |
@@ -109,10 +110,13 @@ taso | | | | only, sole | conj but
 tawa | movement | move, displace | go to, walk, travel, move, leave | moving, mobile | prep to, in order to, towards, for,
 telo | water, liquid, juice, sauce | water, wash with water | | | until
 tenpo | time, period of time, moment, duration, situation | | | |
+tesen | picture, image | draw, write | | |
 toki | language, talking, speech, communication | say | talk, chat, communicate | talking, verbal | hello! hi!
 tomo | indoor constructed space, e.g. house, home, room, building | | | mod urban, domestic, household |
 tu | duo, pair | double, separate/cut/divide in two | | two |
+tuka | tool, device, machine, thing, used for a specific purpose | | | |
 unpa | sex, sexuality | | | |
+usu | usage | use | | | (prep) with (using)
 uta | mouth | | | oral |
 utala | conflict, disharmony, competition, fight, war, battle, attack, blow, argument, physical or verbal violence | hit, strike, attack, compete against | | |
 walo | white thing or part, whiteness, lightness | | | white, light (colour) |

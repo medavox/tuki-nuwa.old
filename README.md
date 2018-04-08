@@ -37,20 +37,8 @@ No conflation between size/height/importance, simplicity/good;
 
 High != hierarchy
 
-### 'Suli':
-
-* meanings as of change: 
-    *mod* big, tall, long, adult, important
-    *vt* enlarge, lengthen
-    *n* size
-* remove 'important' meaning from 'suli'. 
-    - Not all big things are important, not all small things aren't
-* remove 'heavy' meaning from 'suli'
-    - rolling importance, size and weight into one word is a major source of confusion  
-
 ----------
 
-* remove 'simple' meaning from 'pona'
 * remove 'divine' meaning from 'sewi'
 * remove 'lower part' meaning from 'noka'. replace with 'noka pini' = leg ending
 * add meanings 'barter/trade' to 'esun'(v)
@@ -63,7 +51,6 @@ High != hierarchy
 New Words
 =========
 
-* 'pusiki' important (from welsh bwysig)
 * proper comparatives:
     - 'molo' more
     - less 
@@ -84,7 +71,6 @@ metal
 * hard/softness
     - found: kiwen= hard object, metal, rock, stone
 * soft, fluffy, gentle, gradual; (v) soften
-* 'opaka' heavy, difficult
 * help
 * free (costless/libre)
 * work, housework, chores,
@@ -102,46 +88,32 @@ metal
 Reinstated Words
 ================
 
-* 'kapesi' brown/grey: colour of slate, mud, metal
-* 'leko' square, cube, block, square-shaped, cube-shaped
 * 'majuna' old, age
-* 'pasila' easy, simple, light (opposite of heavy)
 
 New Grammar-Words
 =================
 
-* question marker word - turns a statement into a question of whether the statement is so.
+* question marker word 'ki' - turns a statement into a question of whether the statement is so.
    - a direct translation of the word would be 'is it that', or 'is the following true'
-* word meaning multiplier of next number word, so you can say 'four WORD twenty', 'five and twenty'
+* word meaning multiplier of next number word, so you can say 'four WORD twenty', 'five twenties'
 * passivity marker? a word which means the verb is being done TO the object (eg 'po')
     so 'pana' means give, 'po pana' means is given (receive)
     'utala' means attack, 'po utala' means is attacked
-* conversion/transformation/application transitive verb? to make something <adjective>?
+* conversion/transformation/application transitive verb? to make something <adjective> eg large + <word> = enlargen?
 * marker word for a person or thing that is the one doing the action, eg emitter
 
 Word Name/Spelling Changes
 ==========================
 
-* spread out words across the phonological space more evenly; reduce similar-sounding wordgroups:
-    - ijo/ilo
-    - poki/poka
-    - ko/kon
-    - kala/kalama/kama
-    - nasa/nasin
-    - pan/pana
-    - selo/seli/sewi/suli/suwi
-* replace sina -> si
-    - the word for 'you' is very common; it would be better if it was as short as possible.
-* replace (namako, sin) -> nawa
-    - 'sin' is too easily confused with 'sina' (now 'si'), and namako is now superfluous.
-* replace sitelen -> tesen
-    - from french 'dessin', but with a harmonised second vowel
-    - 'sitelen' is a false friend in English -- it means drawing/writing, not (web)site
-    - tesen is also shorter
-* shorten 'kepeken' -> 'usu' (from latin 'usus', and English 'use', with harmonised vowels)
-    - 'kepeken' doesn't *sound* like a toki pona word to me. 
-    (maybe it has phonotactic rules that have emerged as a result of its vocabulary?)
-    - It's also quite long.
+Spread out words across the phonological space more evenly; reduce similar-sounding wordgroups:
+
+
+- poki/poka
+- ko/kon
+- kala/kalama/kama
+- nasa/nasin
+- pan/pana
+- selo/seli/sewi/suli/suwi
 
 Phonology
 =========
@@ -233,6 +205,53 @@ Orthography
 
 * Map all words to Emojis
 * Map all words to Pokemon!
+
+Ideas Implemented in Dictionary Table
+-------------------------------------
+
+### 'Suli':
+
+* meanings as of change: 
+    *mod* big, tall, long, adult, important
+    *vt* enlarge, lengthen
+    *n* size
+* remove 'important' meaning from 'suli'. 
+    - Not all big things are important, not all small things aren't
+* remove 'heavy' meaning from 'suli'
+    - rolling importance, size and weight into one word is a major source of confusion  
+
+
+* remove 'simple' meaning from 'pona',
+    - 'evil', 'complex' meanings from 'ike'
+
+-------
+
+* 'opaka' heavy, difficult
+* 'pusiki' important (from welsh bwysig)
+* 'kapesi' brown/grey: colour of slate, mud, metal
+* 'leko' square, cube, block, square-shaped, cube-shaped
+* 'pasila' easy, simple, light (opposite of heavy)
+
+-----
+
+* ilo -> tuka
+    - reduce confusion with ijo, which is s
+    - loosely inspired by German 'Werkzeug'
+* replace sina -> si
+    - the word for 'you' is very common; it would be better if it was as short as possible.
+* replace (namako, sin) -> nawa
+    - 'sin' is too easily confused with 'sina' (now 'si'), and namako is now superfluous.
+* replace sitelen -> tesen
+    - from french 'dessin', but with a harmonised second vowel
+    - 'sitelen' is a false friend in English -- it means drawing/writing, not (web)site
+    - tesen is also shorter
+* shorten 'kepeken' -> 'usu' (from latin 'usus', and English 'use', with harmonised vowels)
+    - 'kepeken' doesn't *sound* like a toki pona word to me. 
+    (maybe it has phonotactic rules that have emerged as a result of its vocabulary?)
+    - It's also quite long.
+* palisa -> kalisa
+    - to avoid similarity with pasila
+
 
 Discarded Ideas
 ---------------
