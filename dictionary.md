@@ -17,7 +17,7 @@ TODO: specify exact meanings of words using multiple languages
 
 In many places you will find word origins for each word. However, these are not so useful for understanding what the word means. There is no reason to suspect that kala has the same semantic range as fish in Finnish. The word origins are merely trivia.
 
-In about 2009, jan Kipo proposed a new view of how part of speech works in toki pona-- roughly that each word can be typically one POS, and has a certain pridictable meaning when it is used outside of it's ordinary POS role.
+In about 2009, jan Kipo proposed a new view of how part of speech works in toki pona-- roughly that each word can be typically one POS, and has a certain predictable meaning when it's used outside of its ordinary POS role.
 
 a
     interj	ah, ha, uh, oh, ooh, aw, well (emotion word)
