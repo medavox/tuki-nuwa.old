@@ -1,5 +1,5 @@
-My Proposed Improvements to Toki Pona
-=====================================
+Proposed Improvements to Toki Pona
+==================================
 
 The goal of this offshoot is to make an improved version of Toki Pona that is more useful 
 as an auxlang.
@@ -229,7 +229,7 @@ This new sound-set means that some close-sounding words are currently homophones
 
 
 Orthography
-----------
+-----------
 
 * Map all words to Emojis
 * Map all words to Pokemon!
