@@ -40,6 +40,7 @@ High != hierarchy
 ----------
 
 * remove 'divine' meaning from 'sewi'
+* remove 'crazy' meaning from 'nasa'
 * remove 'lower part' meaning from 'noka'. replace with 'noka pini' = leg ending
 * add meanings 'barter/trade' to 'esun'(v)
 * remove meaning 'money' from word 'mani'?
@@ -47,6 +48,7 @@ High != hierarchy
     - In fact why do we even need a word for cattle?
     - why not 'sowelo moku suli' (hopefully meaning large food land-quadruped)?
 * remove 'humble', 'lowly', 'bowing down' meanings from anpa
+* add 'start, beginning' meanings to 'open'
 
 New Words
 =========
@@ -83,7 +85,14 @@ metal
 * fast
 * danger
 * smell
+    - found: kon
+* breath, breathing
 * OK
+* artificial, man-made
+* uncooked
+    - used to part of word for 'cold',
+    but what about cooked food that's gone cold??
+
 
 Reinstated Words
 ================
@@ -198,6 +207,8 @@ This new sound-set means that some close-sounding words are currently homophones
 
 * should all vowels in a word harmonise?
 * should all consonant clusters be removed? (nanpa, unpa, tenpo, monsi, linja)
+* require all words start with a consonant, end with a vowel?
+    - reduces sandhi, allows words to flow better?
 
 
 Orthography

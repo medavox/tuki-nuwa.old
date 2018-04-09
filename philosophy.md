@@ -70,8 +70,11 @@ Phrases should not be fossilied into static usages: new words in all but name.
 The appropriate phrase to describe something is made from the thing's features
 that are relevant to the current context.
 
-The same phrases may pop up again and again, but that does not mean we should treat them as words.
-That just increases the burden on new learners, who must memorise all these 'compound words'.
+The same phrases may pop up again and again, but that does not make them words.
+That just increases the burden on new learners, who must also memorise all these 'compound words', which aren't even documented properly. It also means that 120 words is a lie.
+
+Baaad toki pona. 
+
 Instead, commonly used phrases for things should be intuitive enough to occur naturally to new speakers.
 (That is, speakers who have just finished learning the language, and are using for the first time.)
 
@@ -106,3 +109,8 @@ use -n ending too if we REALLY need more, but that could be overly complex
 
 ------
 
+consider modifying or removing words for 'male' and 'female' to reflect non-binary reality. After all: GENDER IS A SOCIAL CONSTRUCT. Why have two whole words for easily splitting people into two groups based on an unimportant property?
+
+------
+
+no separate words for artifical/natural versions of things; eg room = cave
