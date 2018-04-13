@@ -124,6 +124,16 @@ Spread out words across the phonological space more evenly; reduce similar-sound
 - pan/pana
 - selo/seli/sewi/suli/suwi
 
+There are a finite number of consonant-vowel syllables.
+
+Two words that are made of the same syllables *in the same order* are identical.
+
+Two syllables are said to be 'half-identical' if they share either a consonant or a vowel.
+
+Two words are considered to be 'too similar' if they only differ by a half-similar syllable.
+
+To do: Include ending -n sounds in this model
+
 Phonology
 =========
 
@@ -156,14 +166,6 @@ The optional n is forbidden if the next syllable begins with m or n."
 
 These rules produce over 6000 potential dual-syllable words;
 so why does Toki Pona (a language with ~120 words) even HAVE 3-syllable words?
-
-There are a finite number of consonant-vowel syllables.
-
-Two syllables are said to be 'half-identical' if they share either a consonant or a vowel.
-
-Two words that are made of the same syllables *in the same order* are identical.
-
-Two words are considered to be 'too similar' if they only differ by a half-similar syllable.
 
 The Argument for removing sounds
 -------------

@@ -1,11 +1,11 @@
 Word | Noun | Verb Transitive | Verb Intransitive | Modifier |  Other (interj, conj, prep)
 -----|------|-----------------|-------------------|----------|----------------------------
-a | | | | | ah, ha, uh, oh, ooh, aw, well 
-akesi | reptile, amphibian, scaly/slimy animal/creature | | | akesi-looking, akesi-like | 
+a | | | | | ah, ha, uh, oh, ooh, aw, well
+akesi | reptile, amphibian, scaly/slimy animal/creature | | | akesi-looking, akesi-like |
 ala | nothing, negation, zero; the state, situation or general phenomenon of being ala; absence, emptiness | | | no, not, none, un-, no quantity of, the opposite of | no !
-alasa | Hunting, gathering, hunter-gathering | to gather; to collect food, resources or material needed for daily life and survival; to gathr, harvest | to hunt, to pursue and kill animals to use as food and clothing; to hunt | |
-ali | everything, life, the universe | | | all, every, complete, whole | 
-anpa | bottom, lower part, under, below, floor, beneath | lower, defeat | | low, lower, bottom, down | 
+alasa | Hunting, gathering, hunter-gathering | to gather; to collect food, resources or material needed for daily life and survival; to gather, harvest | to hunt, to pursue and kill animals to use as food and clothing; to hunt | |
+ali | everything, life, the universe | | | all, every, complete, whole |
+anpa | bottom, lower part, under, below, floor, beneath | lower, defeat | | low, lower, bottom, down |
 ante | difference | change, alter, modify | | different | otherwise, or else
 anu | | | | | or
 awen | | stay, wait, remain | keep | remaining, stationary, permanent, sedentary
@@ -28,7 +28,7 @@ kasi | plant, leaf, herb, tree | to green sth (esp. an area) | to grow | plant-b
 ken | possibility, ability, power to do things, permission | make possible, enable, allow, permit | can, is able to, is allowed to, may, is possible | possible, potential | (conj) it is possible that
 kili | fruit, vegetable, mushroom | | | |
 kin | | | | also, too, even, indeed (emphasizes the word(s) before it |
-kipisi | a cut | to cut sth | |  
+kipisi | a cut | to cut sth | |
 kiwen | hard thing, rock, stone, metal, mineral, clay | | | hard, solid, stone-like, made of stone or metal (kiwen kasi = wood) |
 ko | ko n semi-solid or squishy substance, e.g. paste, powder, gum | | | squishy, paste-like|
 kon | air, wind, smell | to smell sth | to have a smell (good or bad) | air-like, ethereal, gaseous |
@@ -154,7 +154,7 @@ sewi
 
 sitelen
     noun representation, a visual or tactile work that serves to show, describe, explain or remind us of something else; representation, model
-    noun picture, specific lines and shapes marked on a surface; drawing, print, painting, image, sign, sketch, outline, blueprint, etching, picture, 
+    noun picture, specific lines and shapes marked on a surface; drawing, print, painting, image, sign, sketch, outline, blueprint, etching, picture,
     noun diagram, chart, graph
     noun sculpture , an object made into the shape of something; carving, sculpture, figurine, replica
 
