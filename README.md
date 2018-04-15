@@ -148,7 +148,7 @@ to construct new words.
 But in order to use that raw material well, I need to know exactly what it consists of.
 So let's work out the possible syllables in Toki Pona.
 
-9 consonants (j k l m n p s t w)
+9 consonants (p t k m n s j l w)
 5 vowels (a e i o u)
 
 5 lone-vowel syllables: a e i o u
@@ -177,7 +177,7 @@ Conlang Critic suggests that toki pona could use 3 vowels
 to be made even easier for speakers of 3-vowel languages (eg for speakers of Arabic).
 
 Should we remove one of the nasal sounds?
-they CAN be hard to distinguish from each other when speeking
+they CAN be hard to distinguish from each other when speaking
 
 * Merge i and e vowels
 

@@ -133,7 +133,7 @@ Excess meanings
 ------
 
 pona
-    describer beneficial; good
+    describer beneficial
     describer benevolent; altruistic, kind, symbiotic
     describer helpful; cooperating
     describer ideal
@@ -160,7 +160,7 @@ sitelen
 
 
 telo
-    noun liquid, a flowing wet substance; liquid, fluid, water
+    noun a flowing wet substance; liquid, fluid, water
     noun beverage, a liquid for drinking; beverage, drink, water, juice
     noun a liquid for washing; water
     noun body fluid, a liquid that comes out of the body; blood, milk, saliva, semen, sweat, tears, urine
