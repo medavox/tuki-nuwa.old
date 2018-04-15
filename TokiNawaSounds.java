@@ -1,11 +1,16 @@
 //package default;
 import java.util.*;
 import java.io.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class TokiNawaSounds
 {
-	private static final char[] consonants = "jkmnpstw".toCharArray();
+    private static final String consonantsString = "jkmnpstw";
+    private static final char[] consonants = consonantsString.toCharArray();
 	//private static final char[] consonants = "jklmnpstw".toCharArray();
-	private static final char[] vowels = "aiou".toCharArray();
+	private static final String vowelsString = "aiou";
+	private static final char[] vowels = vowelsString.toCharArray();
 	//private static final char[] vowels = "aeiou".toCharArray();
 
 	private static final int maxSyllables = 3;
@@ -110,17 +115,69 @@ public class TokiNawaSounds
 					o.println(firstSyllable+secondSyllable);
 				}
 			}
-			o.println("possible dual-syllable words:"+dualSyllableWords);
+			o.println("total possible dual-syllable words:"+dualSyllableWords);
 		}
 
-		for(int currentSyllable = 1; currentSyllable <= maxSyllables; currentSyllable++)
-		{
+		//lint the dictionary
+		if (args.length == 0) {
+		    String[] dict = scrapeWordsFromDictionary();
+		    Set<String> dupCheck = new TreeSet<>();
+		    for(String word : dict) {
+		        //check for illegal letters
+                String invalidLetters = word
+                        .replaceAll("["+vowelsString+consonantsString+"]", "");
+		        if(invalidLetters.length() > 0) {
+		            o.println("word \""+word+"\" contains illegal letters: "+invalidLetters);
+                }
 
-		}
+                //check for any of the 4 illegal syllables
+		        for(String forb : forbiddenSyllables) {
+		            if(word.contains(forb)) {
+		                o.println("word \""+word+"\" contains illegal syllable \""+forb+"\"");
+                    }
+                }
+                //check for exact duplicate words
+                if(dupCheck.contains(word)) {
+		            o.println("word \""+word+"\" already exists");
+                }else {
+		            dupCheck.add(word);
+                }
+            }
+        }
 	}
 
+	public static String[] scrapeWordsFromDictionary() {
+	    String wholeDict = fileToString(new File("dictionary.md"));
+        String[] byLine = wholeDict.split("\n");
+        String[] words = new String[byLine.length];
+        int validElements = 0;
+        for(int i = 2; i < byLine.length; i++) {//start after the table heading
+            int count = byLine[i].length() - byLine[i].replace("|", "").length();
+            if(count != 5) {//if there aren't 5 pipes on the line, it's not a table row
+                continue;
+            }
+            //o.println("line: "+byLine[i]);
+            Pattern pat = Pattern.compile("([a-z]+) *\\|.*");
+            Matcher mat = pat.matcher(byLine[i]);
+            //o.println("group count: "+mat.groupCount());
+            //o.println("group :"+mat.group());
+            //o.println("matches: "+mat.matches());
+            words[i] = mat.replaceAll("$1");
+            validElements++;
+        }
+        int nextValidIndex = 0;
+        String[] noNulls = new String[validElements];
+        for(int i = 0; i < words.length; i++) {
+            if(words[i] != null) {
+                noNulls[nextValidIndex] = words[i];
+                nextValidIndex++;
+            }
+        }
+        return noNulls;
+    }
+
 	/**Reads the supplied (plaintext) file as a string and returns it.
-     * @File f the supplied file. This MUST be a plaintext file.
+     * @param f the supplied file. This MUST be a plaintext file.
      * @return the contents of the file, as a String.*/
     public static String fileToString(File f)
     {
