@@ -4,8 +4,7 @@ import java.io.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class TokiNawaSounds
-{
+public class TokiNawaSounds {
     private static final String consonantsString = "jkmnpstw";
     private static final char[] consonants = consonantsString.toCharArray();
 	//private static final char[] consonants = "jklmnpstw".toCharArray();
@@ -23,25 +22,20 @@ public class TokiNawaSounds
 
 	private static final PrintStream o = System.out;
 
-	private static boolean isForbiddenSyllable(String syl)
-	{
-		for(String forb : forbiddenSyllables)
-		{
-			if(forb.equals(syl))
-			{
+	private static boolean isForbiddenSyllable(String syl) {
+		for(String forb : forbiddenSyllables) {
+			if(forb.equals(syl)) {
 				return true;
 			}
 		}
 		return false;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		//generate all possible syllables
 
 		//firstly, generate initial-only syllables
-		for(char c : vowels)
-		{
+		for(char c : vowels) {
 			String s = String.valueOf(c);
 			//o.println(s);
 			//o.println(s+"n");
@@ -50,14 +44,12 @@ public class TokiNawaSounds
 		}
 
 		//now, generate all other possible syllables
-		for(char cc : consonants)
-		{
+		for(char cc : consonants) {
 			String c = String.valueOf(cc);
-			for(char vv : vowels)
-			{
+			for(char vv : vowels) {
 				String v = String.valueOf(vv);
-				if(isForbiddenSyllable(c+v))
-				{//if it's a forbidden syllable, skip adding it to the list
+				if(isForbiddenSyllable(c+v)) {
+                    //if it's a forbidden syllable, skip adding it to the list
 					continue;
 				}
 				syllables.add(c+v);
@@ -71,43 +63,35 @@ public class TokiNawaSounds
 		int dualSyllableWords = numSingleSyllableWords * syllables.size();
 
 		String allArgs = "";
-		if(args.length > 0)
-		{
+		if(args.length > 0) {
 			for(String arg : args) {
 				allArgs += arg;
 			}
 		}
 
-		if(allArgs.contains("1"))
-		{
+		if(allArgs.contains("1")) {
 			//o.println("Word-initial syllables:");
 			for(String s : wordInitialOnlySyllables) {
 				o.println(s);
 			}
 
-			for(String t : syllables)
-			{
+			for(String t : syllables) {
 				o.println(t);
 			}
 			o.println("total possible single-syllable words: "+numSingleSyllableWords);
 		}
 
-		if(allArgs.contains("2"))
-		{
+		if(allArgs.contains("2")) {
 			Set<String> wordInitialSyllables = new TreeSet<String>();
-			for(String s : wordInitialOnlySyllables)
-			{
+			for(String s : wordInitialOnlySyllables) {
 				wordInitialSyllables.add(s);
 			}
-			for(String t : syllables)
-			{
+			for(String t : syllables) {
 				wordInitialSyllables.add(t);
 			}
 
-			for(String firstSyllable : wordInitialSyllables)
-			{
-				for(String secondSyllable : syllables)
-				{
+			for(String firstSyllable : wordInitialSyllables) {
+				for(String secondSyllable : syllables) {
 					if(firstSyllable.endsWith("n") && secondSyllable.startsWith("n")) {
 						//don't print syllables with 2 consecutive 'n's
 						continue;
@@ -179,20 +163,16 @@ public class TokiNawaSounds
 	/**Reads the supplied (plaintext) file as a string and returns it.
      * @param f the supplied file. This MUST be a plaintext file.
      * @return the contents of the file, as a String.*/
-    public static String fileToString(File f)
-    {
-        if(!f.isFile())
-        {
+    public static String fileToString(File f) {
+        if(!f.isFile()) {
             throw new IllegalArgumentException("Supplied File object must represent an actual file.");
         }
-        try
-        {
+        try {
             FileReader fr = new FileReader(f);
             char[] tmp = new char[(int)f.length()];
             char c;
             int j = 0;
-            for(int i = fr.read(); i != -1; i = fr.read())
-            {
+            for(int i = fr.read(); i != -1; i = fr.read()) {
                 c = (char)i;
                 tmp[j] = c;
                 j++;
@@ -201,8 +181,7 @@ public class TokiNawaSounds
             String ret = new String(tmp);
             return ret;
         }
-        catch(Exception e)
-        {
+        catch(Exception e) {
             System.err.println("failed to read file: \""+f.getName()+"\"!");
             e.printStackTrace();
             return "";
