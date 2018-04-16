@@ -6,11 +6,11 @@ import java.util.regex.Pattern;
 
 public class TokiNawaSounds {
     private static final String consonantsString = "jkmnpstw";
+    private static final String vowelsString = "aiou";
     private static final char[] consonants = consonantsString.toCharArray();
-	//private static final char[] consonants = "jklmnpstw".toCharArray();
-	private static final String vowelsString = "aiou";
-	private static final char[] vowels = vowelsString.toCharArray();
-	//private static final char[] vowels = "aeiou".toCharArray();
+    private static final char[] vowels = vowelsString.toCharArray();
+    //private static final char[] consonants = "jklmnpstw".toCharArray();
+    //private static final char[] vowels = "aeiou".toCharArray();
 
 	private static final int maxSyllables = 3;
 	private static Set<String> syllables = new TreeSet<String>();
@@ -33,6 +33,10 @@ public class TokiNawaSounds {
 
 	public static void main(String[] args) {
 		//generate all possible syllables
+        //todo: find free sound space,
+        // by subtracting extant words and their similar sounds from all the possible words
+        //todo: record words with different harmonising vowels as similar
+        Set<String> allPossibleWords = new TreeSet<String>();
 
 		//firstly, generate initial-only syllables
 		for(char c : vowels) {
@@ -43,7 +47,7 @@ public class TokiNawaSounds {
 			wordInitialOnlySyllables.add(s+"n");
 		}
 
-		//now, generate all other possible syllables
+		//then, generate all other possible syllables
 		for(char cc : consonants) {
 			String c = String.valueOf(cc);
 			for(char vv : vowels) {
@@ -68,20 +72,31 @@ public class TokiNawaSounds {
 				allArgs += arg;
 			}
 		}
-
-		if(allArgs.contains("1")) {
+        //list all possible single-syllable words
+		if(allArgs.contains("1") || allArgs.contains("U")) {
 			//o.println("Word-initial syllables:");
 			for(String s : wordInitialOnlySyllables) {
-				o.println(s);
+                if(allArgs.contains("1")) {
+                    o.println(s);
+                }
+                if(allArgs.contains("U")) {
+                    allPossibleWords.add(s);
+                }
 			}
 
 			for(String t : syllables) {
-				o.println(t);
+				if(allArgs.contains("1")){
+				    o.println(t);
+                }
+                if(allArgs.contains("U")) {
+                    allPossibleWords.add(t);
+                }
 			}
 			o.println("total possible single-syllable words: "+numSingleSyllableWords);
 		}
 
-		if(allArgs.contains("2")) {
+		//list all possible double-syllable words
+		if(allArgs.contains("2") || allArgs.contains("U")) {
 			Set<String> wordInitialSyllables = new TreeSet<String>();
 			for(String s : wordInitialOnlySyllables) {
 				wordInitialSyllables.add(s);
@@ -96,13 +111,35 @@ public class TokiNawaSounds {
 						//don't print syllables with 2 consecutive 'n's
 						continue;
 					}
-					o.println(firstSyllable+secondSyllable);
+					if(allArgs.contains("U")) {
+					    allPossibleWords.add(firstSyllable+secondSyllable);
+					}
+					if(allArgs.contains("2")) {
+                        o.println(firstSyllable + secondSyllable);
+                    }
 				}
 			}
 			o.println("total possible dual-syllable words:"+dualSyllableWords);
 		}
 
-		//lint the dictionary
+		//print unused sounds which aren't too similar to existing words
+        if(allArgs.contains("U")) {
+            String[] dict = scrapeWordsFromDictionary();
+            for(String word : dict) {
+                String[] similarWords = similarWordsTo(word);
+                allPossibleWords.remove(word);
+                //o.println(word+" : "+
+                for(String similarWord : similarWords) {
+                    allPossibleWords.remove(similarWord);
+                }
+            }
+            o.println("unused words:");
+            for(String wurd : allPossibleWords) {
+                o.println(wurd);
+            }
+        }
+
+		//lint dictionary.md
 		if (args.length == 0) {
 		    String[] dict = scrapeWordsFromDictionary();
 		    Set<String> dupCheck = new TreeSet<>();
@@ -126,12 +163,82 @@ public class TokiNawaSounds {
                 }else {
 		            dupCheck.add(word);
                 }
+
+                //check for similar words
+                String[] similarWords = similarWordsTo(word);
+                for(String similarWord : similarWords) {
+                    allPossibleWords.remove(similarWord);
+                    for(String otherWord : dict) {
+                        if(otherWord.equals(similarWord)) {
+                            o.println("word \""+word+"\" is very similar to \""+otherWord+"\"");
+                        }
+                    }
+                }
             }
         }
 	}
 
+	public static String[] similarWordsTo(String word) {
+	    if(word.length() == 1) {
+	        return new String[]{};
+        }
+	    List<String> similarWords = new LinkedList<String>();
+	    for(int i = 0; i < word.length(); i++) {
+	        String charAt = String.valueOf(word.charAt(i));
+
+	        //replace all vowels with all other vowels
+	        if(vowelsString.contains(charAt)) {//if this char is a vowel
+	            for(char vowel : vowels) {
+	                if(vowel != word.charAt(i)) {
+	                    char[] replaced = word.toCharArray();
+	                    replaced[i] = vowel;
+	                    similarWords.add(String.valueOf(replaced));
+                    }
+                }
+            }
+            if(word.charAt(i) == 'm') {//replace m with n
+                similarWords.add(replaceCharAt(word, i, 'n'));
+            }
+            if(word.charAt(i) == 'n') {
+                if(i != word.length()-1) {//replace non-final n with m
+                    similarWords.add(replaceCharAt(word, i, 'm'));
+                }
+                else {
+                    similarWords.add(word.substring(0, word.length()-1));
+                }
+                if(i == word.length()-2) {//if there's a penultimate n, remove the final vowel
+                    similarWords.add(word.substring(0, word.length()-1));
+                }
+            }
+            if(i != 0) {//if it's not the first letter
+                if (word.charAt(i) == 't') {//replace t with k
+                    similarWords.add(replaceCharAt(word, i, 'k'));
+                    similarWords.add(replaceCharAt(word, i, 'p'));
+                }
+                if (word.charAt(i) == 'k') {//replace k with t
+                    similarWords.add(replaceCharAt(word, i, 't'));
+                    similarWords.add(replaceCharAt(word, i, 'p'));
+                }
+                if (word.charAt(i) == 'p') {//replace k with t
+                    similarWords.add(replaceCharAt(word, i, 't'));
+                    similarWords.add(replaceCharAt(word, i, 'k'));
+                }
+            }
+        }
+
+        String[] ret = new String[similarWords.size()];
+        return similarWords.toArray(ret);
+    }
+
+    private static String replaceCharAt(String victim, int index, char replacement) {
+        StringBuilder myName = new StringBuilder(victim);
+        myName.setCharAt(index, replacement);
+        return myName.toString();
+    }
+
 	public static String[] scrapeWordsFromDictionary() {
-	    String wholeDict = fileToString(new File("dictionary.md"));
+        //String wholeDict = fileToString(new File("dictionary.md"));
+        String wholeDict = fileToString(new File("sorted.md"));
         String[] byLine = wholeDict.split("\n");
         String[] words = new String[byLine.length];
         int validElements = 0;
