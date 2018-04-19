@@ -2,7 +2,7 @@ This document describes changes having to do with my own variant of toki pona's 
 of simplicity and 'good'.
 
 The goal of creating a Language of Good may not necessarily align with the goal of
-creating the ideal auxiliary language.
+creating an ideal auxiliary language.
 
 For that, the language should be easy to learn, and be as easy to understand as possible.
 AKA easy to learn, easy to use.
@@ -66,12 +66,14 @@ the language's number of words would grow exponentially.
 
 ------
 
-Phrases should not be fossilied into static usages: new words in all but name.
+Phrases should not be fossilised into static usages: new words in all but name.
 The appropriate phrase to describe something is made from the thing's features
 that are relevant to the current context.
 
 The same phrases may pop up again and again, but that does not make them words.
-That just increases the burden on new learners, who must also memorise all these 'compound words', which aren't even documented properly. It also means that 120 words is a lie.
+That just increases the burden on new learners, 
+who must also memorise all these 'compound words', which aren't even documented properly.
+It also means that ~120 words is a lie.
 
 Baaad toki pona. 
 
@@ -92,12 +94,13 @@ you won't be able to describe numbers with more than 2 or 3 significant figures.
 
 I still need to figure out how to make that limitation an inherent property.
 
+un tu pi wuka = one two of five = (1 + 2) * 5 = 15
+
 -------
 
 word order must be followed more strictly than in canonical toki pona -- 
 see [Reading Toki Pona is Hard](http://www.suburbandestiny.com/?p=845)
 
-Ideas to consider
 ------
 
 consider marking what part of speech a word represents by its ending, similarish to esperanto
