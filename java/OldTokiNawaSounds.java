@@ -5,7 +5,7 @@ import java.io.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class TokiNawaSounds {
+public class TokiNawaSoundsOld {
     private static final String consonantsString = "jkmnpstw";
     private static final String vowelsString = "aiu";
     private static final char[] consonants = consonantsString.toCharArray();
@@ -28,24 +28,8 @@ public class TokiNawaSounds {
 		"ji", "ti", "wo", "wu"
 	};
 
-	private static final PrintStream o = System.out;
-	private static final PrintStream e = System.err;
-
-	private static Option[] options;
-	static {
-	    options = new Option[] {
-	            new Option("dictionary-file",
-                        'd',
-                        Option.ArgumentRequirement.REQUIRED),
-	            new Option("vowels",
-                        'v',
-                        Option.ArgumentRequirement.REQUIRED),
-	            new Option("consonants",
-                        'c',
-                        Option.ArgumentRequirement.REQUIRED),
-
-        };
-    }
+	static final PrintStream o = System.out;
+	static final PrintStream e = System.err;
 
 	private static boolean isForbiddenSyllable(String syl) {
 		for(String forb : forbiddenSyllables) {
@@ -58,25 +42,7 @@ public class TokiNawaSounds {
 
 	public static void main(String[] args) {
         //todo: record words with different harmonising vowels as similar
-        //process commandline arguments
-        for(int i = 0; i < args.length;) {
-            if(args[i].startsWith("--")) {
-                //arg is a long option
-                if(args[i].contains("=")) {
-                    //long option is of the the form --key=value,
-                    // and has an argument attached to it with =
-                    //make sure it only contains 1 '='
-                    if(args[i].replace("=", "").length() != args[i].length()-1) {
-                        e.println("argument number "+(i+1)+" \""+args[i]+"\" is invalid:" +
-                                "long argument contains too many '='");
 
-                    }
-                }
-            }
-            else if(args[i].startsWith("-")) {
-                //arg is one or more short option(s)
-            }
-        }
     //generate all possible syllables
 
 		//firstly, generate initial-only syllables
@@ -247,7 +213,7 @@ public class TokiNawaSounds {
     }
 
 
-	public static String[] similarWordsTo(String word) {
+	private static String[] similarWordsTo(String word) {
 	    if(word.length() == 1) {
 	        return new String[]{};
         }
@@ -299,7 +265,7 @@ public class TokiNawaSounds {
         return myName.toString();
     }
 
-	public static String[] scrapeWordsFromDictionary(File dictFile) {
+	private static String[] scrapeWordsFromDictionary(File dictFile) {
         //String wholeDict = fileToString(new File("dictionary.md"));
         String wholeDict = fileToString(dictFile);
         String[] byLine = wholeDict.split("\n");
@@ -333,7 +299,7 @@ public class TokiNawaSounds {
 	/**Reads the supplied (plaintext) file as a string and returns it.
      * @param f the supplied file. This MUST be a plaintext file.
      * @return the contents of the file, as a String.*/
-    public static String fileToString(File f) {
+    private static String fileToString(File f) {
         if(!f.isFile()) {
             throw new IllegalArgumentException("Supplied File object must represent an actual file.");
         }
@@ -357,51 +323,4 @@ public class TokiNawaSounds {
             return "";
         }
 	}
-
-	private static void usage(Option[] options) {
-        StringBuilder b = new StringBuilder();
-        b.append("usage: ").append("\n");
-        for(Option o : options) {
-            b.append()
-        }
-    }
-
-    public class OrderedNamedParameters {
-
-    }
-
-	private static class Option<T> {
-        public enum ArgumentRequirement {
-            REQUIRED,
-            OPTIONAL,
-            NONE,
-            ;
-        }
-
-        public final ArgumentRequirement REQUIRES_ARGUMENT;
-        public final Character SHORT_NAME;
-        public final String LONG_NAME;
-
-        Option(char shortName, ArgumentRequirement argumentRequirement) {
-            REQUIRES_ARGUMENT = argumentRequirement;
-            SHORT_NAME = shortName;
-            LONG_NAME = null;
-        }
-
-        Option(String longName, ArgumentRequirement argumentRequirement) {
-            REQUIRES_ARGUMENT = argumentRequirement;
-            SHORT_NAME = null;
-            LONG_NAME = longName;
-        }
-
-        Option(String longName, char shortName, ArgumentRequirement argumentRequirement) {
-            REQUIRES_ARGUMENT = argumentRequirement;
-            SHORT_NAME = shortName;
-            LONG_NAME = longName;
-        }
-
-        public interface Converter<OutputType> {
-            OutputType convert(String input) throws IllegalArgumentException;
-        }
-    }
 }
