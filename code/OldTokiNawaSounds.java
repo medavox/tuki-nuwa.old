@@ -5,7 +5,7 @@ import java.io.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class TokiNawaSoundsOld {
+public class OldTokiNawaSounds {
     private static final String consonantsString = "jkmnpstw";
     private static final String vowelsString = "aiu";
     private static final char[] consonants = consonantsString.toCharArray();
