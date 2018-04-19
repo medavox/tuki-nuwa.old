@@ -1,6 +1,14 @@
 Proposed Improvements to Toki Pona
 ==================================
 
+Goals
+
+1. be easy to learn
+2. be easy to pronounce
+3. be more expressive than toki pona
+
+4. be easy to understand
+
 The goal of this offshoot is to make an improved version of Toki Pona that is more useful 
 as an auxlang.
 
@@ -211,6 +219,9 @@ a i o u
 I'm still not sure about differentiating m and n, as these are easily mistaken for one another.
 
 This new sound-set means that some close-sounding words are currently homophones; I'll need to fix that.
+
+I've removed syllable-final n sounds. N can now only be used as a consonant, or at the end of the whole word -- 
+NOT at the end of a syllable, next to another consonant.
 
 
 ### New Phonotactic Provisional Rules
