@@ -2,7 +2,7 @@ Word | Noun | Verb Transitive | Verb Intransitive | Modifier |  Other (interj, c
 -----|------|-----------------|-------------------|----------|----------------------------
 a | | | | | and
 akisi | reptile, amphibian, scaly/slimy animal/creature | | | akesi-looking, akesi-like |
-anpa | bottom, lower part, under, below, floor, beneath | lower, defeat | | low, lower, bottom, down |
+apa | bottom, lower part, under, below, floor, beneath | lower, defeat | | low, lower, bottom, down |
 anta | difference | change, alter, modify | | different | otherwise, or else
 anu | | | | | or
 awa | | | | | ah, ha, uh, oh, ooh, aw, well
@@ -23,9 +23,9 @@ kama | event, happening, chance, arrival, beginning | bring about, summon | come
 kapisi | | | | brown/grey: colour of slate, mud, metal
 kasi | plant, leaf, herb, tree | to green sth (esp. an area) | to grow | plant-based |
 kawa | fish, sub-aquatic creature | | | |
-kawama | sound, noise, voice | sound, ring, play (an instrument) | make noise | noisy, loud |
+kalama | sound, noise, voice | sound, ring, play (an instrument) | make noise | noisy, loud |
 kawisa | long, mostly hard object, e.g. rod, stick, branch | | | |
-kin | possibility, ability, power to do things, permission | make possible, enable, allow, permit | can, is able to, is allowed to, may, is possible | possible, potential | (conj) it is possible that
+kalu | possibility, ability, power to do things, permission | make possible, enable, allow, permit | can, is able to, is allowed to, may, is possible | possible, potential | (conj) it is possible that
 kin | | | | also, too, even, indeed (emphasizes the word(s) before it |
 kipisi | a cut | to cut sth | |
 kiwi | fruit, vegetable, mushroom | | | |
@@ -34,8 +34,8 @@ ku | ko n semi-solid or squishy substance, e.g. paste, powder, gum | | | squishy
 kun | air, wind, smell | to smell sth | to have a smell (good or bad) | air-like, ethereal, gaseous |
 kupa | head, mind | lead, control, rule, steer | | main, leading, in charge |
 kutu | | listen, hear | | auditory, hearing |
-kuwapu | group, community, society, company, people | to group sth/sb together | form a group, get together | communal, shared, public, of the society |
-kuwi | colour, paint | colour, paint | | colourful | -coloured (comparison with sth)
+kulapu | group, community, society, company, people | to group sth/sb together | form a group, get together | communal, shared, public, of the society |
+kuli | colour, paint | colour, paint | | colourful | -coloured (comparison with sth)
 ma | land, earth, country, (outdoor) area | | |  | precedes place name, eg 'ma Mewika'
 mama | parent, mother, father | to parent/raise/nuture sth | | of the parent, parental, maternal, fatherly |
 mani | money, material wealth, currency, dollar, capital | | | |
@@ -56,23 +56,23 @@ nawa | news, newness, novelty | renew, renovate, freshen | | new, fresh, another
 ni | | | | this, that |
 nimi | word, name | | | |
 nina | bump, nose, hill, mountain, button | | | |
-niti | desire, need, will | to want, need, wish, have to, must, will | | necessary |
-noka | leg, foot | | | |
+wanu | desire, need, will | to want, need, wish, have to, must, will | | necessary |
+nuka | leg, foot | | | |
 numa | number | to count something | | numerical  | (ordinal numbers
 u | | | | | addressive marker: "jan Atan o" = "hey, adam", "@adam" sep O (Vocative or imperative). Imperative: "o moku!" = eat!. interj hey! (calling somebody's attention)
 una | she, he, it, they | | | her, his, its, their |
 upaka | weight, difficulty | | | heavy, difficult |
 upin | beginning, start | open, turn on, start | | open, started |
-pakawa | blunder, accident, mistake, destruction, damage, breaking | screw up, botch, ruin, break, hurt, injure, damage, spoil, ruin | screw up, fall apart, break | broken | damn !
+pakala | blunder, accident, mistake, destruction, damage, breaking | screw up, botch, ruin, break, hurt, injure, damage, spoil, ruin | screw up, fall apart, break | broken | damn !
 pan | cereal, grain, rice | | | |
 pana | giving, transfer, exchange | give, put, send, place, release, emit, cause | | |
-pasiwa | simplicity | to simplify sth, to lighten (reduce the weight) of sth | | simple, easy, light (as in weight)
-pawi | activity, work, deed, project | vt do, make, build, create | vi act, work, function | active, work-related, operating, working |
+pasila | simplicity | to simplify sth, to lighten (reduce the weight) of sth | | simple, easy, light (as in weight)
+pali | activity, work, deed, project | vt do, make, build, create | vi act, work, function | active, work-related, operating, working |
 pi | | | | | (sep) of, belonging to
 pimija | darkness, shadows | darken | | black, dark |
 pini | end, tip | finish, close, end, turn off | | completed, finished, past, done, ago |
 pipi | bug, insect, spider | | | |
-piwin | feelings, emotion, heart | feel, think, sense, touch | feel | |
+pilin | feelings, emotion, heart | feel, think, sense, touch | feel | |
 puki | side, hip, next to | | | neighbouring | prep in the accompaniment of, with
 paku | container, box, bowl, cup, glass | to contain sth | | |
 puna | good, positivity | improve, fix, repair, make good | | good, positive, nice, correct, right | great! good! thanks! OK! Cool! yay!
@@ -87,7 +87,7 @@ siki | circle, wheel, sphere, ball, cycle | | | round, cyclical |
 simi | | | | | (oth) what, which, wh- (question word)
 lina | long, very thin, floppy thing, e.g. string, rope, hair, thread, cord, chain | to lengthen sth | to get longer, lengthen, extrude | long |
 sipin | front, chest, torso, face, wall | | | |
-siwa | outside, surface, skin, shell, bark, shape, peel | | | |
+hiwa | outside, surface, skin, shell, bark, shape, peel | | | |
 siwi | high, up, above, top, over, | raise up | | elevated, religious, formal (prep) on sth |
 sana | knowledge, wisdom, intelligence, understanding | know, understand, know how to; kama learn, study | know, understand | |
 sota | size | enlarge, grow in size | | big, tall, long, adult |
@@ -110,9 +110,9 @@ usu | usage | use | | | (prep) with (using)
 uta | mouth, maw, muzzle, beak, proboscis etc | to taste sth | | oral |
 utala| conflict, disharmony, competition, conflict, struggle, fight, war, battle, attack, blow, argument, physical or verbal violence | hit, strike, attack, compete against | | |
 wa | | | | | context-phrase separator, topicaliser
-luju | | | | red |
+luhi | | | | red |
 waka | hand, arm | to touch with hand | | five (5) |
-ukin | eye | see, look at, watch, read | look, watch out, pay attention | visual(ly) |
+luku | eye | see, look at, watch, read | look, watch out, pay attention | visual(ly) |
 wapa | hole, orifice, window, door | | | |
 waso | bird, winged animal/creature | | | |
 waso | grueness, the colour grue | to make sth grue-coloured | | blue-green |
@@ -121,8 +121,8 @@ wawa | energy, strength, power | strengthen, energize, empower | | energetic, st
 wali | whiteness, lightness | | | white, light (colour) |
 li | | | | | separator "(between any subject except mi and sina and its verb; also used to introduce a new verb for the same subject)"
 wika | absence, distance | throw away, remove, get rid of | | far, distant, away, absent, missing |
-liko | square, cube, block | | | square-shaped, cube-shaped |
+liku | square, cube, block | | | square-shaped, cube-shaped |
 win | clothing, cloth, fabric | to clothe sb | clothe, dress, decorate | |
 lipu | flat and bendable thing, e.g. paper, card, ticket. Also book, page (of book, or web page) | | | |
-litu | cold | cool sth down, chill sth | | cold |
+hilu | cold | cool sth down, chill sth | | cold |
 wiwi | | reduce, shorten, shrink, lessen | | small, little, young, a bit, short, few, less |
