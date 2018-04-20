@@ -84,7 +84,7 @@ class TokiNawaSounds {
     private val wordInitialSyllables = TreeSet<String>()
 
 
-    private val forbiddenSyllables = arrayOf("ji", "ti", "wo", "wu")
+    private val forbiddenSyllables = arrayOf("ji", "ti", "wo", "wu", "hu")
 
 
     private val commands:Array<String> = arrayOf("unused", "syllables", "lint")
@@ -215,6 +215,41 @@ class TokiNawaSounds {
                 }
             }
 
+            //make sure ending-taking words only have a '-' at the end
+            if(word.contains("-")) {
+                if(!word.endsWith("-")) {
+                    o.println("word \"$word\" contains a hyphen in the wrong place")
+                    complaints++
+                }else {//word ends with -
+                    //check that some of its verb-ending forms don't clash with another word
+                    val formsWithDescriptions: Array<Array<String>> = arrayOf(
+                            arrayOf(word.replace("-", "a"), "noun-form"),
+                            arrayOf(word.replace("-", "u"), "noun-form"),
+                            arrayOf(word.replace("-", "i"), "adjective-form")
+                    )
+                    for(s : Array<String> in formsWithDescriptions) {
+                        if(dict.contains(s[0])) {
+                            o.println("${s[1]} \"${s[0]}\" of word \"$word\" clashes with existing word")
+                            complaints++
+                        }
+                        //check word-forms don't contain an illegal syllable
+                        //check for any of the 4 illegal syllables
+                        for (forb in forbiddenSyllables) {
+                            if (s[0].contains(forb)) {
+                                o.println("${s[1]} \"${s[0]}\" of word \"$word\" " +
+                                        "contains illegal syllable \"$forb\"")
+                                complaints++
+                            }
+                        }
+                    }
+                }
+                if(word.count{it == '-'} > 1) {
+                    o.println("word \"$word\" contains too many hyphens")
+                    complaints++
+                }
+            }
+
+
             //check for syllable-final Ns
             if (!allowSyllableFinalN) {
                 if (word.replace("n", "").length < word.length) {
@@ -239,31 +274,6 @@ class TokiNawaSounds {
                 complaints++
             } else {
                 dupCheck.add(word)
-            }
-
-            //make sure ending-taking words only have a '-' at the end
-            if(word.contains("-")) {
-                if(!word.endsWith("-")) {
-                    o.println("word \"$word\" contains a hyphen in the wrong place")
-                    complaints++
-                }else {//word ends with -
-                    //check that some of its verb-ending forms don't clash with another word
-                    val formsWithDescriptions: Array<Array<String>> = arrayOf(
-                            arrayOf(word.replace("-", "a"), "noun-form"),
-                            arrayOf(word.replace("-", "u"), "noun-form"),
-                            arrayOf(word.replace("-", "i"), "adjective-form")
-                    )
-                    for(s : Array<String> in formsWithDescriptions) {
-                        if(dict.contains(s[0])) {
-                            o.println("${s[1]} \"${s[0]}\" of word \"$word\" clashes with existing word")
-                            complaints++
-                        }
-                    }
-                }
-                if(word.count{it == '-'} > 1) {
-                    o.println("word \"$word\" contains too many hyphens")
-                    complaints++
-                }
             }
 
             //check for similar words
