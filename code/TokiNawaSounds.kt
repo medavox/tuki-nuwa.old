@@ -8,6 +8,25 @@ import java.util.regex.Pattern
 private val e = System.err
 private val o = System.out
 
+/**
+I will definitely not add sounds (phonemes) to the phonology;
+I don't know enough about linguistic typology to choose new sounds
+(or new phonotactic rules) that are as easy for all humans to pronounce.
+
+Instead, I'm merely using the raw material given to me
+by Toki Pona's phonology and phonotactics
+to construct new words.
+
+ This file helps with the boilerplate maths of it all:
+
+ * given 3 vowels and 10 consonants, how many possible single-syllable words are there?<br />
+ * how many possible 2-syllable words?<br />
+ * and 3-syllable words?<br />
+<br />
+ * Do all the words in the dictionary follow the phonological rules (as they currently stand)?
+
+ * Given the words in the dictionary, what are some unused sounds that could be used for new words?
+ */
 
 fun main(args: Array<String>) {
     if(args.size == 2) {
@@ -176,13 +195,13 @@ class TokiNawaSounds {
 
     internal fun lintTheDictionary(dict: Array<String>) {
         //todo: words with different harmonising vowels
-        //todo: words with identical letters, vowels swapped, or consonants swapped
+        //todo: words with identical letters but their vowels swapped, or consonants swapped
         val dupCheck = TreeSet<String>()
         var complaints = 0
         for (word in dict) {
             //check for illegal letters
             val invalidLetters = word
-                    .replace("[$vowelsString$consonantsString]".toRegex(), "")
+                    .replace("[$vowelsString$consonantsString-]".toRegex(), "")
             if (invalidLetters.isNotEmpty()) {
                 o.println("word \"$word\" contains illegal letters: $invalidLetters")
                 complaints++
@@ -202,18 +221,13 @@ class TokiNawaSounds {
                     //o.println("i:"+i);
                     for((j, c) in word.withIndex()) {
                         if(c == 'n') {
-                            try {
-                                if(j == (word.length-1)) {
-                                    o.println("word \"$word\" contains a word-final N")
-                                    complaints++
-                                }
-                                else if (!vowelsString.contains(word.elementAt(j + 1))) {
-                                    o.println("word \"$word\" contains an N before another consonant")
-                                    complaints++
-                                }
-                            }catch(s :StringIndexOutOfBoundsException) {
-                                s.printStackTrace()
-                                e.println("offending word: $word")
+                            if(j == (word.length-1)) {
+                                o.println("word \"$word\" contains a word-final N")
+                                complaints++
+                            }
+                            else if (!("$vowelsString-").contains(word.elementAt(j + 1))) {
+                                o.println("word \"$word\" contains an N before another consonant")
+                                complaints++
                             }
                         }
                     }
@@ -225,6 +239,31 @@ class TokiNawaSounds {
                 complaints++
             } else {
                 dupCheck.add(word)
+            }
+
+            //make sure ending-taking words only have a '-' at the end
+            if(word.contains("-")) {
+                if(!word.endsWith("-")) {
+                    o.println("word \"$word\" contains a hyphen in the wrong place")
+                    complaints++
+                }else {//word ends with -
+                    //check that some of its verb-ending forms don't clash with another word
+                    val formsWithDescriptions: Array<Array<String>> = arrayOf(
+                            arrayOf(word.replace("-", "a"), "noun-form"),
+                            arrayOf(word.replace("-", "u"), "noun-form"),
+                            arrayOf(word.replace("-", "i"), "adjective-form")
+                    )
+                    for(s : Array<String> in formsWithDescriptions) {
+                        if(dict.contains(s[0])) {
+                            o.println("${s[1]} \"${s[0]}\" of word \"$word\" clashes with existing word")
+                            complaints++
+                        }
+                    }
+                }
+                if(word.count{it == '-'} > 1) {
+                    o.println("word \"$word\" contains too many hyphens")
+                    complaints++
+                }
             }
 
             //check for similar words
@@ -305,7 +344,7 @@ class TokiNawaSounds {
                 continue
             }
             //o.println("line: "+byLine[i]);
-            val pat = Pattern.compile("([a-z]+) *\\|.*")
+            val pat = Pattern.compile("([a-z]+-?) *\\|.*")
             val mat = pat.matcher(byLine[i])
             //o.println("group count: "+mat.groupCount());
             //o.println("group :"+mat.group());
@@ -313,35 +352,5 @@ class TokiNawaSounds {
             words.add(mat.replaceAll("$1"))
         }
         return words.toTypedArray()
-    }
-
-    /**Reads the supplied (plaintext) file as a string and returns it.
-     * @param f the supplied file. This MUST be a plaintext file.
-     * @return the contents of the file, as a String.
-     */
-    private fun fileToString(f: File): String {
-        if (!f.isFile) {
-            throw IllegalArgumentException("Supplied File object must represent an actual file.")
-        }
-        try {
-            val fr = FileReader(f)
-            val tmp = CharArray(f.length().toInt())
-            var c: Char
-            var j = 0
-            var i = fr.read()
-            while (i != -1) {
-                c = i.toChar()
-                tmp[j] = c
-                j++
-                i = fr.read()
-            }
-            fr.close()
-            return String(tmp)
-        } catch (e: Exception) {
-            System.err.println("failed to read file: \"" + f.name + "\"!")
-            e.printStackTrace()
-            return ""
-        }
-
     }
 }
