@@ -37,7 +37,7 @@ fun main(args: Array<String>) {
                     //populate the list of all potential words,
                     // then subtract all the dictionary words (and similar) from it
                     o.println(t.listUnusedPotentialWords(dictContents,
-                            t.listUpToTripleSyllableWords().toMutableSet()))
+                            t.listUpToTripleSyllableWords(2).toMutableSet()))
                 }
             }
         }
@@ -198,16 +198,21 @@ class TokiNawaSounds {
             //check for syllable-final Ns
             if (!allowSyllableFinalN) {
                 if (word.replace("n", "").length < word.length) {
-                    var i = word.indexOf("n", 0)
-                    while (i != -1) {
-                        //o.println("i:"+i);
-                        for(j in 0..word.length) {
-                            if(word.elementAt(i) == 'n') {
-                                if(j == word.length-1
-                                        || !vowelsString.contains(word.elementAt(j+1))) {
+                    //o.println("i:"+i);
+                    for((j, c) in word.withIndex()) {
+                        if(c == 'n') {
+                            try {
+                                if(j == (word.length-1)) {
+                                    o.println("word \"$word\" contains a word-final N")
+                                    complaints++
+                                }
+                                else if (!vowelsString.contains(word.elementAt(j + 1))) {
                                     o.println("word \"$word\" contains an N before another consonant")
                                     complaints++
                                 }
+                            }catch(s :StringIndexOutOfBoundsException) {
+                                s.printStackTrace()
+                                e.println("offending word: $word")
                             }
                         }
                     }
@@ -270,11 +275,11 @@ class TokiNawaSounds {
             }
             if (word[i] == 't') {//replace t with k
                 similarWords.add(replaceCharAt(word, i, 'k'))
-                similarWords.add(replaceCharAt(word, i, 'p'))
+                //similarWords.add(replaceCharAt(word, i, 'p'))
             }
             if (word[i] == 'k') {//replace k with t
                 similarWords.add(replaceCharAt(word, i, 't'))
-                similarWords.add(replaceCharAt(word, i, 'p'))
+                //similarWords.add(replaceCharAt(word, i, 'p'))
             }
         }
 
