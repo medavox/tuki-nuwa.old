@@ -10,7 +10,6 @@ private val o = System.out
 
 
 fun main(args: Array<String>) {
-    //todo: record words with different harmonising vowels as similar
     if(args.size == 2) {
         val t = TokiNawaSounds()
         val command: String = args[0].toLowerCase()
@@ -176,13 +175,15 @@ class TokiNawaSounds {
     }
 
     internal fun lintTheDictionary(dict: Array<String>) {
+        //todo: words with different harmonising vowels
+        //todo: words with identical letters, vowels swapped, or consonants swapped
         val dupCheck = TreeSet<String>()
         var complaints = 0
         for (word in dict) {
             //check for illegal letters
             val invalidLetters = word
                     .replace("[$vowelsString$consonantsString]".toRegex(), "")
-            if (invalidLetters.length > 0) {
+            if (invalidLetters.isNotEmpty()) {
                 o.println("word \"$word\" contains illegal letters: $invalidLetters")
                 complaints++
             }
@@ -227,6 +228,7 @@ class TokiNawaSounds {
             }
 
             //check for similar words
+            /*
             val similarWords = similarWordsTo(word)
             for (similarWord in similarWords) {
                 //allPossibleWords.remove(similarWord)
@@ -236,7 +238,7 @@ class TokiNawaSounds {
                         complaints++
                     }
                 }
-            }
+            }*/
         }
         o.println("total complaints: $complaints")
     }
