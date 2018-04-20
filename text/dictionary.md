@@ -7,7 +7,7 @@ anta | difference | change, alter, modify | | different | otherwise, or else
 anu | | | | | or
 awa | | | | | ah, ha, uh, oh, ooh, aw, well
 awasa | Hunting, gathering, hunter-gathering | to gather; to collect food, resources or material needed for daily life and survival; to gather, harvest | to hunt, to pursue and kill animals to use as food and clothing; to hunt | |
-awi | everything, life, the universe | | | all, every, complete, whole |
+ali | everything, life, the universe | | | all, every, complete, whole |
 awin | | stay, wait, remain | keep | remaining, stationary, permanent, sedentary
 i | | | | | marks start of object noun-phrase (introduces a direct object)
 ijo | thing, something, stuff, anything, object | objectify | | of something |
@@ -85,7 +85,7 @@ si | you | | | your |
 sijawa | body, physical state | | | of the body |
 siki | circle, wheel, sphere, ball, cycle | | | round, cyclical |
 simi | | | | | (oth) what, which, wh- (question word)
-sija | long, very thin, floppy thing, e.g. string, rope, hair, thread, cord, chain | to lengthen sth | to get longer, lengthen, extrude | long |
+lina | long, very thin, floppy thing, e.g. string, rope, hair, thread, cord, chain | to lengthen sth | to get longer, lengthen, extrude | long |
 sipin | front, chest, torso, face, wall | | | |
 siwa | outside, surface, skin, shell, bark, shape, peel | | | |
 siwi | high, up, above, top, over, | raise up | | elevated, religious, formal (prep) on sth |
@@ -108,9 +108,9 @@ un | unit, element, particle, part, piece | unite, make one | | one, a |
 upa | sex, sexuality | have sex with | have sex | erotic, sexual |
 usu | usage | use | | | (prep) with (using)
 uta | mouth, maw, muzzle, beak, proboscis etc | to taste sth | | oral |
-utawa | conflict, disharmony, competition, conflict, struggle, fight, war, battle, attack, blow, argument, physical or verbal violence | hit, strike, attack, compete against | | |
+utala| conflict, disharmony, competition, conflict, struggle, fight, war, battle, attack, blow, argument, physical or verbal violence | hit, strike, attack, compete against | | |
 wa | | | | | context-phrase separator, topicaliser
-waju | | | | red |
+luju | | | | red |
 waka | hand, arm | to touch with hand | | five (5) |
 ukin | eye | see, look at, watch, read | look, watch out, pay attention | visual(ly) |
 wapa | hole, orifice, window, door | | | |
@@ -118,11 +118,11 @@ waso | bird, winged animal/creature | | | |
 waso | grueness, the colour grue | to make sth grue-coloured | | blue-green |
 wata | water, liquid, juice, sauce | water, wash with water | | wet, liquid |
 wawa | energy, strength, power | strengthen, energize, empower | | energetic, strong, fierce, intense, confident |
-wawi | whiteness, lightness | | | white, light (colour) |
-wi | | | | | separator "(between any subject except mi and sina and its verb; also used to introduce a new verb for the same subject)"
+wali | whiteness, lightness | | | white, light (colour) |
+li | | | | | separator "(between any subject except mi and sina and its verb; also used to introduce a new verb for the same subject)"
 wika | absence, distance | throw away, remove, get rid of | | far, distant, away, absent, missing |
-wiko | square, cube, block | | | square-shaped, cube-shaped |
+liko | square, cube, block | | | square-shaped, cube-shaped |
 win | clothing, cloth, fabric | to clothe sb | clothe, dress, decorate | |
-wipu | flat and bendable thing, e.g. paper, card, ticket. Also book, page (of book, or web page) | | | |
-witu | cold | cool sth down, chill sth | | cold |
+lipu | flat and bendable thing, e.g. paper, card, ticket. Also book, page (of book, or web page) | | | |
+litu | cold | cool sth down, chill sth | | cold |
 wiwi | | reduce, shorten, shrink, lessen | | small, little, young, a bit, short, few, less |

@@ -1,12 +1,54 @@
 //package default;
 
-import com.medavox.util.validate.Validator
 import java.util.*
 
 import java.io.*
 import java.util.regex.Pattern
+
+private val e = System.err
+private val o = System.out
+
+
+fun main(args: Array<String>) {
+    //todo: record words with different harmonising vowels as similar
+    if(args.size == 2) {
+        val t = TokiNawaSounds()
+        val command: String = args[0].toLowerCase()
+        if("[0-9]".toRegex().matches(args[1]) &&
+                (command.equals("syllables") || command.equals("s")) ) {
+            //print syllables
+            for(s:String in t.listUpToTripleSyllableWords(args[1].toInt())){
+                o.println(s)
+            }
+        }
+        else {
+            //the other two commands require a second argument of a dictionary file,
+            //so parse it as that
+            //args[0].equals("lint")
+            val dict: File = File(args[1])
+            if(!dict.exists() || !dict.isFile || !dict.canRead() || dict.length() < 5) {
+                e.println("invalid file specified.")
+            }else {
+                val dictContents = t.scrapeWordsFromDictionary(dict)
+                if(command.equals("lint" ) || command.equals("l")) {
+                    t.lintTheDictionary(dictContents)
+                }
+                else if(command.equals("unused") || command.equals("u")) {
+                    //populate the list of all potential words,
+                    // then subtract all the dictionary words (and similar) from it
+                    o.println(t.listUnusedPotentialWords(dictContents,
+                            t.listUpToTripleSyllableWords().toMutableSet()))
+                }
+            }
+        }
+    }
+    else {
+        e.println("nope!")
+    }
+}
+
 class TokiNawaSounds {
-    private val consonantsString = "jkmnpstw"
+    private val consonantsString = "hjklmnpstw"
     private val vowelsString = "aiu"
     private val consonants = consonantsString.toCharArray()
     private val vowels = vowelsString.toCharArray()
@@ -15,42 +57,19 @@ class TokiNawaSounds {
     //private static final char[] consonants = "jklmnpstw".toCharArray();
     //private static final char[] vowels = "aeiou".toCharArray();
     //private static final File dictionaryFile = new File("sorted.md");
-    private val dictionaryFile = File("dictionary.md")
 
-    private val maxSyllables = 3
+    //private val dictionaryFile = File("dictionary.md")
+
     private val syllables = TreeSet<String>()
     private val wordInitialOnlySyllables = TreeSet<String>()
 
     private val wordInitialSyllables = TreeSet<String>()
-    private val allPossibleWords = TreeSet<String>()
+
 
     private val forbiddenSyllables = arrayOf("ji", "ti", "wo", "wu")
 
-    internal val o = System.out
-    internal val e = System.err
 
     private val commands:Array<String> = arrayOf("unused", "syllables", "lint")
-
-    /**list unused potential words which aren't too similar to existing words */
-    private fun listUnusedPotentialWords(wordsFromDictionary: Array<String>): String {
-        val b = StringBuilder()
-        //String[] wordsFromDictionary = scrapeWordsFromDictionary(dictionaryFile);
-        for (word in wordsFromDictionary) {
-            val similarWords = similarWordsTo(word)
-            allPossibleWords.remove(word)
-            //o.println(word+" : "+
-            for (similarWord in similarWords) {
-                allPossibleWords.remove(similarWord)
-            }
-        }
-        o.println("unused words:")
-        for (wurd in allPossibleWords) {
-            //o.println(wurd);
-            b.append(wurd).append("\n")
-        }
-        o.println("total: " + allPossibleWords.size)
-        return b.toString()
-    }
 
     private fun isForbiddenSyllable(syl: String): Boolean {
         for (forb in forbiddenSyllables) {
@@ -61,17 +80,7 @@ class TokiNawaSounds {
         return false
     }
 
-    fun main(args: Array<String>) {
-        //todo: record words with different harmonising vowels as similar
-        try {
-            Validator.check(args.size == 2, "must have 2 arguments")
-            val f = File(args[0])
-            Validator.check(f.isDirectory, "supplied path must be a directory")
-
-
-        } catch (ex: Exception) {
-            e.println("call failed, with exception: " + ex)
-        }
+    init{
         //generate all possible syllables
 
         //firstly, generate initial-only syllables
@@ -99,30 +108,23 @@ class TokiNawaSounds {
         val dualSyllableWords = numSingleSyllableWords * syllables.size
         val tripleSyllableWords = dualSyllableWords * syllables.size
 
-        e.println("possible single-syllable words:" + numSingleSyllableWords)
-        e.println("possible double-syllable words:" + dualSyllableWords)
-        e.println("possible triple-syllable words:" + tripleSyllableWords)
-
-        //lint dictionary.md
-        if (args.size == 0) {
-            lintTheDictionrary(dictionaryFile)
-        }
+        e.println("possible single-syllable words: $numSingleSyllableWords")
+        e.println("possible double-syllable words: $dualSyllableWords")
+        e.println("possible triple-syllable words: $tripleSyllableWords")
     }
 
     /**list all possible words, up to triple-syllable words */
-    private fun listUpToTripleSyllableWords(syllableCount: Int,
-                                            populateAllWords: Boolean): String {
+    internal fun listUpToTripleSyllableWords(syllableCount: Int = 3): Set<String> {
         if (syllableCount != 1 && syllableCount != 2 && syllableCount != 3) {
             throw IllegalArgumentException("syllable count must be 1, 2 or 3. " +
                     "Passed value: " + syllableCount)
         }
+        val allPossibleWords = TreeSet<String>()
         val ones = StringBuilder()
         val twos = StringBuilder()
         val tris = StringBuilder()
         for (firstSyllable in wordInitialSyllables) {
-            if (populateAllWords) {
-                allPossibleWords.add(firstSyllable)
-            }
+            allPossibleWords.add(firstSyllable)
             ones.append(firstSyllable).append("\n")
             for (secondSyllable in syllables) {
                 if (syllableCount < 2) {
@@ -133,9 +135,7 @@ class TokiNawaSounds {
                     continue
                 }
                 twos.append(firstSyllable).append(secondSyllable).append("\n")
-                if (populateAllWords) {
-                    allPossibleWords.add(secondSyllable)
-                }
+                allPossibleWords.add(secondSyllable)
                 for (thirdSyllable in syllables) {
                     if (syllableCount < 3) {
                         break
@@ -144,20 +144,38 @@ class TokiNawaSounds {
                         //don't print syllables with 2 consecutive 'n's
                         continue
                     }
-                    if (populateAllWords) {
-                        allPossibleWords.add(firstSyllable + secondSyllable + thirdSyllable)
-                    }//*/
+                    allPossibleWords.add(firstSyllable + secondSyllable + thirdSyllable)
 
                     tris.append(firstSyllable).append(secondSyllable).append(thirdSyllable)
                             .append("\n")
                 }
             }
         }
-        return ones.toString() + twos.toString() + tris.toString()
+        //return ones.toString() + twos.toString() + tris.toString()
+        return allPossibleWords
     }
 
-    private fun lintTheDictionrary(dictionary: File) {
-        val dict = scrapeWordsFromDictionary(dictionaryFile)
+    /**list unused potential words which aren't too similar to existing words */
+    internal fun listUnusedPotentialWords(wordsFromDictionary: Array<String>,
+                                         allPossibleWords: MutableSet<String>): String {
+        val b = StringBuilder()
+        //String[] wordsFromDictionary = scrapeWordsFromDictionary(dictionaryFile);
+        for (word in wordsFromDictionary) {
+            allPossibleWords.remove(word)
+            for (similarWord in similarWordsTo(word)) {
+                allPossibleWords.remove(similarWord)
+            }
+        }
+        o.println("unused words:")
+        for (wurd in allPossibleWords) {
+            //o.println(wurd);
+            b.append(wurd).append("\n")
+        }
+        b.append("\ntotal: ").append(allPossibleWords.size)
+        return b.toString()
+    }
+
+    internal fun lintTheDictionary(dict: Array<String>) {
         val dupCheck = TreeSet<String>()
         var complaints = 0
         for (word in dict) {
@@ -183,12 +201,15 @@ class TokiNawaSounds {
                     var i = word.indexOf("n", 0)
                     while (i != -1) {
                         //o.println("i:"+i);
-                        if (i != word.length - 1 && !vowelsString.contains(word[i + 1].toString())) {
-                            //if the letter after our n is not a vowel,
-                            o.println("word \"$word\" contains an N before another consonant")
-                            complaints++
+                        for(j in 0..word.length) {
+                            if(word.elementAt(i) == 'n') {
+                                if(j == word.length-1
+                                        || !vowelsString.contains(word.elementAt(j+1))) {
+                                    o.println("word \"$word\" contains an N before another consonant")
+                                    complaints++
+                                }
+                            }
                         }
-                        i = word.indexOf("n", i + 1)
                     }
                 }
             }
@@ -203,7 +224,7 @@ class TokiNawaSounds {
             //check for similar words
             val similarWords = similarWordsTo(word)
             for (similarWord in similarWords) {
-                allPossibleWords.remove(similarWord)
+                //allPossibleWords.remove(similarWord)
                 for (otherWord in dict) {
                     if (otherWord == similarWord) {
                         o.println("word \"$word\" is very similar to \"$otherWord\"")
@@ -212,7 +233,7 @@ class TokiNawaSounds {
                 }
             }
         }
-        o.println("total complaints: " + complaints)
+        o.println("total complaints: $complaints")
     }
 
 
@@ -267,15 +288,13 @@ class TokiNawaSounds {
         return myName.toString()
     }
 
-    private fun scrapeWordsFromDictionary(dictFile: File): Array<String> {
+    internal fun scrapeWordsFromDictionary(dictFile: File): Array<String> {
         //String wholeDict = fileToString(new File("dictionary.md"));
-        val wholeDict = fileToString(dictFile)
+        val wholeDict = dictFile.readText()
         val byLine = wholeDict.split("\n".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
-        val words = arrayOfNulls<String>(byLine.size)
-        var validElements = 0
+        val words = mutableListOf<String>()
         for (i in 2 until byLine.size) {//start after the table heading
-            val count = byLine[i].length - byLine[i].replace("|", "").length
-            if (count != 5) {//if there aren't 5 pipes on the line, it's not a table row
+            if (byLine[i].count {it == '|'} != 5) {//if there aren't 5 pipes on the line, it's not a table row
                 continue
             }
             //o.println("line: "+byLine[i]);
@@ -284,18 +303,9 @@ class TokiNawaSounds {
             //o.println("group count: "+mat.groupCount());
             //o.println("group :"+mat.group());
             //o.println("matches: "+mat.matches());
-            words[i] = mat.replaceAll("$1")
-            validElements++
+            words.add(mat.replaceAll("$1"))
         }
-        var nextValidIndex = 0
-        val noNulls: Array<String> = Array<String>(validElements, {""})
-        for (s :String? in words) {
-            if (s != null) {
-                noNulls[nextValidIndex] = s
-                nextValidIndex++
-            }
-        }
-        return noNulls
+        return words.toTypedArray()
     }
 
     /**Reads the supplied (plaintext) file as a string and returns it.
