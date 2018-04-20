@@ -3,7 +3,7 @@ Toki Nawa uses sounds that occur in all of the most widely spoken languages.
 Orthography 
 =========
 
-Or, How Toki Nawa is Spelled And Spoken
+Or, How Toki Nawa is Spelled
 ---------
 
 The entire alphabet of Toki Nawa is:
@@ -44,6 +44,10 @@ Cyrillic letter | Latin letter
 
 Phonology
 =========
+
+Or, How Toki Nawa is Spoken
+------
+
 Consonants
 ======
 
@@ -52,8 +56,7 @@ There are 10 consonants in Toki Nawa.
 Toki Nawa allows a lot of flexibility in pronunciation; 
 as long as you make yourself understood, `ali li puna`!
 
-
-They are usually pronounced in one of the following ways:
+They are usually pronounced in any of the following ways:
 
 Letter  | Pronunciation examples
 --------|-----------------------
@@ -90,8 +93,14 @@ when we whisper, speak with our mouth full, sing, or shout.
 
 Don't worry!
 
-Phonotactics
+Phonotactics & Prosody
 =========
 
-Or, In What Order Letters Can Appear
+Or, In What Order Letters Can Appear, And How To Pronounce Words
 --------
+
+Toki Nawa follows a consonant-vowel structure.
+The first syllable of a word might just be a vowel.
+
+Stress is always on the second-to-last syllable.
+In a two-syllable word, this is the first syllable :)
