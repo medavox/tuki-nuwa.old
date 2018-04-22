@@ -56,7 +56,7 @@ nam- | food, meal | vt eat, drink, swallow, ingest, consume | | edible, potable 
 nas- | | to confuse sth/sb, make weird | | silly, foolish, drunk, strange, stupid, weird |
 nasin- | way, manner, custom, road, path, doctrine, system, method | | | |
 nat- | nothing, negation, zero; the state, situation or general phenomenon of being ala; absence, emptiness | | | no, not, none, un-, no quantity of, the opposite of | no !
-nawan- | news, newness, novelty | renew, renovate, freshen | | new, fresh, another, more |
+nuwal- | news, newness, novelty | renew, renovate, freshen | | new, fresh, another, more |
 nim- | word, name | | | |
 nin- | bump, nose, hill, mountain, button | | | |
 nuk- | leg, foot | to kick | | |
@@ -84,17 +84,17 @@ sik- | circle, wheel, sphere, ball, cycle | | | round, cyclical |
 simi | | | | | (oth) what, which, wh- (question word)
 sipin- | front, chest, torso, face, wall | | | |
 siw- | high, up, above, top, over, | raise up | | elevated, religious, formal (prep) on sth |
-sun- | sun, light (as in bright) | | | having the qualities or characteristics of suno, shiny |
+sulil- | sun, light (as in bright) | | | having the qualities or characteristics of suno, shiny |
 sup- | horizontal or supporting surface or platform, e.g furniture, table, chair, pillow, floor | | | |
 suwis- | sweets, sweet food | sweeten | | sweet, sugary |
-tak- | language, talking, speech, communication | say, speak | talk, chat, communicate | talking, verbal | (interj) hello! hi!
+tak- | tool, device, machine, thing, used for a specific purpose | | | |
 tam- | time, period of time, moment, duration, situation, occasion | | | |
 tan- | origin, cause | | | | prep from, by, because of, since
 tasan- | picture, image | draw, write | | |
 tas- | | | | only, sole | (conj) but
 tal- | movement, transportation | move, displace sth | go to, walk, travel, move | moving, mobile | (prep) to, in order to, towards, for, until
 tun- | duo, pair | double, separate/cut/divide in two | | two |
-tuk- | tool, device, machine, thing, used for a specific purpose | | | |
+tuk- | language, talking, speech, communication | say, speak | talk, chat, communicate | talking, verbal | (interj) hello! hi!
 tum- | indoor constructed space, e.g. house, home, room, building, shelter | | | mod urban, domestic, household |
 lun- | | put in place | be there, be present, be real/true, exist, be awake | | prep be (located) in/at/on
 wan- | unit, element, particle, part, piece | unite, make one | | one, a |
