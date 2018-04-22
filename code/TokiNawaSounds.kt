@@ -35,7 +35,6 @@ fun main(args: Array<String>) {
         if ((command == "syllables" || command == "s")) {
             if("[1-3]".toRegex().matches(args[1])) {
                 //print syllables
-                val syllableWords = TreeSet<String>()
                 val words: Set<String> =
                 when(args[1].toInt()) {
                     1 -> t.listSingleSyllableWords()
@@ -238,8 +237,7 @@ class TokiNawaSounds {
         var complaints = 0
         for (word in dict) {
             //check for illegal letters
-            val invalidLetters = word
-                    .replace("[$vowels$consonants-]".toRegex(), "")
+            val invalidLetters = word.filter { it !in vowels+consonants+"-" }
             if (invalidLetters.isNotEmpty()) {
                 o.println("word \"$word\" contains illegal letters: $invalidLetters")
                 complaints++
@@ -254,9 +252,9 @@ class TokiNawaSounds {
             }
 
             //make sure Ns only occur at the start of a word
-            if(word.contains(wordInitialConsonants)) {
-                if(!word.startsWith(wordInitialConsonants)
-                        || word.count({it in wordInitialConsonants}) > 1) {
+            if(word.contains("n")) {
+                if(!word.startsWith("n")
+                        || word.count({it == 'n'}) > 1) {
                     o.println("word \"$word\" contains an N in a non-initial position")
                     complaints++
                 }
@@ -264,7 +262,7 @@ class TokiNawaSounds {
 
             //make sure ending-taking words only have one '-', at the end
             if(word.contains("-")) {
-                if(!word.endsWith("-") || word.count({it == 'n'}) > 1) {
+                if(!word.endsWith("-") || word.count({it == '-'}) > 1) {
                     o.println("word \"$word\" contains a hyphen in the wrong place")
                     complaints++
                 }else {//word ends with -
@@ -346,10 +344,9 @@ class TokiNawaSounds {
         }
         val similarWords = LinkedList<String>()
         for (i in 0 until word.length) {
-            val charAt = word[i].toString()
 
             //replace all vowels with all other vowels
-            /*if (vowels.contains(charAt)) {//if this char is a vowel
+            /*if (vowels.contains(word[i])) {//if this char is a vowel
                 for (vowel in vowels) {
                     if (vowel != word[i]) {
                         val replaced = word.toCharArray()
