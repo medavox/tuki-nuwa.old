@@ -99,25 +99,49 @@ class TokiNawaSounds {
     private val vowels = "aiu"
 
     private val allowSyllableFinalN = false
+    private val syllables = TreeSet<String>()
+    private val wordInitialOnlySyllables = TreeSet<String>()
+    private val wordInitialSyllables = TreeSet<String>()
 
     private val forbiddenSyllables = arrayOf("ji", "ti", "wu", "hu")
 
-    /**list all possible single-syllable words (glue words)*/
-    internal fun listSingleSyllableWords(): Set<String> {
-        val ones = TreeSet<String>()
+    init{
+        //generate all possible syllables
 
-        //empty string represents missing initial consonant
-        val wordInitials: Array<String> = (consonants.map{it.toString()}+"").toTypedArray()
-        //o.println(Arrays.toString(wordInitials))
-        for(s: String in wordInitials) {
-            for(v: Char in vowels) {
-                val d = s+v
-                if(d !in forbiddenSyllables){
-                    ones.add(d)
+        //firstly, generate initial-only syllables
+        for (c in vowels) {
+            wordInitialOnlySyllables.add(c.toString())
+        }
+
+        //then, generate all other possible syllables
+        for (cc in consonants) {
+            val c = cc.toString()
+            for (vv in vowels) {
+                val v = vv.toString()
+                if ((c + v) in forbiddenSyllables) {
+                    //if it's a forbidden syllable, skip adding it to the list
+                    continue
                 }
+                syllables.add(c + v)
             }
         }
-        return ones
+
+        wordInitialSyllables += wordInitialOnlySyllables
+        wordInitialSyllables += syllables
+
+        val numSingleSyllableWords = wordInitialSyllables.size
+        val dualSyllableWords = numSingleSyllableWords * syllables.size
+        val tripleSyllableWords = dualSyllableWords * syllables.size
+
+        e.println("possible single-syllable words: $numSingleSyllableWords")
+        e.println("possible double-syllable words: $dualSyllableWords")
+        e.println("possible triple-syllable words: $tripleSyllableWords")
+    }
+
+
+    /**list all possible single-syllable words (glue words)*/
+    internal fun listSingleSyllableWords(): Set<String> {
+        return wordInitialSyllables
     }
 
     /**list all possible double-syllable words*/
@@ -125,33 +149,18 @@ class TokiNawaSounds {
         val twos = TreeSet<String>()
 
         //empty string represents missing initial consonant
-        val wordInitials: Array<String> = (consonants.map{it.toString()}+"").toTypedArray()
-        //o.println(Arrays.toString(wordInitials))
-        for(s: String in wordInitials) {
-            for(v: Char in vowels) {
-                for(d: Char in consonants) {
-                    val twoSyls = s+v+d+"-"
-                    var shouldSkipThisOne = false
-                    for(forb in forbiddenSyllables) {
-                        if(twoSyls.contains(forb)) {
-                            shouldSkipThisOne = true
-                            break
-                        }
+        for(firstSyllable in wordInitialSyllables) {
+            for(secondSyllable in syllables) {
+                val twoSyls = firstSyllable+secondSyllable
+                var shouldSkipThisOne = false
+                val simis = similarWordsTo(twoSyls)
+                for(similar in simis) {
+                    if(twos.contains(similar)) {
+                        shouldSkipThisOne = true
+                        break
                     }
-                    if(shouldSkipThisOne) {
-                        continue
-                    }
-                    val simis = similarWordsTo(twoSyls)
-                    //o.println("similar words: "+simis)
-                    for(similar in simis) {
-                        if(twos.contains(similar)) {
-                            shouldSkipThisOne = true
-                            break
-                        }
-                    }
-                    if(shouldSkipThisOne) {
-                        continue
-                    }
+                }
+                if(shouldSkipThisOne) {
                     twos.add(twoSyls)
                 }
             }
@@ -163,36 +172,21 @@ class TokiNawaSounds {
     internal fun listTripleSyllableWords(): Set<String> {
         val tris = TreeSet<String>()
 
-        //empty string represents missing initial consonant
-        val wordInitials: Array<String> = (consonants.map{it.toString()}+"").toTypedArray()
+        for(firstSyllable in wordInitialSyllables) {
+            for(secondSyllable in syllables) {
+                for(thirdSyllable in syllables) {
+                    val triSyls = firstSyllable+secondSyllable+thirdSyllable
+                    var shouldSkipThisOne = false
 
-        for(s: String in wordInitials) {
-            for(v: Char in vowels) {
-                for(d: Char in consonants) {
-                    for(v2: Char in vowels) {
-                        for(d2: Char in consonants) {
-                            val triSyls = s+v+d+v2+d2+"-"
-                            var shouldSkipThisOne = false
-                            for(forb in forbiddenSyllables) {
-                                if(triSyls.contains(forb)) {
-                                    shouldSkipThisOne = true
-                                }
-                            }
-                            if(shouldSkipThisOne) {
-                                continue
-                            }
-                            val simis = similarWordsTo(triSyls)
-                            for(similar in simis) {
-                                if(tris.contains(similar)) {
-                                    shouldSkipThisOne = true
-                                    break
-                                }
-                            }
-                            if(shouldSkipThisOne) {
-                                continue
-                            }
-                            tris.add(triSyls)
+                    val simis = similarWordsTo(triSyls)
+                    for(similar in simis) {
+                        if(tris.contains(similar)) {
+                            shouldSkipThisOne = true
+                            break
                         }
+                    }
+                    if(!shouldSkipThisOne) {
+                        tris.add(triSyls)
                     }
                 }
             }
