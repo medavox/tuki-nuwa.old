@@ -36,13 +36,18 @@ fun main(args: Array<String>) {
             if("[1-3]".toRegex().matches(args[1])) {
                 //print syllables
                 val syllableWords = TreeSet<String>()
-                for(syls in 1..args[1].toInt()) {
-                    syllableWords += t.listUpToTripleSyllableWords(syls)
+                val words: Set<String> =
+                when(args[1].toInt()) {
+                    1 -> t.listSingleSyllableWords()
+                    2 -> t.listDoubleSyllableWords()
+                    3 -> t.listTripleSyllableWords()
+                    else -> emptySet()
                 }
-                for (s: String in syllableWords) {
+
+                for (s: String in words) {
                     o.println(s)
                 }
-                o.println("total: "+syllableWords.size)
+                o.println("total: "+words.size)
             }else {
                 e.println("was expecting a number argument 1-3.")
             }
@@ -79,7 +84,7 @@ fun main(args: Array<String>) {
                     //populate the list of all potential words,
                     // then subtract all the dictionary words (and similar) from it
                     o.println(t.listUnusedPotentialWords(dictContents,
-                            t.listUpToTripleSyllableWords(2).toMutableSet()))
+                            t.listDoubleSyllableWords().toMutableSet()))
                 }
             }
         }
@@ -101,52 +106,88 @@ class TokiNawaSounds {
 
     private val forbiddenSyllables = arrayOf("ji", "ti", "wu", "hu")
 
-    /**list all possible words, up to triple-syllable words */
-    internal fun listUpToTripleSyllableWords(syllableCount: Int = 3): Set<String> {
-        if (syllableCount != 1 && syllableCount != 2 && syllableCount != 3) {
-            throw IllegalArgumentException("syllable count must be 1, 2 or 3. " +
-                    "Passed value: " + syllableCount)
-        }
-
+    /**list all possible single-syllable words (glue words)*/
+    internal fun listSingleSyllableWords(): Set<String> {
         val ones = TreeSet<String>()
-        val twos = TreeSet<String>()
-        val tris = TreeSet<String>()
-        //val twos = StringBuilder()
-        //val tris = StringBuilder()
 
         //empty string represents missing initial consonant
         val wordInitials: Array<String> = (consonants.map{it.toString()}+"").toTypedArray()
         //o.println(Arrays.toString(wordInitials))
-        when (syllableCount) {
-            1 -> {
-                for(s: String in wordInitials) {
-                    for(v: Char in vowels) {
-                        val d = s+v
-                        if(d !in forbiddenSyllables){
-                            ones.add(d)
-                        }
-                    }
+        for(s: String in wordInitials) {
+            for(v: Char in vowels) {
+                val d = s+v
+                if(d !in forbiddenSyllables){
+                    ones.add(d)
                 }
             }
-            2 -> {
-                for(s: String in wordInitials) {
-                    for(v: Char in vowels) {
-                        for(d: Char in wordFinalConsonants) {
-                            val twoSyls = s+v+d+"-"
+        }
+        return ones
+    }
+
+    /**list all possible double-syllable words*/
+    internal fun listDoubleSyllableWords(): Set<String> {
+        val twos = TreeSet<String>()
+
+        //empty string represents missing initial consonant
+        val wordInitials: Array<String> = (consonants.map{it.toString()}+"").toTypedArray()
+        //o.println(Arrays.toString(wordInitials))
+        for(s: String in wordInitials) {
+            for(v: Char in vowels) {
+                for(d: Char in wordFinalConsonants) {
+                    val twoSyls = s+v+d+"-"
+                    var shouldSkipThisOne = false
+                    for(forb in forbiddenSyllables) {
+                        if(twoSyls.contains(forb)) {
+                            shouldSkipThisOne = true
+                            break
+                        }
+                    }
+                    if(shouldSkipThisOne) {
+                        continue
+                    }
+                    val simis = similarWordsTo(twoSyls)
+                    //o.println("similar words: "+simis)
+                    for(similar in simis) {
+                        if(twos.contains(similar)) {
+                            shouldSkipThisOne = true
+                            break
+                        }
+                    }
+                    if(shouldSkipThisOne) {
+                        continue
+                    }
+                    twos.add(twoSyls)
+                }
+            }
+        }
+        return twos
+    }
+
+    /**list all possible triple-syllable words */
+    internal fun listTripleSyllableWords(): Set<String> {
+        val tris = TreeSet<String>()
+
+        //empty string represents missing initial consonant
+        val wordInitials: Array<String> = (consonants.map{it.toString()}+"").toTypedArray()
+
+        for(s: String in wordInitials) {
+            for(v: Char in vowels) {
+                for(d: Char in wordMedialConsonants) {
+                    for(v2: Char in vowels) {
+                        for(d2: Char in wordFinalConsonants) {
+                            val triSyls = s+v+d+v2+d2+"-"
                             var shouldSkipThisOne = false
                             for(forb in forbiddenSyllables) {
-                                if(twoSyls.contains(forb)) {
+                                if(triSyls.contains(forb)) {
                                     shouldSkipThisOne = true
-                                    break
                                 }
                             }
                             if(shouldSkipThisOne) {
                                 continue
                             }
-                            val simis = similarWordsTo(twoSyls)
-                            //o.println("similar words: "+simis)
+                            val simis = similarWordsTo(triSyls)
                             for(similar in simis) {
-                                if(twos.contains(similar)) {
+                                if(tris.contains(similar)) {
                                     shouldSkipThisOne = true
                                     break
                                 }
@@ -154,47 +195,15 @@ class TokiNawaSounds {
                             if(shouldSkipThisOne) {
                                 continue
                             }
-                            twos.add(twoSyls)
-                        }
-                    }
-                }
-            }
-            3 -> {
-                for(s: String in wordInitials) {
-                    for(v: Char in vowels) {
-                        for(d: Char in wordMedialConsonants) {
-                            for(v2: Char in vowels) {
-                                for(d2: Char in wordFinalConsonants) {
-                                    val triSyls = s+v+d+v2+d2+"-"
-                                    var shouldSkipThisOne = false
-                                    for(forb in forbiddenSyllables) {
-                                        if(triSyls.contains(forb)) {
-                                            shouldSkipThisOne = true
-                                        }
-                                    }
-                                    if(shouldSkipThisOne) {
-                                        continue
-                                    }
-                                    val simis = similarWordsTo(triSyls)
-                                    for(similar in simis) {
-                                        if(tris.contains(similar)) {
-                                            shouldSkipThisOne = true
-                                            break
-                                        }
-                                    }
-                                    if(shouldSkipThisOne) {
-                                        continue
-                                    }
-                                    tris.add(triSyls)
-                                }
-                            }
+                            tris.add(triSyls)
                         }
                     }
                 }
             }
         }
-        return ones+twos+tris
+        return tris
     }
+
 
     /**list unused potential words which aren't too similar to existing words */
     internal fun listUnusedPotentialWords(wordsFromDictionary: Array<String>,
@@ -225,7 +234,6 @@ class TokiNawaSounds {
 
     internal fun lintTheDictionary(dict: Array<String>) {
         //todo: words with different harmonising vowels
-        //todo: words with identical letters but their vowels swapped, or consonants swapped
         val dupCheck = TreeSet<String>()
         var complaints = 0
         for (word in dict) {
@@ -245,9 +253,18 @@ class TokiNawaSounds {
                 }
             }
 
-            //make sure ending-taking words only have a '-' at the end
+            //make sure Ns only occur at the start of a word
+            if(word.contains(wordInitialConsonants)) {
+                if(!word.startsWith(wordInitialConsonants)
+                        || word.count({it in wordInitialConsonants}) > 1) {
+                    o.println("word \"$word\" contains an N in a non-initial position")
+                    complaints++
+                }
+            }
+
+            //make sure ending-taking words only have one '-', at the end
             if(word.contains("-")) {
-                if(!word.endsWith("-")) {
+                if(!word.endsWith("-") || word.count({it == 'n'}) > 1) {
                     o.println("word \"$word\" contains a hyphen in the wrong place")
                     complaints++
                 }else {//word ends with -
@@ -307,7 +324,7 @@ class TokiNawaSounds {
             }
 
             //check for similar words
-            /*
+
             val similarWords = similarWordsTo(word)
             for (similarWord in similarWords) {
                 //allPossibleWords.remove(similarWord)
@@ -317,7 +334,7 @@ class TokiNawaSounds {
                         complaints++
                     }
                 }
-            }*/
+            }
         }
         o.println("total complaints: $complaints")
     }
@@ -374,7 +391,9 @@ class TokiNawaSounds {
             val firstLetter = word[0]
 
             //add the anagrams of the word
-            similarWords += anagram(firstLetter.toString(), afterFirst, TreeSet<String>())
+            val anagrams = anagram(firstLetter.toString(), afterFirst, TreeSet<String>()).toMutableSet()
+            anagrams.remove(word)//remove the word itself from the list of anagrams
+            similarWords += anagrams
         }
 
         //val ret = arrayOfNulls<String>(similarWords.size)
@@ -415,7 +434,7 @@ class TokiNawaSounds {
             //o.println("it's empty")
             //word is complete
             //o.println("anagram:"+wordSoFar)
-            accum.add(wordSoFar)
+            accum.add(wordSoFar+"-")
             return accum
         }
         else {
