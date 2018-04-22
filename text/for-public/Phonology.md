@@ -99,8 +99,23 @@ Phonotactics & Prosody
 Or, In What Order Letters Can Appear, And How To Pronounce Words
 --------
 
-Toki Nawa follows a consonant-vowel structure.
+Toki Nawa syllables follows a consonant-vowel structure.
 The first syllable of a word might just be a vowel.
+
+Words may be one, two or three syllables, including the POS ending.
+
+N sounds may ONLY occur at the beginning of a root word. 
+After that, they might be used to used to distinguish additional POS tags,
+eg <nuka> 'leg/foot', <nuku> 'to kick' vs <nukuna> 'the act of kicking'
+
+(LUUUUUUPAAAAAAAAAA! ⚽)
+
+[todo: move the following section to another file, eg grammar]
+
+glue words (<nima lili lili>) don't take endings.
+They are usually very small, one or two syllables.
+
+
 
 Stress is always on the second-to-last syllable.
 In a two-syllable word, this is the first syllable :)
