@@ -95,10 +95,7 @@ fun main(args: Array<String>) {
 
 class TokiNawaSounds {
 
-    private val wordFinalConsonants = "klmps"
-    private val wordMedialConsonants = wordFinalConsonants+"hjtw"
-    private val wordInitialConsonants = wordMedialConsonants+"n"
-    private val consonants = wordInitialConsonants
+    private val consonants = "klmpshjtwn"
     private val vowels = "aiu"
 
     private val allowSyllableFinalN = false
@@ -132,7 +129,7 @@ class TokiNawaSounds {
         //o.println(Arrays.toString(wordInitials))
         for(s: String in wordInitials) {
             for(v: Char in vowels) {
-                for(d: Char in wordFinalConsonants) {
+                for(d: Char in consonants) {
                     val twoSyls = s+v+d+"-"
                     var shouldSkipThisOne = false
                     for(forb in forbiddenSyllables) {
@@ -171,9 +168,9 @@ class TokiNawaSounds {
 
         for(s: String in wordInitials) {
             for(v: Char in vowels) {
-                for(d: Char in wordMedialConsonants) {
+                for(d: Char in consonants) {
                     for(v2: Char in vowels) {
-                        for(d2: Char in wordFinalConsonants) {
+                        for(d2: Char in consonants) {
                             val triSyls = s+v+d+v2+d2+"-"
                             var shouldSkipThisOne = false
                             for(forb in forbiddenSyllables) {
@@ -237,7 +234,7 @@ class TokiNawaSounds {
         var complaints = 0
         for (word in dict) {
             //check for illegal letters
-            val invalidLetters = word.filter { it !in vowels+consonants+"-" }
+            val invalidLetters = word.filter { it !in vowels+consonants }
             if (invalidLetters.isNotEmpty()) {
                 o.println("word \"$word\" contains illegal letters: $invalidLetters")
                 complaints++
@@ -250,50 +247,6 @@ class TokiNawaSounds {
                     complaints++
                 }
             }
-
-            //make sure Ns only occur at the start of a word
-            if(word.contains("n")) {
-                if(!word.startsWith("n")
-                        || word.count({it == 'n'}) > 1) {
-                    o.println("word \"$word\" contains an N in a non-initial position")
-                    complaints++
-                }
-            }
-
-            //make sure ending-taking words only have one '-', at the end
-            if(word.contains("-")) {
-                if(!word.endsWith("-") || word.count({it == '-'}) > 1) {
-                    o.println("word \"$word\" contains a hyphen in the wrong place")
-                    complaints++
-                }else {//word ends with -
-                    //check that some of its verb-ending forms don't clash with another word
-                    val formsWithDescriptions: Array<Array<String>> = arrayOf(
-                            arrayOf(word.replace("-", "a"), "noun-form"),
-                            arrayOf(word.replace("-", "u"), "noun-form"),
-                            arrayOf(word.replace("-", "i"), "adjective-form")
-                    )
-                    for(s : Array<String> in formsWithDescriptions) {
-                        if(dict.contains(s[0])) {
-                            o.println("${s[1]} \"${s[0]}\" of word \"$word\" clashes with existing word")
-                            complaints++
-                        }
-                        //check word-forms don't contain an illegal syllable
-                        //check for any of the 4 illegal syllables
-                        for (forb in forbiddenSyllables) {
-                            if (s[0].contains(forb)) {
-                                o.println("${s[1]} \"${s[0]}\" of word \"$word\" " +
-                                        "contains illegal syllable \"$forb\"")
-                                complaints++
-                            }
-                        }
-                    }
-                }
-                if(word.count{it == '-'} > 1) {
-                    o.println("word \"$word\" contains too many hyphens")
-                    complaints++
-                }
-            }
-
 
             //check for syllable-final Ns
             if (!allowSyllableFinalN) {
@@ -322,7 +275,6 @@ class TokiNawaSounds {
             }
 
             //check for similar words
-
             val similarWords = similarWordsTo(word)
             for (similarWord in similarWords) {
                 //allPossibleWords.remove(similarWord)
@@ -346,7 +298,7 @@ class TokiNawaSounds {
         for (i in 0 until word.length) {
 
             //replace all vowels with all other vowels
-            /*if (vowels.contains(word[i])) {//if this char is a vowel
+            if (vowels.contains(word[i])) {//if this char is a vowel
                 for (vowel in vowels) {
                     if (vowel != word[i]) {
                         val replaced = word.toCharArray()
@@ -354,10 +306,18 @@ class TokiNawaSounds {
                         similarWords.add(String(replaced))
                     }
                 }
-            }*/
-            if (word[i] == 'm') {//replace m with n
-                similarWords.add(replaceCharAt(word, i, 'n'))
             }
+/*
+            if(consonants.contains(word[i])) {
+                for (conso in consonants) {
+                    if (conso != word[i]) {
+                        val replaced = word.toCharArray()
+                        replaced[i] = conso
+                        similarWords.add(String(replaced))
+                    }
+                }
+            }*/
+
             if (word[i] == 'n') {
                 if (i != word.length - 1) {//replace non-final n with m
                     similarWords.add(replaceCharAt(word, i, 'm'))
@@ -368,6 +328,10 @@ class TokiNawaSounds {
                     similarWords.add(word.substring(0, word.length - 1))
                 }
             }
+
+            if (word[i] == 'm') {//replace m with n
+                similarWords.add(replaceCharAt(word, i, 'n'))
+            }
             if (word[i] == 't') {//replace t with k
                 similarWords.add(replaceCharAt(word, i, 'k'))
                 //similarWords.add(replaceCharAt(word, i, 'p'))
@@ -376,18 +340,20 @@ class TokiNawaSounds {
                 similarWords.add(replaceCharAt(word, i, 't'))
                 //similarWords.add(replaceCharAt(word, i, 'p'))
             }
-
-            if(word.endsWith('-')) {
-                similarWords += similarWordsTo(word.replace("-", "a"))
-                similarWords += similarWordsTo(word.replace("-", "i"))
-                similarWords += similarWordsTo(word.replace("-", "u"))
+            if (word[i] == 'w') {//replace k with t
+                similarWords.add(replaceCharAt(word, i, 'l'))
+                //similarWords.add(replaceCharAt(word, i, 'p'))
+            }
+            if (word[i] == 'l') {//replace k with t
+                similarWords.add(replaceCharAt(word, i, 'w'))
+                //similarWords.add(replaceCharAt(word, i, 'p'))
             }
 
-            //check for phonotactically-valid anagrams beginning with the same letter
-            val afterFirst = word.substring(1).replace("-", "")
+
+            //add phonotactically-valid anagrams beginning with the same letter
+            val afterFirst = word.substring(1)
             val firstLetter = word[0]
 
-            //add the anagrams of the word
             val anagrams = anagram(firstLetter.toString(), afterFirst, TreeSet<String>()).toMutableSet()
             anagrams.remove(word)//remove the word itself from the list of anagrams
             similarWords += anagrams
@@ -437,33 +403,14 @@ class TokiNawaSounds {
         else {
             for(i in 0 until lettersLeft.length) {
                 val thisChar = lettersLeft[i]
-                if(wordSoFar[wordSoFar.length-1] in vowels) {
+                if(wordSoFar[wordSoFar.length-1] in vowels && thisChar in consonants) {
                     //last letter was a vowel; next letter should be a consonant
-                    if(lettersLeft.length == 1) {
-                        if(thisChar in wordFinalConsonants) {
-                            //val minusTheLetter:MutableList<Char> = lettersLeft.toMutableList()
-                            //minusTheLetter.removeAt(i)
-                            val minusTheLetter = lettersLeft.removeRange(i, i+1)
-                            anagram(wordSoFar + thisChar,
-                                    minusTheLetter, accum)
-                        }
-                        else {//else this path did not make a legal word, so exit
-                            //e.println("anagram \"${wordSoFar+thisChar}\" " +
-                             //       "is not a legal word; skipping...")
-                            //return accum
-                        }
-                    }
-                    else {//it's not the final consonant, so add any old one
-                        if(thisChar in consonants) {
-                            val minusTheLetter = lettersLeft.removeRange(i, i+1)
-                            //val minusTheLetter:MutableList<Char> = lettersLeft.toMutableList()
-                            //minusTheLetter.removeAt(i)
-                            anagram(wordSoFar + thisChar,
-                                    minusTheLetter, accum)
-                        }
-                    }
-                }else if(wordSoFar[wordSoFar.length-1] in consonants
-                    && thisChar in vowels) {
+                    //val minusTheLetter:MutableList<Char> = lettersLeft.toMutableList()
+                    //minusTheLetter.removeAt(i)
+                    val minusTheLetter = lettersLeft.removeRange(i, i+1)
+                    anagram(wordSoFar + thisChar,
+                            minusTheLetter, accum)
+                }else if(wordSoFar[wordSoFar.length-1] in consonants && thisChar in vowels) {
                     //last letter was a consonant; next letter should be a vowel
                     //val minusTheLetter:MutableList<Char> = lettersLeft.toMutableList()
                     //minusTheLetter.removeAt(i)
