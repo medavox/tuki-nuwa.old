@@ -29,7 +29,7 @@ to construct new words.
  */
 
 fun main(args: Array<String>) {
-    if(args.size == 2) {
+    if(args.size >= 2) {
         val t = TokiNawaSounds()
         val command: String = args[0].toLowerCase()
         if ((command == "syllables" || command == "s")) {
@@ -80,10 +80,44 @@ fun main(args: Array<String>) {
                     t.lintTheDictionary(dictContents)
                 }
                 else if(command == "unused" || command == "u") {
+                    /**list unused potential words which aren't too similar to existing words */
                     //populate the list of all potential words,
                     // then subtract all the dictionary words (and similar) from it
-                    o.println(t.listUnusedPotentialWords(dictContents,
-                            t.listDoubleSyllableWords().toMutableSet()))
+                    var totalSimilarWordsToDictionaryWords = 0
+                    val allPossibleWords:MutableSet<String> = (
+                            t.listSingleSyllableWords() +
+                            t.listDoubleSyllableWords() +
+                            t.listTripleSyllableWords()
+                            ).toMutableSet()
+                    val totalPossibleWords = allPossibleWords.size
+                    //String[] wordsFromDictionary = scrapeWordsFromDictionary(dictionaryFile);
+                    for (word in dictContents) {
+                        allPossibleWords -= word
+                        for (similarWord in t.similarWordsTo(word)) {
+                            allPossibleWords -= similarWord
+                            totalSimilarWordsToDictionaryWords++
+                        }
+                    }
+                    /*o.println("unused words:")
+                    for (wurd in allPossibleWords) {
+                        o.println(wurd);
+                    }*/
+
+                    o.println("total words: $totalPossibleWords")
+                    o.println("total unused: ${allPossibleWords.size}")
+                    o.println("dictionary words: ${dictContents.size}")
+                    o.println("total similar words to dictionary words: " +
+                            "$totalSimilarWordsToDictionaryWords")
+
+                    if(args.size == 3){
+                        o.println("word containing \"${args[2]}\":")
+                        var matchingWords = 0
+                        for(unusedWord in allPossibleWords.filter { it.contains(args[2]) }) {
+                            o.println(unusedWord)
+                            matchingWords++
+                        }
+                        o.println("matching words: $matchingWords")
+                    }
                 }
             }
         }
@@ -194,34 +228,6 @@ class TokiNawaSounds {
         return tris
     }
 
-
-    /**list unused potential words which aren't too similar to existing words */
-    internal fun listUnusedPotentialWords(wordsFromDictionary: Array<String>,
-                                         allPossibleWords: MutableSet<String>): String {
-        val b = StringBuilder()
-        var totalSimilarWordsToDictionaryWords = 0
-        var dictionaryWords = 0
-        //String[] wordsFromDictionary = scrapeWordsFromDictionary(dictionaryFile);
-        for (word in wordsFromDictionary) {
-            allPossibleWords.remove(word)
-            dictionaryWords++
-            for (similarWord in similarWordsTo(word)) {
-                allPossibleWords.remove(similarWord)
-                totalSimilarWordsToDictionaryWords++
-            }
-        }
-        b.append("unused words:\n")
-        for (wurd in allPossibleWords) {
-            //o.println(wurd);
-            b.append(wurd).append("\n")
-        }
-        b.append("\ntotal unused: ").append(allPossibleWords.size)
-        b.append("\n dictionary words: ").append(dictionaryWords)
-        b.append("\ntotal similar words to dictionary words: ")
-                .append(totalSimilarWordsToDictionaryWords)
-        return b.toString()
-    }
-
     internal fun lintTheDictionary(dict: Array<String>) {
         //todo: words with different harmonising vowels
         val dupCheck = TreeSet<String>()
@@ -290,7 +296,7 @@ class TokiNawaSounds {
         }
         val similarWords = LinkedList<String>()
         for (i in 0 until word.length) {
-
+            /*
             //replace all vowels with all other vowels
             if (vowels.contains(word[i])) {//if this char is a vowel
                 for (vowel in vowels) {
@@ -300,7 +306,7 @@ class TokiNawaSounds {
                         similarWords.add(String(replaced))
                     }
                 }
-            }
+            }*/
 /*
             if(consonants.contains(word[i])) {
                 for (conso in consonants) {
