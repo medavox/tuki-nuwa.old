@@ -22,3 +22,17 @@ Punjabi has ʋ l j s sh, h
 Japanese has w, no l (famously), j, s, sh-like, h
 
 Arabic has w l j s sh h
+
+Why is /ti/ a forbidden sound in Toki Pona?
+---------
+
+it's a legal sound in
+
+japanese, (attested in the phonotactics section of the Japanese Phonology Wikipedia page)
+english (obviously: Tea)
+spanish (word for you)
+portguese (word for you)
+russian (word for you, kind of?)
+can't find it in Arabic, by romanising aljazeera
+'chinese (traditional)' (translate 'mention' from english)
+hindi (were)
