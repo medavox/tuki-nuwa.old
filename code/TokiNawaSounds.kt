@@ -35,8 +35,7 @@ fun main(args: Array<String>) {
         if ((command == "syllables" || command == "s")) {
             if("[1-3]".toRegex().matches(args[1])) {
                 //print syllables
-                val words: Set<String> =
-                when(args[1].toInt()) {
+                val words: Set<String> = when(args[1].toInt()) {
                     1 -> t.listSingleSyllableWords()
                     2 -> t.listDoubleSyllableWords()
                     3 -> t.listTripleSyllableWords()
@@ -90,10 +89,12 @@ fun main(args: Array<String>) {
                             t.listTripleSyllableWords()
                             ).toMutableSet()
                     val totalPossibleWords = allPossibleWords.size
+                    o.println("total words: $totalPossibleWords")
                     //String[] wordsFromDictionary = scrapeWordsFromDictionary(dictionaryFile);
                     for (word in dictContents) {
                         allPossibleWords -= word
                         for (similarWord in t.similarWordsTo(word)) {
+                            //o.println(similarWord)
                             allPossibleWords -= similarWord
                             totalSimilarWordsToDictionaryWords++
                         }
@@ -103,7 +104,6 @@ fun main(args: Array<String>) {
                         o.println(wurd);
                     }*/
 
-                    o.println("total words: $totalPossibleWords")
                     o.println("total unused: ${allPossibleWords.size}")
                     o.println("dictionary words: ${dictContents.size}")
                     o.println("total similar words to dictionary words: " +
@@ -172,6 +172,14 @@ class TokiNawaSounds {
         e.println("possible triple-syllable words: $tripleSyllableWords")
     }
 
+    private fun containsForbiddenSyllable(word: String): Boolean {
+        for (forbSyl in forbiddenSyllables) {
+            if (forbSyl in word) {
+                return true
+            }
+        }
+        return false
+    }
 
     /**list all possible single-syllable words (glue words)*/
     internal fun listSingleSyllableWords(): Set<String> {
@@ -187,14 +195,14 @@ class TokiNawaSounds {
             for(secondSyllable in syllables) {
                 val twoSyls = firstSyllable+secondSyllable
                 var shouldSkipThisOne = false
-                val simis = similarWordsTo(twoSyls)
+                /*val simis = similarWordsTo(twoSyls)
                 for(similar in simis) {
                     if(twos.contains(similar)) {
                         shouldSkipThisOne = true
                         break
                     }
-                }
-                if(shouldSkipThisOne) {
+                }*/
+                if(!shouldSkipThisOne) {
                     twos.add(twoSyls)
                 }
             }
@@ -212,13 +220,13 @@ class TokiNawaSounds {
                     val triSyls = firstSyllable+secondSyllable+thirdSyllable
                     var shouldSkipThisOne = false
 
-                    val simis = similarWordsTo(triSyls)
+                    /*val simis = similarWordsTo(triSyls)
                     for(similar in simis) {
                         if(tris.contains(similar)) {
                             shouldSkipThisOne = true
                             break
                         }
-                    }
+                    }*/
                     if(!shouldSkipThisOne) {
                         tris.add(triSyls)
                     }
@@ -258,7 +266,7 @@ class TokiNawaSounds {
                                 o.println("word \"$word\" contains a word-final N")
                                 complaints++
                             }
-                            else if (!("$vowels-").contains(word.elementAt(j + 1))) {
+                            else if (!("$vowels").contains(word.elementAt(j + 1))) {
                                 o.println("word \"$word\" contains an N before another consonant")
                                 complaints++
                             }
@@ -296,17 +304,20 @@ class TokiNawaSounds {
         }
         val similarWords = LinkedList<String>()
         for (i in 0 until word.length) {
-            /*
+
             //replace all vowels with all other vowels
             if (vowels.contains(word[i])) {//if this char is a vowel
                 for (vowel in vowels) {
                     if (vowel != word[i]) {
                         val replaced = word.toCharArray()
                         replaced[i] = vowel
-                        similarWords.add(String(replaced))
+                        val differentVowel = String(replaced)
+                        if(!containsForbiddenSyllable(differentVowel)){
+                            similarWords.add(differentVowel)
+                        }
                     }
                 }
-            }*/
+            }
 /*
             if(consonants.contains(word[i])) {
                 for (conso in consonants) {
@@ -337,7 +348,10 @@ class TokiNawaSounds {
                 //similarWords.add(replaceCharAt(word, i, 'p'))
             }
             if (word[i] == 'k') {//replace k with t
-                similarWords.add(replaceCharAt(word, i, 't'))
+                val wurd = replaceCharAt(word, i, 't')
+                if(!containsForbiddenSyllable(wurd)){
+                    similarWords.add(wurd)
+                }
                 //similarWords.add(replaceCharAt(word, i, 'p'))
             }
             if (word[i] == 'w') {//replace k with t
@@ -345,7 +359,10 @@ class TokiNawaSounds {
                 //similarWords.add(replaceCharAt(word, i, 'p'))
             }
             if (word[i] == 'l') {//replace k with t
-                similarWords.add(replaceCharAt(word, i, 'w'))
+                val wurd = replaceCharAt(word, i, 'w')
+                if(!containsForbiddenSyllable(wurd)){
+                    similarWords.add(wurd)
+                }
                 //similarWords.add(replaceCharAt(word, i, 'p'))
             }
 
@@ -379,7 +396,7 @@ class TokiNawaSounds {
                 continue
             }
             //o.println("line: "+byLine[i]);
-            val pat = Pattern.compile("([a-z]+-?) *\\|.*")
+            val pat = Pattern.compile("([a-z]+)[ \t]*\\|.*")
             val mat = pat.matcher(byLine[i])
             //o.println("group count: "+mat.groupCount());
             //o.println("group :"+mat.group());
@@ -397,7 +414,7 @@ class TokiNawaSounds {
             //o.println("it's empty")
             //word is complete
             //o.println("anagram:"+wordSoFar)
-            accum.add(wordSoFar+"-")
+            accum.add(wordSoFar)
             return accum
         }
         else {
