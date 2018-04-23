@@ -5,7 +5,7 @@ YOU 			| si
 SOMEONE			| jan
 PEOPLE			| jan
 SOMETHING~THING | iju
-BODY 			| sijawa
+BODY 			| kupa
 KIND
 PART
 THIS 			| ni
@@ -15,8 +15,8 @@ ONE 			| wan
 TWO 			| tu
 SOME
 ALL 			| ali
-MUCH~MANY
-LITTLE~FEW
+MUCH~MANY 		| muta
+LITTLE~FEW 		| piwa
 GOOD 			| puna
 BAD 			| iki
 BIG 			| satu
@@ -25,10 +25,10 @@ THINK
 KNOW 			| sawa
 WANT 			| wilu
 FEEL
-SEE 
+SEE 			| luku
 HEAR 			| kuti
 SAY 			
-WORDS
+WORDS 			| nimi
 TRUE
 DO 				| pali
 HAPPEN
@@ -40,27 +40,27 @@ BE (SOMEONE/SOMETHING)
 LIVE
 DIE 			| muli
 WHEN~TIME
-NOW
+NOW 			| ipuki ni (la)
 BEFORE
 AFTER
-A LONG TIME
-A SHORT TIME
+A LONG TIME 	| ipuki muta
+A SHORT TIME 	| ipuki lili
 FOR SOME TIME
 MOMENT
 WHERE~PLACE
-HERE
-ABOVE
-BELOW
-FAR
+HERE 			| lun ni
+ABOVE 			| siwi
+BELOW			| apa
+FAR 			| wika
 NEAR
 SIDE 			| puki
 INSIDE 			| ina
 TOUCH
 NOT 			| nata
-MAYBE
-CAN 			| kalu
-BECAUSE
-IF 				| 
-VERY
+MAYBE 			| kanu la
+CAN 			| kanu
+BECAUSE 		| tan
+IF 				| ... la
+VERY 			| (allegedly muta, but this is not good)
 MORE
 LIKE~AS~WAY
