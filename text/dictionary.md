@@ -1,5 +1,6 @@
 Word | Noun | Verb Transitive | Verb Intransitive | Modifier |  Other (interj, conj, prep)
 -----|------|-----------------|-------------------|----------|----------------------------
+akawi | right, the right | | | right (spatial) |
 akisi | reptile, amphibian, scaly/slimy animal/creature | | | akesi-looking, akesi-like |
 akula | money, material wealth, currency, dollar, capital | | | |
 ali | everything, life, the universe | | | all, every, complete, whole |
@@ -19,11 +20,12 @@ isun | shop, store, place of commerce, trade | buy sth, trade, barter | shop | |
 ipuku | time, period of time, moment, duration, situation, occasion | | | |
 jaki | dirt, pollution, garbage, filth | pollute, dirty | to get dirty | dirty, gross, filthy | ew! yuck!
 jan | person, people, human, being, somebody, anybody | personify, humanize, personalize | | human, somebody's, personal, of people |
+jasawi | left, the left | | | left (spatial) |
 jawa | yellowness, the colour yellow | to make sth yellow | | yellow, light green |
 kahin | hard thing, rock, stone, metal, mineral, clay | | | hard, solid, stone-like, made of stone or metal (kiwen kasi = wood) |
 kala | fish, sub-aquatic creature | | | |
 kalama | sound, noise, voice | sound, ring, play (an instrument) | make noise | noisy, loud |
-kalu | possibility, ability, power to do things, permission | make possible, enable, allow, permit | can, is able to, is allowed to, may, is possible | possible, potential | (conj) it is possible that
+kanu | possibility, ability, power to do things, permission | make possible, enable, allow, permit | can, is able to, is allowed to, may, is possible | possible, potential | (conj) it is possible that
 kama | event, happening, chance, arrival, beginning | bring about, summon | come, become, arrive, happen, pursue actions to arrive to (a certain state), manage to, start to | coming, future |
 kajasi | | | | brown/grey: colour of slate, mud, metal
 kasi | plant, leaf, herb, tree | to green sth (esp. an area) | to grow | plant-based |
@@ -36,7 +38,7 @@ kulapu | group, community, society, company, people | to group sth/sb together |
 kuli | colour, paint | colour, paint | | colourful | -coloured (comparison with sth)
 kapi | head, mind | lead, control, rule, steer | | main, leading, in charge |
 kutu | ear | listen, hear | listen to sb, hear sth | auditory, hearing |
-lasu | grueness, the colour grue | to make sth grue-coloured | | blue-green |
+kilasu | grueness, the colour grue | to make sth grue-coloured | | blue-green |
 lawan | hand, arm, branch | to touch with hand | | five (5) |
 lili | | reduce, shorten, shrink, lessen | | small, little, young, a bit, short, few, less |
 lina | long, very thin, floppy thing, e.g. string, rope, hair, thread, cord, chain | to lengthen sth | to get longer, lengthen, extrude | long |
@@ -72,6 +74,7 @@ pasila | simplicity | to simplify sth, to lighten (reduce the weight) of sth | |
 pili | feelings, emotion, heart | feel, think, sense, touch | feel | |
 pini | end, tip | finish, close, end, turn off | | completed, finished, past, done, ago |
 pipi | bug, insect, spider | | | |
+piwa | | | | | a few, a little
 puki | side, hip, next to | | | neighbouring | prep in the accompaniment of, with
 puna | good, positivity | improve, fix, repair, make good | | good, positive, nice, correct, right | great! good! thanks! OK! Cool! yay!
 pusiki | importance | to treat sth as important | | important |
@@ -117,6 +120,7 @@ Word | Noun | Adjective | Other
 -----|------|-----------|------
 a   | | | also, too, even, indeed (emphasizes the word(s) before it |
 ha  | | | ah, ha, uh, oh, ooh, aw, well
+hihu | | | (interj) hey! (calling sb's attention)
 i 	| | | marks start of object noun-phrase (introduces a direct object)
 ju  | | | or
 ka 	| | | and
@@ -128,5 +132,5 @@ mu  | | | (interj) woof! meow! moo! etc. (mammal/bird noises)
 ni  | | | this, that
 pi  | | | (sep) of, belonging to
 si  | | | you, your
-u   | | | addressive marker: <jan Atan u> = "hey, adam", "@adam"; (sep) U Imperative: <u namu!> = "eat!"; (interj) hey! (calling somebody's attention)
+u   | | | addressive marker: <jan Atan u> = "hey, adam", "@adam"; (sep) U Imperative: <u namu!> = "eat!"
 wa  | | | context-phrase separator, topicaliser
