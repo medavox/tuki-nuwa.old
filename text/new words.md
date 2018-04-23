@@ -1,4 +1,3 @@
-
 New Words
 =========
 
@@ -9,7 +8,6 @@ New Words
     - least?)
 
 * how about a word for amount/intensity?
-* spatial words for left, right
 * words for frequency -- again, never, often, sometimes, rarely
     - found: tenpo mute=many times, i.e. often
 * shape,
@@ -24,14 +22,16 @@ metal
 * soft, fluffy, gentle, gradual; (v) soften
 * help
 * free (costless/libre)
-* work, housework, chores,
+* work, housework, chores
 * together
-* keep, stop, again
+* keep
+* stop
+* again
 * stranger
 * sharp (as in knife)/spicy/sour/tangy
 * sorry
 * thank you
-* fast, quickly, speed up, 
+* fast, quickly, speed up
 * danger
 * smell
     - found: kon
@@ -40,9 +40,24 @@ metal
 * artificial, man-made
 * natural
 * uncooked
-    - used to part of word for 'cold',
+    - used to be part of word for 'cold'
     but what about cooked food that's gone cold??
 * sticky, adhesive, to stick
+* hair, hairy, fur, furry
+* child?
+* young, youth
+* baby
+* tree, lamp-post, telegraph pole, flagpole, electrical pylon etc; 
+    any tall freestanding structure, natural or artifical, which humans can't easily stand on
+* pretty, good-looking, beautiful; beauty
+* safe, safety, protect
+* fictional, imaginary; story
+
+Added
+=====
+
+* spatial words for left, right
+
 
 
 Reinstated Words
