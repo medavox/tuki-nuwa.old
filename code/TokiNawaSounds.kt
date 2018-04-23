@@ -260,13 +260,14 @@ class TokiNawaSounds {
             if (!allowSyllableFinalN) {
                 if (word.replace("n", "").length < word.length) {
                     //o.println("i:"+i);
-                    for((j, c) in word.withIndex()) {
-                        if(c == 'n') {
-                            if(j == (word.length-1)) {
+                    for(j in word.indices) {
+                        if(word[j] == 'n') {
+                            /*if(j == (word.length-1)) {
                                 o.println("word \"$word\" contains a word-final N")
                                 complaints++
                             }
-                            else if (!("$vowels").contains(word.elementAt(j + 1))) {
+                            else*/ if (j != (word.length-1)
+                                    && consonants.contains(word[j + 1])) {
                                 o.println("word \"$word\" contains an N before another consonant")
                                 complaints++
                             }
@@ -305,18 +306,21 @@ class TokiNawaSounds {
         val similarWords = LinkedList<String>()
         for (i in 0 until word.length) {
 
-            //replace all vowels with all other vowels
-            if (vowels.contains(word[i])) {//if this char is a vowel
-                for (vowel in vowels) {
-                    if (vowel != word[i]) {
-                        val replaced = word.toCharArray()
-                        replaced[i] = vowel
-                        val differentVowel = String(replaced)
-                        if(!containsForbiddenSyllable(differentVowel)){
-                            similarWords.add(differentVowel)
-                        }
-                    }
-                }
+            //replace u with the other vowels, and the other vowels for u
+            if (word[i] == 'a') {//replace m with n
+                similarWords.add(replaceCharAt(word, i, 'u'))
+            }
+
+            if (word[i] == 'u') {//replace m with n
+                similarWords.add(replaceCharAt(word, i, 'a'))
+            }
+
+            if (word[i] == 'u') {//replace m with n
+                similarWords.add(replaceCharAt(word, i, 'i'))
+            }
+
+            if (word[i] == 'i') {//replace m with n
+                similarWords.add(replaceCharAt(word, i, 'u'))
             }
 /*
             if(consonants.contains(word[i])) {
