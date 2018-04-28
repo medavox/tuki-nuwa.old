@@ -5,7 +5,7 @@ akisi | reptile, amphibian, scaly/slimy animal/creature | | | akesi-looking, ake
 akula | money, material wealth, currency, dollar, capital | | | |
 ali | everything, life, the universe | | | all, every, complete, whole |
 amu | love | to love (a person) | | love |
-apa | bottom, lower part, under, below, floor, beneath | lower, sink | | low, lower, bottom, down |
+apa | bottom, lower part, under, below, floor, beneath | lower, sink, drop | lower, sink, drop sth | low, lower, bottom, down |
 atani | difference | change, alter, modify | | different | otherwise, or else
 awasa | Hunting, gathering, hunter-gathering | to gather; to collect food, resources or material needed for daily life and survival; to gather, harvest | to hunt, to pursue and kill animals to use as food and clothing; to hunt | |
 awin | | stay, wait, remain | keep | remaining, stationary, permanent, sedentary
@@ -53,17 +53,17 @@ mama | parent, mother, father | to parent/raise/nuture sth | | of the parent, pa
 misi | man, male | | | male, masculine, manly, of manhood |
 miwi | woman, female, girl | | | female, feminine, womanly, of womanhood |
 muli | death | kill | die, be dead | dead, deadly, fatal |
-muna | moon | | | lunar |
+muna | moon, month | | | lunar |
 musi | fun, playing, game, recreation, art, entertainment | amuse, entertain | play, have fun | artful, fun, recreational | (interj) I'm having fun, Weeee!
 muta | amount, quantity, number-of | make many or much, increase quantity/number of sth | | many, very, much, several, a lot, abundant, numerous, more |
 nami | food, meal | vt eat, drink, swallow, ingest, consume | | edible, potable |
 nasa | | to confuse sth/sb, make weird | | silly, foolish, drunk, strange, stupid, weird |
 nasin | way, manner, custom, road, path, doctrine, system, method | | | |
-nata | nothing, negation, zero; the state, situation or general phenomenon of being ala; absence, emptiness | | | no, not, none, un-, no quantity of, the opposite of | no !
+nata | nothing, negation, zero; the state, situation or general phenomenon of being nata; absence, emptiness | | | no, not, none, un-, no quantity of, the opposite of | no !
 nimi | word, name | to name sth | to be called, eg mi nimi jan Atan | |
 nina | bump, nose, hill, mountain, button | | | |
 nuka | leg, foot | to kick | | |
-numa | number | to count something | | numerical  | (ordinal numbers
+numa | number | to count something | | numerical  | (ordinal numbers)
 nuwa | news, newness, novelty | renew, renovate, freshen | | new, fresh, another, more |
 pakala | blunder, accident, mistake, destruction, damage, breaking | screw up, botch, ruin, break, hurt, injure, damage, spoil, ruin | screw up, fall apart, break | broken | damn !
 paku | container, box, bowl, cup, glass | to contain sth | | |
@@ -90,16 +90,16 @@ simi | | | | | (oth) what, which, wh- (question word)
 sipin | front, chest, torso, face, wall | | | |
 susu | air, wind, smell | to smell sth | to have a smell (good or bad) | air-like, ethereal, gaseous |
 siwi | high, up, above, top, over, | raise up | | elevated, religious, formal (prep) on sth |
-sunu | sun, light (as in bright) | | | having the qualities or characteristics of suno, shiny |
+sunu | sun, light (as in bright) | | | having the qualities or characteristics of sunu |
 supa | horizontal or supporting surface or platform, e.g furniture, table, chair, pillow, floor | | | |
 suwi | sweets, sweet food | sweeten | | sweet, sugary |
-taku | tool, device, machine, thing, used for a specific purpose | | | |
 tan | origin, cause | | | | prep from, by, because of, since
 tasani | picture, image, drawing, writing | draw, write | | |
 tasu | | | | only, sole | (conj) but
 tawa | movement, transportation | move, displace sth | go to, walk, travel, move | moving, mobile | (prep) to, in order to, towards, for, until
 tu | duo, pair | double, separate/split/cut/divide in two | | two |
 tuki | language, talking, speech, communication | say, speak | talk, chat, communicate | talking, verbal | (interj) hello! hi!
+tulu | tool, device, machine, thing, used for a specific purpose | | | |
 tumu | indoor constructed space, e.g. house, home, room, building, shelter | | | mod urban, domestic, household |
 uhahi | sex, sexuality | have sex with | have sex | erotic, sexual |
 upaka | weight, difficulty | | | heavy, difficult |
@@ -118,18 +118,19 @@ win | clothing, cloth, fabric | to clothe sb | clothe, dress, decorate | |
 
 Word | Noun | Adjective | Other
 -----|------|-----------|------
-a   | | | also, too, even, indeed (emphasizes the word(s) before it |
+a   | | | and
 ha  | | | ah, ha, uh, oh, ooh, aw, well
-hihu | | | (interj) hey! (calling sb's attention)
+hi  | | | (interj) hey! (calling sb's attention)
 i 	| | | marks start of object noun-phrase (introduces a direct object)
 ju  | | | or
-ka 	| | | and
+ka  | | | also, too, even, indeed (emphasizes the word(s) before it
 ki  | | | question marker word, "is it the case that/is it that/est-ce que"; comes before statement.
-li 	| | | separator "between any subject except mi and sina and its verb; also used to introduce a new verb for the same subject"
+li 	| | | separator "between any subject except mi and si and its verb; also used to introduce a new verb for the same subject"
 lu  | she, he, it, they | her, his, its, their |
 mi  | i/we | my/our |
 mu  | | | (interj) woof! meow! moo! etc. (mammal/bird noises)
 ni  | | | this, that
+pa  | | | previous word is a noun; "-ness"
 pi  | | | (sep) of, belonging to
 si  | | | you, your
 u   | | | addressive marker: <jan Atan u> = "hey, adam", "@adam"; (sep) U Imperative: <u namu!> = "eat!"
