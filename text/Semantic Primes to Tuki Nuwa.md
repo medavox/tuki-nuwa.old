@@ -27,7 +27,7 @@ WANT 			| wilu
 FEEL
 SEE 			| luku
 HEAR 			| kuti
-SAY 			
+SAY 			| tuki
 WORDS 			| nimi
 TRUE
 DO 				| pali
@@ -55,12 +55,12 @@ FAR 			| wika
 NEAR
 SIDE 			| puki
 INSIDE 			| ina
-TOUCH
+TOUCH 			| (allegedly pili, but this is too confusing)
 NOT 			| nata
 MAYBE 			| kanu la
 CAN 			| kanu
 BECAUSE 		| tan
 IF 				| ... la
-VERY 			| (allegedly muta, but this is not good)
+VERY 			| (allegedly muta, but this is too confusing)
 MORE
 LIKE~AS~WAY
