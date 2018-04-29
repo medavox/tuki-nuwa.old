@@ -1,7 +1,32 @@
 Excess meanings
 ------
 
-from Toki Pona's dictionary
+These meanings, which have been removed from words which still exist,
+may need re-adding back into the language with new, separate words.
+
+from Toki Pona's dictionary:
+
+
+muta 
+    more
+
+iki
+    complex/needlessly complicated
+
+siwi
+    divine
+
+nasa
+    crazy
+
+hilu (formerly lete)
+    uncooked, raw
+
+sunu
+    shiny
+
+pini
+    ago
 
 pona
     describer beneficial
@@ -31,8 +56,8 @@ sitelen
 
 
 telo
-    noun a flowing wet substance; liquid, fluid, water
-    noun beverage, a liquid for drinking; beverage, drink, water, juice
+    noun a flowing wet substance
+    noun beverage, a liquid for drinking; beverage, drink, juice
     noun a liquid for washing; water
     noun body fluid, a liquid that comes out of the body; blood, milk, saliva, semen, sweat, tears, urine
     noun body of water, an area covered with water; bay, strait, sea, lake, river, stream
