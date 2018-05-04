@@ -1,6 +1,6 @@
 Word | Noun | Verb | Modifier |  Other (interj, conj, prep)
 -----|------|------|----------|----------------------------
-akawi | right, the right | | right (spatial) |
+akawi | right (NOT correctness or political) | | right (spatial) |
 akisi | reptile, amphibian, scaly/slimy animal/creature | | akisi-looking, akisi-like |
 akula | money, material wealth, currency, dollar, capital | | |
 ali | everything, life, the universe | | all, every, complete, whole |
@@ -20,9 +20,9 @@ isun | shop, store, place of commerce, trade | buy sth, trade, barter; shop | |
 ipuku | time, period of time, moment, duration, situation, occasion | | |
 jaki | dirt, pollution, garbage, filth | pollute, dirty sth; to get dirty | dirty, gross, filthy | ew! yuck!
 jan | person, people, human, being, somebody, anybody | personify, humanize, personalize | human, somebody's, personal, of people |
-jasawi | left, the left | | left (spatial) |
+jasawi | left (NOT politically or 'remaining') | | left (spatial) |
 jawa | yellowness, the colour yellow | to make sth yellow; to be yellow | yellow, light green |
-kahin | hard thing, rock, stone, metal, mineral, clay | | hard, solid, stone-like, made of stone or metal (kiwen kasi = wood) |
+kahin | hard thing, rock, stone, metal, mineral, clay | | hard, solid, stone-like, made of stone or metal (kahin kasi = wood) |
 kala | fish, sub-aquatic creature | | |
 kalama | sound, noise, voice | sound, ring, play (an instrument); make noise | noisy, loud |
 kanu | possibility, ability, power to do things, permission | make possible, enable, allow, permit; can, is able to, is allowed to, may, is possible | possible, potential | (conj) it is possible that
@@ -41,7 +41,7 @@ kutu | ear | listen, hear listen to sb, hear sth | auditory, hearing |
 kilasu | grueness, the colour grue | to make sth grue-coloured | blue-green |
 lawan | hand, arm, branch | to touch with hand | five (5) |
 lili | | reduce, shorten sth; shrink, lessen | small, little, young, a bit, short, few, less |
-lina | long, very thin, floppy thing, e.g. string, rope, hair, thread, cord, chain | to lengthen sth; to get longer, lengthen, extrude | long |
+lina | long, very thin, floppy thing, e.g. string, rope, hair, thread, cord, chain, wire | to lengthen sth; to get longer, lengthen, extrude | long |
 lipu | flat and bendable thing, e.g. paper, card, ticket. Also book, page (of book, or web page) | | |
 luhi | | | red |
 luku | eye | see, look at, watch, read sth/sb; (imperative) look, watch out, pay attention | visual(ly) |
@@ -116,6 +116,9 @@ wika | absence, distance | throw away, remove, get rid of | far, distant, away, 
 wilu | desire, need, will | to want, need, wish, have to, must, will | necessary |
 win | clothing, cloth, fabric | to clothe sb; clothe, dress, decorate | |
 
+Glue Words
+----------
+
 Word | Meaning
 -----|--------
 a    | and
@@ -124,13 +127,12 @@ hi   | (interj) hey! (calling sb's attention)
 i 	 | marks start of object noun-phrase (introduces a direct object)
 ju   | or
 ka   | also, too, even, indeed (emphasizes the word(s) before it
-ki   | question marker word, "is it the case that/is it that/est-ce que"; comes before statement.
+ki   | question-marker: "is it the case that/is it that/est-ce que"; comes before statement.
 li 	 | separator "between any subject except mi and si and its verb; also used to introduce a new verb for the same subject"
 lu   | she, he, it, they; her, his, its, their
 mi   | i/we; my/our
 mu   | (interj) woof! meow! moo! etc. (mammal/bird noises)
 ni   | this, that
-pa   | previous word is a noun; "-ness"
 pi   | (sep) of, belonging to
 si   | you, your
 u    | addressive marker: <jan Atan u> = "hey, adam", "@adam"; (sep) U Imperative: <u namu!> = "eat!"
