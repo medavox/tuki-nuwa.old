@@ -26,14 +26,17 @@ Status:Reason | Noun | Verb | Adjective | Other
 ++ | | adj->v: to have the property of the following adjectival phrase; to be <adj phrase> (probably this is a copula) | |
 ++ | | adj->v: to gain the property of the following adjectival phrase (by oneself); to become <adj phrase>, to get <adj phrase> | |
 ++:pa | | | previous word is a noun; "-ness"
-+ | | | |  previous word is an adjective/adverb; -y, -ly
-++ | active marker; the preceding verb-phrase is being done BY the subject, possibly to some(thing/one) else
-++ | passive marker; the preceding verb-phrase is being done TO the subject, possibly by some(thing/one) else
-++ | LIKE~AS~WAY, similar to, in a similar manner to
-+ | opposite of <verb> (this is different from nata/not ;)
++  | | | |  previous word is an adjective/adverb; -y, -ly
+++ | | | | active marker; the preceding verb-phrase is being done BY the subject, possibly to some(thing/one) else
+++ | | | | passive marker; the preceding verb-phrase is being done TO the subject, possibly by some(thing/one) else
+++ | | | | LIKE~AS~WAY, similar to, in a similar manner to
++  | | | | opposite of <verb> (this is different from nata/not ;)
 
 Status:Reason | Noun | Verb | Adjective | Other
 --------------|------|------|-----------|------
+++ | KIND, type | | |
+++ | PART | | |
+++ | truth | | TRUE |
 ++ | pain | to be hurting, to hurt sb/sth | painful |
 ++ | speed |  speed up, accelerate (speeden) | fast, quickly | quick!
 ++ | knife, blade, sharp (as in cut) thing | | sharp, spicy, tangy, sour |
@@ -66,13 +69,10 @@ Status:Reason | Noun | Verb | Adjective | Other
 +:ajuta | help | help | helpful | 
 + | free (costless/libre)
 ? | work, housework, chores | | |
-++ | KIND, type | | |
-++ | PART | | |
 + | OTHER~ELSE
 + | SOME
 ?: similarity to pili | thought(s) | THINK | | |
 -: what's the difference from touch and think?? | | FEEL | |
-++ | truth | | TRUE |
 + | HAPPEN
 + | BE (SOMEWHERE)
 + | THERE IS
