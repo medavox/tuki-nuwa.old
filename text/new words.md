@@ -1,6 +1,12 @@
 Unnamed Candidate Words
 -----------------------
 
+The strategy here is to freely add potential words for concepts I know Tuki Nuwa doesn't have word for,
+then later delete the word if I can create a decent equivalent phrase which means the same thing.
+
+THe hardest part of creating a new word is finding a good-sounding lexeme for it,
+so that can be deferred until I know the word is definitely being added.
+
 ### Key
 
 symbol | meaning
@@ -15,7 +21,7 @@ sth    | something
 sb     | someone/somebody
 
 Status:Reason | Noun | Verb | Adjective | Other
--------|------|------|----------|------
+--------------|------|------|-----------|------
 ++ | | adj->v: to make sth come to have the property of the following adj phrase; to <adjective phrase>ify sth | |
 ++ | | adj->v: to have the property of the following adjectival phrase; to be <adj phrase> (probably this is a copula) | |
 ++ | | adj->v: to gain the property of the following adjectival phrase (by oneself); to become <adj phrase>, to get <adj phrase> | |
@@ -24,9 +30,10 @@ Status:Reason | Noun | Verb | Adjective | Other
 ++ | active marker; the preceding verb-phrase is being done BY the subject, possibly to some(thing/one) else
 ++ | passive marker; the preceding verb-phrase is being done TO the subject, possibly by some(thing/one) else
 ++ | LIKE~AS~WAY, similar to, in a similar manner to
-    
++ | opposite of <verb> (this is different from nata/not ;)
+
 Status:Reason | Noun | Verb | Adjective | Other
--------|------|------|----------|------
+--------------|------|------|-----------|------
 ++ | pain | to be hurting, to hurt sb/sth | painful |
 ++ | speed |  speed up, accelerate (speeden) | fast, quickly | quick!
 ++ | knife, blade, sharp (as in cut) thing | | sharp, spicy, tangy, sour |
@@ -38,14 +45,12 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | fear | | scared, scary
 + | angry/aggressive
 + | youth | | young |
-+ | | | artificial |
++ | | | artificial, man-made |
 + | nature | | natural |
 + | | soften | soft, fluffy, gentle, gradual | 
-++:mulu | | | more (greater intensity) | 
 + | | | most |
 + | | | least |
 ? | | | | OK
-? | | | less |
 + | | | | thank you
 + | apology | to be sorry, to apologise to sb | sorry, apologetic | sorry
 + | adhesion | to stick to sth | sticky, adhesive |
@@ -56,7 +61,6 @@ Status:Reason | Noun | Verb | Adjective | Other
 ?:overlap with susu | smell | to smell
 ? nami susu | breath | breathe | |
 ?: sama kulapu | togetherness | | together | 
-?: *kama nata <verb>* come to not <verb> | | stop | stopped, paused |
 ?: ipuki numa tu | | | again |
 + | keep/continue
 +:ajuta | help | help | helpful | 
@@ -68,7 +72,7 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | SOME
 ?: similarity to pili | thought(s) | THINK | | |
 -: what's the difference from touch and think?? | | FEEL | |
-++ |truth | | TRUE |
+++ | truth | | TRUE |
 + | HAPPEN
 + | BE (SOMEWHERE)
 + | THERE IS
@@ -84,15 +88,12 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | NEAR
 + | TOUCH
 + | VERY
-+ | MORE (greater quantity)
 + | free (costless/libre)
 + | work, housework, chores
 + | together
 + | keep
 ?: jan sawa nata | stranger
 + | uncooked (used to be part of word for 'cold' -- but what about cooked food that's gone cold?)
-?: jan <young> | child
-?: jan pi <young> <completely> | baby
 + | safe, safety, protect
 + | strong, intensity, strength (both as in physical power, and eg a flavour, or an effect)
 + | fictional, imaginary; story
@@ -105,13 +106,24 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | emptiness | to empty sth, to be empty | empty
 + | memory | remember | |
 + | dryness | to dry (sth?) | dry | 
-+ | too (french 'trop'), as in 'too much', 'too heavy' NOT 'me too'
++ | ill, sick, unwell, diseased, injured, broken
++ | injured
++ | ordered, organised, neat
++ | permanent, for good
++ | temporary, for now
 
-* proper comparatives:
-    - most? 
-    - least?
-    - completely
-    - not at all?
+proper comparatives
+------
+
+Status:Reason | Noun | Verb | Adjective | Other
+--------------|------|------|-----------|------
++ | too (french 'trop'), as in 'too much', 'too heavy' NOT 'me too'
+? | most
+++ | | | more (greater intensity) | 
+- | | | less |
+? | least
++ | completely, fully
+?: nata | not at all
 
 * how about a word for amount/intensity?
 * words for frequency -- again,
@@ -120,6 +132,7 @@ Status:Reason | Noun | Verb | Adjective | Other
         sometimes,
         rarely
     - found: ipuki muta=many times, i.e. often
+
 shape:
     flat,
     straight,
@@ -129,6 +142,7 @@ shape:
     longthin
     - found:
         - 'kalisa': stick, rod
+
 surface:
     rough,
     smooth,
@@ -142,6 +156,11 @@ how to say undo?
 
 Probably not adding
 ===================
+Reason for not adding/equivalent phrase | noun | verb | adjective | other
+----------------------------------------|------|------|-----------|-------
+?: jan <young> | child
+?: jan pi <young> <completely> | baby
+?: *kama nata <verb>* come to not <verb> ; pini| | stop | stopped, paused |
 
 Added
 =====
