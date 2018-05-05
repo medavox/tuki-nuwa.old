@@ -4,6 +4,7 @@ import java.util.*
 
 import java.io.*
 import java.util.regex.Pattern
+import kotlin.collections.HashMap
 
 private val e = System.err
 private val o = System.out
@@ -70,13 +71,39 @@ fun main(args: Array<String>) {
             //the other two commands require a second argument of a dictionary file,
             //so parse it as that
             //args[0].equals("lint")
-            val dict: File = File(args[1])
+            val dict = File(args[1])
             if(!dict.exists() || !dict.isFile || !dict.canRead() || dict.length() < 5) {
                 e.println("invalid file specified.")
             }else {
-                val dictContents = t.scrapeWordsFromDictionary(dict)
+                val dictionary = t.scrapeWordsFromDictionary(dict)
                 if(command == "lint" || command == "l") {
-                    t.lintTheDictionary(dictContents)
+                    t.lintTheDictionary(dictionary)
+                }
+                else if(command == "lexical-frequency" || command == "f") {
+                    val firstLetterFreqs: MutableMap<Char, Int> = HashMap()
+                    val letterFreqs: MutableMap<Char, Int> = HashMap()
+                    for(word in dictionary) {
+                        val c = word[0]
+                        firstLetterFreqs[c] = firstLetterFreqs[c]?.plus(1) ?: 1
+
+                        for(letter in word) {
+                            letterFreqs[letter] = letterFreqs[letter]?.plus(1) ?: 1
+                        }
+                    }
+
+
+                    o.println("first-letter frequencies:")
+                    for((key, value) in firstLetterFreqs.toList().sortedBy {(_, v) -> v}.toMap()) {
+                        o.println("$key: $value")
+                    }
+
+
+
+                    o.println("all-letter frequencies:")
+                    for((key, value) in letterFreqs.toList().sortedBy {(_, v) -> v}.toMap()) {
+                        o.println("$key: $value")
+                    }
+
                 }
                 else if(command == "unused" || command == "u") {
                     /**list unused potential words which aren't too similar to existing words */
@@ -91,7 +118,7 @@ fun main(args: Array<String>) {
                     val totalPossibleWords = allPossibleWords.size
                     o.println("total words: $totalPossibleWords")
                     //String[] wordsFromDictionary = scrapeWordsFromDictionary(dictionaryFile);
-                    for (word in dictContents) {
+                    for (word in dictionary) {
                         allPossibleWords -= word
                         for (similarWord in t.similarWordsTo(word)) {
                             //o.println(similarWord)
@@ -105,7 +132,7 @@ fun main(args: Array<String>) {
                     }*/
 
                     o.println("total unused: ${allPossibleWords.size}")
-                    o.println("dictionary words: ${dictContents.size}")
+                    o.println("dictionary words: ${dictionary.size}")
                     o.println("total similar words to dictionary words: " +
                             "$totalSimilarWordsToDictionaryWords")
 
@@ -129,10 +156,10 @@ fun main(args: Array<String>) {
 
 class TokiNawaSounds {
 
-    private val consonants = "klmpshjtwn"
+    private val consonants = "hjklmnpstw"
     private val vowels = "aiu"
 
-    private val allowSyllableFinalN = false
+    private val allowSyllableFinalN = true
     private val syllables = TreeSet<String>()
     private val wordInitialOnlySyllables = TreeSet<String>()
     private val wordInitialSyllables = TreeSet<String>()
@@ -275,6 +302,15 @@ class TokiNawaSounds {
                     }
                 }
             }
+
+            //check if this word contains another dictionary word
+            for(otherWord in dict) {
+                if(word.contains(otherWord) && otherWord.length > 2 && !word.equals(otherWord)) {
+                    o.println("word \"$word\" contains other dictionary word \"$otherWord\"")
+                    complaints++
+                }
+            }
+
             //check for exact-duplicate words
             if (dupCheck.contains(word)) {
                 o.println("word \"$word\" already exists")
@@ -307,19 +343,16 @@ class TokiNawaSounds {
         for (i in 0 until word.length) {
 
             //replace u with the other vowels, and the other vowels for u
-            if (word[i] == 'a') {//replace m with n
+            if (word[i] == 'a') {//replace a with u
                 similarWords.add(replaceCharAt(word, i, 'u'))
             }
 
-            if (word[i] == 'u') {//replace m with n
+            if (word[i] == 'u') {//replace u with a and i
                 similarWords.add(replaceCharAt(word, i, 'a'))
-            }
-
-            if (word[i] == 'u') {//replace m with n
                 similarWords.add(replaceCharAt(word, i, 'i'))
             }
 
-            if (word[i] == 'i') {//replace m with n
+            if (word[i] == 'i') {//replace i with u
                 similarWords.add(replaceCharAt(word, i, 'u'))
             }
 /*
@@ -396,7 +429,8 @@ class TokiNawaSounds {
         val byLine = wholeDict.split("\n".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
         val words = mutableListOf<String>()
         for (i in 2 until byLine.size) {//start after the table heading
-            if (byLine[i].count {it == '|'} != 5) {//if there aren't 5 pipes on the line, it's not a table row
+            val pipes = byLine[i].count {it == '|'}
+            if (pipes != 4 && pipes != 1) {//if there aren't 4 pipes on the line, it's not a table row
                 continue
             }
             //o.println("line: "+byLine[i]);
