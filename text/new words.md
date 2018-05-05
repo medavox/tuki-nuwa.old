@@ -111,6 +111,61 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | ordered, organised, neat
 + | permanent, for good
 + | temporary, for now
++ | nose | 
++ | face | 
++ | teeth | 
++ | fingers | 
++ | breast | nina kupa?
++ | bones | 
++ | blood | 
++ | long | lina
++ | flat | 
++ | thin | 
++ | hard | kahin
++ | soft | 
++ | sharp | 
++ | smooth | 
++ | be on something | 
++ | at the top | 
++ | at the bottom | 
++ | in the middle | 
++ | in front of | 
++ | around | 
++ | sky | 
++ | the Earth | 
++ | stars | 
++ | ground | apa, supa
++ | during the day | ipuki sunu wa
++ | at night | ipuki mahi wa
++ | day | ipuki sunu
++ | creature | 
++ | grow | kasi
++ | egg | 
++ | tail | 
++ | wings | 
++ | feathers | 
++ | children | 
++ | men | misi
++ | women | miwi
++ | be born | 
++ | mother | mama miwi
++ | father | mama misi
++ | wife | 
++ | husband
++ | wood | kahin kasi?
++ | stone | kahin lula?
++ | know (someone) | 
++ | be called | nimi
++ | hold | 
++ | make | pali
++ | breathe | 
++ | sleep | lapi
++ | sit | 
++ | lie | 
++ | stand | 
++ | play | 
++ | laugh | 
++ | sing | 
 
 proper comparatives
 ------
