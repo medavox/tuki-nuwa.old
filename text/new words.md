@@ -181,6 +181,134 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | completely, fully
 ?: nata | not at all
 
+Non-Universal but Useful Words
+------------------------------
+
+Status:Reason | Noun | Verb | Adjective | Other
+--------------|------|------|-----------|------
++ | heart | 
++ | river | wata tawa
++ | mountain | 
++ | desert | 
++ | sea | wata satu satu
++ | island | 
++ | jungle / forest | kasi satu muta sasa
++ | rain | wata apa
++ | wind | susu tawa
++ | snow | wata hilu hilu <soft>
++ | ice | wata hilu hilu kahin
++ | air | susu
++ | flood | 
++ | storm | 
++ | drought | 
++ | earthquake |
++ | east | 
++ | west | 
++ | north | 
++ | south
++ | bird | wasu
++ | fish | kala
++ | tree | kasi satu
++ | seeds | 
++ | grass | 
++ | mosquito | pipi
++ | flies | 
++ | snake | akisi sama lina
++ | dog | 
++ | cat | 
++ | horse | 
++ | cow | 
++ | pig | 
++ | camel | 
++ | buffalo | 
++ | moose | 
++ | family
++ | month | 
++ | week | 
++ | clock | 
++ | hour | 
++ | second | 
++ | house | 
++ | village | 
++ | city | 
++ | school | 
++ | hospital
++ | teacher | 
++ | doctor | 
++ | nurse | 
++ | soldier
++ | country | 
++ | government | 
++ | capital | 
++ | border | 
++ | flag | 
++ | passport | 
++ | vote | 
++ | science | 
++ | the law | 
++ | health | 
++ | education | 
++ | sport | 
++ | meat | 
++ | staple carb (rice wheat corn yams etc) | 
++ | flour | 
++ | salt | 
++ | sugar | 
++ | sweet | suwi
++ | knife | 
++ | key | 
++ | gun | 
++ | bomb | 
++ | medicines | 
++ | paper | 
++ | iron | 
++ | metal | 
++ | glass | 
++ | leather | 
++ | wool | 
++ | cloth |
++ | thread | 
++ | gold | 
++ | rubber | 
++ | plastic | 
++ | oil | 
++ | coal | 
++ | petrol
++ | car | 
++ | bicycle | 
++ | plane | 
++ | boat | 
++ | train | 
++ | road | 
++ | wheel | 
++ | wire | 
++ | engine |
++ | pipe | 
++ | telephone | 
++ | television | 
++ | radio | 
++ | phone | 
++ | read | 
++ | write | 
++ | book | 
++ | photo | 
++ | newspaper | 
++ | film | 
++ | money | 
++ | God | 
++ | war | utala satu
++ | poison | 
++ | music | kalama musi 
++ | look at | 
++ | go / went | 
++ | eat | moku
++ | drink | moku i wata
++ | take (someone somewhere) | 
++ | burn | 
++ | buy / pay | isun
++ | learn |
++ | clean | pali jaki nata
+
 * how about a word for amount/intensity?
 * words for frequency -- again,
         never,
