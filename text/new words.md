@@ -1,5 +1,5 @@
 Unnamed Candidate Words
------------------------
+=======================
 
 The strategy here is to freely add potential words for concepts I know Tuki Nuwa doesn't have word for,
 then later delete the word if I can create a decent equivalent phrase which means the same thing.
@@ -20,8 +20,11 @@ adj    | adjective: describing word
 sth    | something
 sb     | someone/somebody
 
-Status:Reason | Noun | Verb | Adjective | Other
---------------|------|------|-----------|------
+Grammar Words
+-------------
+
+Status:Notes | Noun | Verb | Adjective | Other
+-------------|------|------|-----------|------
 ++ | | adj->v: to make sth come to have the property of the following adj phrase; to <adjective phrase>ify sth | |
 ++ | | adj->v: to have the property of the following adjectival phrase; to be <adj phrase> (probably this is a copula) | |
 ++ | | adj->v: to gain the property of the following adjectival phrase (by oneself); to become <adj phrase>, to get <adj phrase> | |
@@ -30,10 +33,13 @@ Status:Reason | Noun | Verb | Adjective | Other
 ++ | | | | active marker; the preceding verb-phrase is being done BY the subject, possibly to some(thing/one) else
 ++ | | | | passive marker; the preceding verb-phrase is being done TO the subject, possibly by some(thing/one) else
 ++ | | | | LIKE~AS~WAY, similar to, in a similar manner to
-+  | | | | opposite of <verb> (this is different from nata/not ;)
++  | | | | opposite of <verb> (this is different from nata/not)
 
-Status:Reason | Noun | Verb | Adjective | Other
---------------|------|------|-----------|------
+Main List
+---------
+
+Status:Notes | Noun | Verb | Adjective | Other
+-------------|------|------|-----------|------
 ++ | KIND, type | | |
 ++ | PART | | |
 ++ | truth | | TRUE |
@@ -41,7 +47,7 @@ Status:Reason | Noun | Verb | Adjective | Other
 ++ | speed |  speed up, accelerate (speeden) | fast, quickly | quick!
 ++ | knife, blade, sharp (as in cut) thing | | sharp, spicy, tangy, sour |
 ++ | safety, protection | protect, to make sth safe | safe, protected |
-+ | tree, lamp-post, telegraph pole, flagpole, electrical pylon etc: any tall, thin, freestanding structure, natural or artifical, which humans can't easily stand on | | |
++ | tree, lamp-post, telegraph pole, flagpole, electrical pylon etc: any tall, thin, freestanding structure, natural or artifical, which humans can't stand on with ease | | |
 ? | | | excited emotions; moving around a lot
 ? | | | static emotions; motionless; still
 + | happiness, laughter | be happy, to laugh | happy/laughing,funny (difference between vt 'make someone laugh' and vt 'laugh at someone')
@@ -51,8 +57,6 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | | | artificial, man-made |
 + | nature | | natural |
 + | | soften | soft, fluffy, gentle, gradual | 
-+ | | | most |
-+ | | | least |
 ? | | | | OK
 + | | | | thank you
 + | apology | to be sorry, to apologise to sb | sorry, apologetic | sorry
@@ -72,7 +76,7 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | OTHER~ELSE
 + | SOME
 ?: similarity to pili | thought(s) | THINK | | |
--: what's the difference from touch and think?? | | FEEL | |
+-: what's the difference from touch, or from think?? | | FEEL | |
 + | HAPPEN
 + | BE (SOMEWHERE)
 + | THERE IS
@@ -87,7 +91,6 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | WHERE~PLACE
 + | NEAR
 + | TOUCH
-+ | VERY
 + | free (costless/libre)
 + | work, housework, chores
 + | together
@@ -101,7 +104,6 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | the world of the mind, inside your head
 + | the software world; the internet; social media
 + | the spritual world, eg religious
-+ | enough, satisfactorily
 + | fullness | to fill sth, to be full | full
 + | emptiness | to empty sth, to be empty | empty
 + | memory | remember | |
@@ -111,6 +113,12 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | ordered, organised, neat
 + | permanent, for good
 + | temporary, for now
+
+Semantic Molecules
+-------
+
+Status:Notes | Noun | Verb | Adjective | Other
+-------------|------|------|-----------|------
 + | nose | 
 + | face | 
 + | teeth | 
@@ -135,18 +143,12 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | the Earth | 
 + | stars | 
 + | ground | apa, supa
-+ | during the day | ipuki sunu wa
-+ | at night | ipuki mahi wa
-+ | day | ipuki sunu
 + | creature | 
 + | grow | kasi
 + | egg | 
 + | tail | 
 + | wings | 
 + | feathers | 
-+ | children | 
-+ | men | misi
-+ | women | miwi
 + | be born | 
 + | mother | mama miwi
 + | father | mama misi
@@ -155,11 +157,8 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | wood | kahin kasi?
 + | stone | kahin lula?
 + | know (someone) | 
-+ | be called | nimi
 + | hold | 
 + | make | pali
-+ | breathe | 
-+ | sleep | lapi
 + | sit | 
 + | lie | 
 + | stand | 
@@ -167,14 +166,16 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | laugh | 
 + | sing | 
 
-proper comparatives
-------
+Comparatives
+------------
 
 Status:Reason | Noun | Verb | Adjective | Other
 --------------|------|------|-----------|------
 + | too (french 'trop'), as in 'too much', 'too heavy' NOT 'me too'
 ? | most
 ++ | | | more (greater intensity) | 
++ | VERY
++ | enough, satisfactorily
 - | | | less |
 ? | least
 + | completely, fully
@@ -210,7 +211,8 @@ metal
 how to say undo?
 
 Probably not adding
-===================
+-------------------
+
 Reason for not adding/equivalent phrase | noun | verb | adjective | other
 ----------------------------------------|------|------|-----------|-------
 ?: jan <young> | child
