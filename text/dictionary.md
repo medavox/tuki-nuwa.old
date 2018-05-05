@@ -7,7 +7,7 @@ ali | everything, life, the universe | | all, every, complete, whole |
 amu | love | to love (a person) | love |
 apa | bottom, lower part, under, below, floor, beneath | lower, sink, drop  | low, lower, bottom, down |
 atani | difference | change, alter, modify | different | otherwise, or else
-awasa | Hunting, gathering, hunter-gathering | to gather; to collect food, resources or material needed for daily life and survival; to hunt | |
+awasa | Hunting, gathering, hunter-gathering, collection | to gather; to collect; to hunt | together, gathered, collected |
 awin | | stay, wait, remain | keep | remaining, stationary, permanent, sedentary
 hapa | having, ownership, property | have, contain | | kama-> receive, get, take, obtain
 hilu | cold | cool sth down, chill sth | cold |
