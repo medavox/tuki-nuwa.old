@@ -270,5 +270,5 @@ take (someone somewhere) |
 burn | 
 buy / pay | isun
 learn |
-clean | pali jaki ala
+clean | pali jaki nata
 
