@@ -60,7 +60,7 @@ nami | food, meal | vt eat, drink, swallow, ingest, consume | edible, potable |
 nasa | | to confuse sth/sb, make weird | silly, foolish, drunk, strange, stupid, weird |
 nasin | way, manner, custom, road, path, doctrine, system, method | | |
 nata | nothing, negation, zero; the state, situation or general phenomenon of being nata; absence, emptiness | | no, not, none, un-, no quantity of, the opposite of | no !
-nimi | word, name | to name sth to call sth1 sth2; to be called, eg mi nimi jan Atan | |
+nimi | word, name | to name sth; to call sth1 sth2; to be called, eg mi nimi jan Atan | |
 nina | bump, nose, hill, mountain, button | to protrude | |
 nuka | leg, foot | to kick | |
 numa | number | to count something | numerical  | (ordinal numbers)
@@ -109,7 +109,7 @@ uta | mouth, maw, muzzle, beak, proboscis etc | to taste sth | oral |
 utala | conflict, disharmony, competition, conflict, struggle, fight, war, battle, attack, blow, argument, physical or verbal violence | hit, strike, attack, compete against | |
 wali | whiteness, lightness | | white, light (colour) |
 wan | unit, element, particle, part, piece | unite, make one | one, a |
-wapa | energy, strength, power | strengthen, energize, empower | energetic, strong, fierce, intense, confident |
+wapa | energy, strength, power, electricity | strengthen, energize, empower | energetic, strong, electrical |
 wasu | bird, winged animal/creature | to fly | flying |
 wata | water, liquid, juice, sauce | water, wash with water | wet, liquid |
 wika | absence, distance | throw away, remove, get rid of | far, distant, away, absent, missing |

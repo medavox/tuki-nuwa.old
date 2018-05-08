@@ -63,3 +63,6 @@ telo
     noun body of water, an area covered with water; bay, strait, sea, lake, river, stream
     transitive verb to use telo on; to water, rinse, wash, wet
     describer having the characteristics or properties of telo; wet, liquid
+
+wapa
+    fierce, intense, confident
