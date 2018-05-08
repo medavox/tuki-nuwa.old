@@ -1,10 +1,10 @@
 Prefix | Senses | Example
 -------|--------|--------
 a  | lacking in, lack of, not, without | asexual, asymmetric
-predicative adjective with progressive aspect (verb) | afloat, atremble
-on, in, at | abed, amidst, ashore
-in (such) a state or condition | afresh
-in (such) a manner | aloud, alive
+ | predicative adjective with progressive aspect (verb) | afloat, atremble
+ | on, in, at | abed, amidst, ashore
+ | in (such) a state or condition | afresh
+ | in (such) a manner | aloud, alive
 abs | away, from | abstract
 af | addition or increase | affirm
 at | change into, movement to, addition or increase | attend
@@ -18,20 +18,20 @@ Anglo | relating to England | Anglo-Irish
 ante | before | antenatal
 anti | opposite, against | anti-war, antivirus, anti-human
 apo  | away, different from | apomorphine
-detached, separate | apocarpous
-formed from, related to | apocodeine
+ | detached, separate | apocarpous
+ | formed from, related to | apocodeine
 arch  | supreme, highest, worst | archangel
-preeminent, extreme | archcapitalist, archinfamy
-first in time, primitive | archfather, archform
+ | preeminent, extreme | archcapitalist, archinfamy
+ | first in time, primitive | archfather, archform
 astro  | star | astrobiology
 astrological, astrological and | astrodiagnosis, astromedical
 aster in cells | astrosphere
 auto | self | autobiography, automatic
 be  | equipped with, covered with, beset with (pejorative or facetious) | bedeviled, becalm, bedazzle, bewitch
-to a great degree, thoroughly | becudgel, befuddle, bespatter
-about, to, at, upon, against; intransitive verbs from intransitive verbs | bestride, bespeak
-make, cause to be, treat as; verbs from adjectives or nouns | belittle, benumb, befriend
-chemical prefix of unknown meaning | bekanamycin, bemethyl
+ | to a great degree, thoroughly | becudgel, befuddle, bespatter
+ | about, to, at, upon, against; intransitive verbs from intransitive verbs | bestride, bespeak
+ | make, cause to be, treat as; verbs from adjectives or nouns | belittle, benumb, befriend
+ | chemical prefix of unknown meaning | bekanamycin, bemethyl
 bi | two | bicycle
 bio | biological | biodegrade
 bis  | both; of or belonging to both; two | bisischiatic, bismarine
@@ -39,9 +39,9 @@ doubled | bisdimethylamino, bisquaternary
 circum | around | circumnavigate
 cis | on this side | cis-vaccenate
 co  | joint, with, accompanying | co-worker, coordinator, cooperation, cohabit
-in or to the same degree | coextensive, coeval
-operating together or reciprocally | coterm
-of the complement of an angle | cosine, codeclination
+ | in or to the same degree | coextensive, coeval
+ | operating together or reciprocally | coterm
+ | of the complement of an angle | cosine, codeclination
 con  | together or with | confederation
 cone | conus
 com | together or with | commingle
@@ -62,11 +62,11 @@ demo | people | demography
 di | two | dioxide
 dif | apart | differ
 dis | not, opposite of | disloyal, disagree
-reverse action, get rid of | disconnect, disinformation
-apart | dissect
+ | reverse action, get rid of | disconnect, disinformation
+ | apart | dissect
 dys | abnormal, diseased, bad, unfavorable, faulty | dysplasia, dyspathy, dysfunction
-difficult, with difficulty | dysmenorrhea, dysoxidize
-absence or reverse of | dysteleology
+ | difficult, with difficulty | dysmenorrhea, dysoxidize
+ | absence or reverse of | dysteleology
 down | to make something lesser, lower or worse | downgrade
 du | two | duet
 duo | two | duovirus
@@ -77,7 +77,7 @@ em | to make into, to put into, to get into | empower
 epi | upon, at, close upon, in addition | epidermis
 Euro | European | Eurocentric
 ex  | former | ex-wife
-out of | export
+ | out of | export
 extra | outside | extracurricular
 Franco | French, France | Francophile
 fore | before | forearm, forerunner
@@ -115,7 +115,7 @@ mis | wrong, astray | misinformation, misguide
 mono | sole, only | monogamy
 multi | many | multi-storey
 many times over; in many respects | multimillionaire, multispecialist
-affecting many parts | multiglandular
+ | affecting many parts | multiglandular
 neo | new | neolithic
 non | not | nonexistent
 ob | blocking, against, concealing | obstruct
@@ -124,64 +124,62 @@ of | blocking, against, concealing | offend
 op | blocking, against, concealing | oppose
 omni | all | omnipotent, omnipresent
 ortho  | correcting or straightening | orthodontics, orthotropic
-indicates a 1,2-substituted benzene ring in organice chemistry | orthonitrophenol
-indicates the common form of an acid in inorganic chemistry | orthoboric acid
-chemical prefix | orthoformate
+ | indicates a 1,2-substituted benzene ring in organice chemistry | orthonitrophenol
+ | indicates the common form of an acid in inorganic chemistry | orthoboric acid
+ | chemical prefix | orthoformate
 out | better, faster, longer, beyond | outreach, outcome
 over | too much | overreact, overact
 paleo | old | paleolithic
 pan | all, worldwide | pan-African
 para  | beside, beyond | parallel
-isomeric with, polymeric with, or otherwise closely related to | paracasein
-the relation of two opposite positions in the benzene ring that are separated by two carbon atoms
-a derivative in which two substituting groups occupy such positions | para-xylene
+ | isomeric with, polymeric with, or otherwise closely related to | paracasein
+ | the relation of two opposite positions in the benzene ring that are separated by two carbon atoms |
+ | a derivative in which two substituting groups occupy such positions | para-xylene
 paed | child
 pedo | child
 paedo | child
 paid | child
 paido | child
 ped  | foot | pedestrian
-child
-creature or object having feet or footlike projections | Pediastrum, pedrail
-something (specified) involving feet | pedometor
+ | creature or object having feet or footlike projections | Pediastrum, pedrail
+ | something (specified) involving feet | pedometor
 pod | foot | podiatrist
 per  | through, completely, wrongly, exceedingly | permeate, permute
-in chemistry, to denote a large amount or designate combination of an element in its highest valence | perchloroethylene
+ | in chemistry, to denote a large amount or designate combination of an element in its highest valence | perchloroethylene
 peri  | around | periabdominal
-near | perihelion
-enclosing, surrounding | perineurium
-tissue surrounding (specified part) | periarthritis
+ | near | perihelion
+ | enclosing, surrounding | perineurium
+ | tissue surrounding (specified part) | periarthritis
 photo | light, photography, photograph | photoelectric
 poly  | many | polygon
-chemistry--containing more than one and especially more than two or three units of (a specified substance) | polyatomic
-chemistry--polymer of, polymerized | polyethylene
-chemistry--isopoly- | polymolybdate
+ | chemistry--containing more than one and especially more than two or three units of (a specified substance) | polyatomic
+ | chemistry--polymer of, polymerized | polyethylene
+ | chemistry--isopoly- | polymolybdate
 post | after | post-election, post-graduation, postpone
 pre | before | pre-election, pre-enter, predict
 preter | beyond, past, more than | preternatural
 pro  | for, on the side of | pro-life
-substitute, deputy | proconsul
-before | procambium
+ | substitute, deputy | proconsul
+ | before | procambium
 pros | toward | Prosthesis
 proto | first, original | protoplasm, prototype
 pseudo | false, imitation | pseudonym
 pyr | fire | pyroantimonate
-in chemistry, indicates a dimeric acid anhydride | pyrophosphoric acid
-due to or attributed to the action of fire or heat | pyrochlore
-of fiery color | pyrophanite
-fever, fever producing | pyrotoxin
+ | in chemistry, indicates a dimeric acid anhydride | pyrophosphoric acid
+ | due to or attributed to the action of fire or heat | pyrochlore
+ | of fiery color | pyrophanite
+ | fever, fever producing | pyrotoxin
 pyro  | fire | pyroantimonate
-in chemistry, indicates a dimeric acid anhydride | pyrophosphoric acid
-due to or attributed to the action of fire or heat | pyrochlore
-of fiery color | pyrophanite
-fever, fever producing | pyrotoxin
+ | in chemistry, indicates a dimeric acid anhydride | pyrophosphoric acid
+ | due to or attributed to the action of fire or heat | pyrochlore
+ | of fiery color | pyrophanite
+ | fever, fever producing | pyrotoxin
 quasi | partly, almost, appearing to be but not really | quasiaxial
 re | again, back | rerun
 retro | backwards | retrograde
 self | self | self-sufficient
 semi | half | semicircle
 socio | society, social, sociological | sociopath
-step | family relation by remarriage | stepbrother
 sub | below, under | subway
 sup | below, under | support
 super | above, over | supervisor
@@ -193,11 +191,9 @@ syl | together, with | syllable
 sym | together, with | symbol
 tele | at a distance | television
 trans | across, from one place to another | transatlantic, transverse
-twi | two | twilight
-tri | three | tricycle
 ultra | beyond, extremely | ultraviolet, ultrasonic
 un  | not, opposite of | unnecessary, unequal
-reverse action, deprive of, release from | undo, untie
+ | reverse action, deprive of, release from | undo, untie
 under | below, beneath, lower in grade/dignity, lesser, insufficient | underachieve, underground, underpass
 uni | one | unicycle
 up | to make something more, higher or better | upgrade

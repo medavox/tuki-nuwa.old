@@ -40,9 +40,6 @@
 |                |                |                | riage`         |                |
 |                |                |                | -   `garage`   |                |
 +----------------+----------------+----------------+----------------+----------------+
-| agogy          | noun           | leading        | pedagogy,      |                |
-|                |                |                | demagogy       |                |
-+----------------+----------------+----------------+----------------+----------------+
 | al   (see      | adj            | aspect of,     | -   `function| | -   `al$|adj|b |
 | -ality)        |                | pertaining to  | functional, ac | ase|$|noun|bas |
 |                |                |                | cident|acciden | e`             |
@@ -73,16 +70,6 @@
 |                |                | behaviour,     | sexuality (see |                |
 |                |                | condition) of  | -al and -ity)  |                |
 +----------------+----------------+----------------+----------------+----------------+
-| an             | adj            |                | -   `Cambodia| | -   `a$|noun|b |
-|                |                |                | Cambodian`     | ase|an$|adj|ba |
-|                |                |                | -   `urban`    | se`            |
-+----------------+----------------+----------------+----------------+----------------+
-| an             | noun           |                | -   `amphibia| | -   `a$|noun|b |
-|                |                |                | amphibian`     | ase|an$|noun|b |
-|                |                |                | -   `republica | ase`           |
-|                |                |                | n, Roman, vete |                |
-|                |                |                | ran`           |                |
-+----------------+----------------+----------------+----------------+----------------+
 | ance           | noun           | an act of, a   | -   `govern|go | -   `ance$|nou |
 |                |                | state of, the  | vernance, anno | n|base|$|verb| |
 |                |                | result of (see | y|annoyance, r | base`          |
@@ -97,10 +84,6 @@
 |                |                |                | e,`            |                |
 |                |                |                | -   `insure|in |                |
 |                |                |                | surance`       |                |
-+----------------+----------------+----------------+----------------+----------------+
-| ancy           | noun           |                | pregnancy,     |                |
-|                |                |                | redundancy,    |                |
-|                |                |                | vacancy        |                |
 +----------------+----------------+----------------+----------------+----------------+
 | ant            | adj            | pertaining to, | -   `relax|rel | -   `ant$|adj| |
 |                |                | VERB + ing     | axant`         | base|$|verb|ba |
@@ -192,9 +175,6 @@
 |                |                |                | oscille|oscill |                |
 |                |                |                | ate            |                |
 +----------------+----------------+----------------+----------------+----------------+
-| athlon         | noun           | sporting event | pentathlon,    |                |
-|                |                |                | decathlon      |                |
-+----------------+----------------+----------------+----------------+----------------+
 | ation          | noun           | state or       | -   `flirt|fli | -   `ation$|no |
 |                |                | concept of     | rtation`       | un|base|$|verb |
 |                |                |                | -   `admire|ad | |base`         |
@@ -225,9 +205,6 @@
 |                |                |                | lucrative,     |                |
 |                |                |                | affirmative    |                |
 +----------------+----------------+----------------+----------------+----------------+
-| atory          | noun           |                | laboratory,    |                |
-|                |                |                | conversatory   |                |
-+----------------+----------------+----------------+----------------+----------------+
 | bound          | adv            | heading in the | inbound,       |                |
 |                |                | direction of   | outbound,      |                |
 |                |                |                | citybound      |                |
@@ -242,10 +219,6 @@
 | cy             | noun           | expressing the | diplomacy,     |                |
 |                |                | quality of an  | literacy,      |                |
 |                |                | adjective      | idiocy         |                |
-+----------------+----------------+----------------+----------------+----------------+
-| cycle          | noun           | circle, cycle, | epicycle,      |                |
-|                |                | unit of radio  | hydrocycle     |                |
-|                |                | frequency      |                |                |
 +----------------+----------------+----------------+----------------+----------------+
 | dom            | noun           | state or       | freedom,       |                |
 |                |                | condition of   | boredom,       |                |
@@ -274,9 +247,6 @@
 | en             | verb           |                | lessen,        |                |
 |                |                |                | deafen,        |                |
 |                |                |                | frighten       |                |
-+----------------+----------------+----------------+----------------+----------------+
-| enchyma        | noun           | cellular       | mesenchyma,    |                |
-|                |                | tissue         | karyenchyma    |                |
 +----------------+----------------+----------------+----------------+----------------+
 | ence           | noun           | an act of, a   | -   `deferenti | -   `ence$|nou |
 |                |                | state of, the  | al|deference`  | n|base|ent$|ad |
@@ -400,12 +370,6 @@
 |                |                | Watergate      |                |                |
 |                |                | scandal)       |                |                |
 +----------------+----------------+----------------+----------------+----------------+
-| gnosis         | noun           | knowing        | prognosis,     |                |
-|                |                |                | diagnosis      |                |
-+----------------+----------------+----------------+----------------+----------------+
-| gon            | noun           | angle          | polygon,       |                |
-|                |                |                | pentagon       |                |
-+----------------+----------------+----------------+----------------+----------------+
 | graph          | noun           |                | -   `photograp | -   `graph$|no |
 |                |                |                | h|photography` | un|base|graphy |
 |                |                |                |                | $|noun|base`   |
@@ -419,15 +383,6 @@
 |                |                |                | phy|thermogram | -   `gram$|nou |
 |                |                |                | `              | n|base|graphy$ |
 |                |                |                |                | |noun|base`    |
-+----------------+----------------+----------------+----------------+----------------+
-| gry            | noun           | adjective form | angry, hungry  |                |
-|                |                | of only 2 or 3 |                |                |
-|                |                | nouns in the   |                |                |
-|                |                | English        |                |                |
-|                |                | language       |                |                |
-+----------------+----------------+----------------+----------------+----------------+
-| hedron         | noun           | seat, face     | icosahedron,   |                |
-|                |                |                | tetrahedron    |                |
 +----------------+----------------+----------------+----------------+----------------+
 | holic          | adj            | love,          | alcoholic,     |                |
 |                |                | addiction      | workaholic     |                |
@@ -487,12 +442,6 @@
 |                |                |                | deviant, defia | un|base|iant$| |
 |                |                |                | nce|defiant`   | adj|base`      |
 +----------------+----------------+----------------+----------------+----------------+
-| iary           | adj            |                | tertiary       |                |
-+----------------+----------------+----------------+----------------+----------------+
-| iasis          | noun           |                | -   `trombicul | -   `a$|noun|b |
-|                |                |                | a|trombiculias | ase|iasis$|nou |
-|                |                |                | is`            | n|base`        |
-+----------------+----------------+----------------+----------------+----------------+
 | iate           | verb           |                | asphyxiate,    |                |
 |                |                |                | deviate        |                |
 +----------------+----------------+----------------+----------------+----------------+
@@ -503,9 +452,6 @@
 | ibly           | adv            |                | incredibly,    |                |
 |                |                |                | responsibly,   |                |
 |                |                |                | terribly       |                |
-+----------------+----------------+----------------+----------------+----------------+
-| ic             | noun           | a thing        | -   `topic`    | -   ``         |
-|                |                |                |     topic      |                |
 +----------------+----------------+----------------+----------------+----------------+
 | ic             | adj            | pertaining to  | -   `amnesia|a | -   `ia$|noun| |
 |                |                |                | mnesic, academ | base|ic$|adj|b |
@@ -539,11 +485,6 @@
 |                |                |                | cs,            |                |
 |                |                |                | economics      |                |
 +----------------+----------------+----------------+----------------+----------------+
-| id             | adj            | (categorical)  | hominid,       |                |
-|                |                | property       | tepid, candid, |                |
-|                |                | (aspect) of    | fervid         |                |
-|                |                |                | (compare -al)  |                |
-+----------------+----------------+----------------+----------------+----------------+
 | iency          | noun           |                | expedieny      |                |
 +----------------+----------------+----------------+----------------+----------------+
 | ient           | adj            |                | -   `deficienc | -   `ient$|adj |
@@ -572,9 +513,6 @@
 |                |                |                | e,             |                |
 |                |                |                | volatility|vol |                |
 |                |                |                | atile          |                |
-+----------------+----------------+----------------+----------------+----------------+
-| illion         | noun           | large numbers  | million,       |                |
-|                |                |                | billion        |                |
 +----------------+----------------+----------------+----------------+----------------+
 | ious           | adj            |                | -   `mbition|a | -   `ion$|noun |
 |                |                |                | mbitious, reli | |base|ious$|ad |
@@ -611,10 +549,6 @@
 |                |                |                | ,              |                |
 |                |                |                | ten|tennish    |                |
 +----------------+----------------+----------------+----------------+----------------+
-| ish            | adj, noun      | nationality,   | Spanish,       |                |
-|                |                | language       | Turkish,       |                |
-|                |                |                | English        |                |
-+----------------+----------------+----------------+----------------+----------------+
 | ism            | noun           | doctrine, act, | -   `capital|c | -   `ism$|noun |
 |                |                | believe,       | apitalism, Pro | |base|$|noun|b |
 |                |                | practice,      | testant|Protes | ase`           |
@@ -645,18 +579,10 @@
 |                |                |                | ntist, piano|p |                |
 |                |                |                | ianist`        |                |
 +----------------+----------------+----------------+----------------+----------------+
-| ista           | adept          |                | fashionista    |                |
-+----------------+----------------+----------------+----------------+----------------+
 | ite            | noun           | member of a    | socialite,     |                |
 |                |                | group          | Carmelite      |                |
 +----------------+----------------+----------------+----------------+----------------+
 | ite            | adj            | pertaining to  | finity|finite  |                |
-+----------------+----------------+----------------+----------------+----------------+
-| itis           | noun           | disease,       | bronchitic|bro |                |
-|                |                | inflammation   | nchitis,       |                |
-|                |                |                | hepatitic|hepa |                |
-|                |                |                | titis,         |                |
-|                |                |                | gingivitis     |                |
 +----------------+----------------+----------------+----------------+----------------+
 | itive          | adj            |                | sensitive      |                |
 +----------------+----------------+----------------+----------------+----------------+
@@ -674,11 +600,6 @@
 |                |                |                | dversity`      | |base|ous$|adj |
 |                |                |                | -   `frivolous | |base`         |
 |                |                |                | |frivolity`    |                |
-+----------------+----------------+----------------+----------------+----------------+
-| ium            | noun           | metallic       | sodium,        |                |
-|                |                | element        | Calcium        |                |
-|                |                | (exception:    |                |                |
-|                |                | helium)        |                |                |
 +----------------+----------------+----------------+----------------+----------------+
 | ive            | noun           | an act of, a   | -   `mission|m | -   `ive$|noun |
 |                |                | state of, the  | issive, explos | |base|ion$|nou |
@@ -710,13 +631,6 @@
 |                |                |                | dol|idolise`   |                |
 |                |                |                | -   `private|p |                |
 |                |                |                | rivatize`      |                |
-+----------------+----------------+----------------+----------------+----------------+
-| izzle          | used for hip   |                | Americizzle    |                |
-|                | hop slang      |                |                |                |
-+----------------+----------------+----------------+----------------+----------------+
-| kinesis        | noun           | movement       | telekinesis    |                |
-|                |                | (ability       |                |                |
-|                |                | thereof)       |                |                |
 +----------------+----------------+----------------+----------------+----------------+
 | less           | adj            | lack of        | seed|seedless, |                |
 |                |                |                | home|homeless, |                |
@@ -758,21 +672,6 @@
 |                |                |                | -   `invariabl | se`            |
 |                |                |                | e|invariably`  |                |
 +----------------+----------------+----------------+----------------+----------------+
-| man            | noun           | person         | fireman,       |                |
-|                |                |                | statesman      |                |
-+----------------+----------------+----------------+----------------+----------------+
-| mancy          | noun           | divination by  | crystallomancy |                |
-|                |                |                | ,              |                |
-|                |                |                | bibliomancy,   |                |
-|                |                |                | necromancy     |                |
-+----------------+----------------+----------------+----------------+----------------+
-| mania          | noun           | an irrational  | kleptomania,   |                |
-|                |                | but            | megalomania,   |                |
-|                |                | irresistible   | mythomania     |                |
-|                |                | motive for a   |                |                |
-|                |                | belief or      |                |                |
-|                |                | action         |                |                |
-+----------------+----------------+----------------+----------------+----------------+
 | ment           | noun           | a substance,   | -   `treat|tre | -   `ment$|nou |
 |                |                | abstract noun  | atment, retire | n|base|$|verb| |
 |                |                |                | |retirement`   | base`          |
@@ -808,14 +707,6 @@
 |                |                |                | ruthlessness,  |                |
 |                |                |                | dark|darkness` |                |
 +----------------+----------------+----------------+----------------+----------------+
-| nik            | noun           | Slavic origin; | otkaznik,      |                |
-|                |                | corresponds to | beatnik        |                |
-|                |                | "-er"          |                |                |
-+----------------+----------------+----------------+----------------+----------------+
-| ocracy         | noun           | system of      | kakistocracy,  |                |
-|                |                | government     | democracy,     |                |
-|                |                |                | androcracy     |                |
-+----------------+----------------+----------------+----------------+----------------+
 | ogram          | noun           | writing,       | ideogram       |                |
 |                |                | description    |                |                |
 +----------------+----------------+----------------+----------------+----------------+
@@ -838,21 +729,6 @@
 |                |                |                | psychology,    |                |
 |                |                |                | planetology    |                |
 +----------------+----------------+----------------+----------------+----------------+
-| oma            | noun           | a tumor, a     | fiber|fibroma  |                |
-|                |                | growth         |                |                |
-+----------------+----------------+----------------+----------------+----------------+
-| ome            | noun           | subject of an  | genome         |                |
-|                |                | "-omics"       |                |                |
-+----------------+----------------+----------------+----------------+----------------+
-| omics          | noun           | study of rules | proteomics,    |                |
-|                |                |                | economics      |                |
-+----------------+----------------+----------------+----------------+----------------+
-| onomy          | noun           | knowledge of   | astronomy      |                |
-+----------------+----------------+----------------+----------------+----------------+
-| onym           | noun           | name, word     | antonym,       |                |
-|                |                |                | consonym,      |                |
-|                |                |                | heteronym      |                |
-+----------------+----------------+----------------+----------------+----------------+
 | opsy           | noun           | examination    | autopsy,       |                |
 |                |                |                | biopsy         |                |
 +----------------+----------------+----------------+----------------+----------------+
@@ -871,18 +747,6 @@
 | ory            | adj            | pertaining to, | auditor|audito |                |
 |                |                | verb + ing     | ry,            |                |
 |                |                | (see ary  )    | sensor|sensory |                |
-+----------------+----------------+----------------+----------------+----------------+
-| ory            | noun           | a place where  | dormitory,     |                |
-|                |                |                | historic|histo |                |
-|                |                |                | ry,            |                |
-|                |                |                | repositor|repo |                |
-|                |                |                | sitory         |                |
-+----------------+----------------+----------------+----------------+----------------+
-| ose            | adj            | full of, like, | verbose;       |                |
-|                |                | given to;      | globose        |                |
-|                |                | carbohydrates, |                |                |
-|                |                | protein        |                |                |
-|                |                | derivatives    |                |                |
 +----------------+----------------+----------------+----------------+----------------+
 | osis           | noun           | process,       | -   `diagnose| | -   `osis$|nou |
 |                |                | action,        | diagnosis, osm | n|base|ose$|ve |
@@ -906,40 +770,12 @@
 |                |                |                | trous, nerve|n |                |
 |                |                |                | ervous`        |                |
 +----------------+----------------+----------------+----------------+----------------+
-| phagy  ,       | noun           | eating         | monophagy      |                |
-| phagia         |                |                |                |                |
-+----------------+----------------+----------------+----------------+----------------+
-| philia         | noun           | attraction     | hemophilia     |                |
-+----------------+----------------+----------------+----------------+----------------+
 | phobia         | noun           | fear           | acrophobia,    |                |
 |                |                |                | mysophobia     |                |
 +----------------+----------------+----------------+----------------+----------------+
 | phone          | noun, adj      | sound, audio;  | telephone,     |                |
 |                |                | speaker of a   | homophone;     |                |
 |                |                | language       | Anglophone     |                |
-+----------------+----------------+----------------+----------------+----------------+
-| physeal        | adj            |                | -   `diaphysea | -   `physeal$| |
-|                |                |                | l|diaphysis, p | adj|base|physi |
-|                |                |                | hyseal|physis` | s$|noun|base`  |
-+----------------+----------------+----------------+----------------+----------------+
-| phyte          | noun           | plant, used in | therophyte,    |                |
-|                |                | botany to      | halophyte      |                |
-|                |                | create terms   |                |                |
-|                |                | which          |                |                |
-|                |                | categorise     |                |                |
-|                |                | plants based   |                |                |
-|                |                | on their       |                |                |
-|                |                | life-history,  |                |                |
-|                |                | growth-form or |                |                |
-|                |                | ecological     |                |                |
-|                |                | preferences    |                |                |
-+----------------+----------------+----------------+----------------+----------------+
-| polis          | noun           | referring to   | Metropolis,    |                |
-|                |                | city or big    | Indianapolis   |                |
-|                |                | area           |                |                |
-+----------------+----------------+----------------+----------------+----------------+
-| s              | noun           | a thing, a     | patho|pathos   |                |
-|                |                | substance      |                |                |
 +----------------+----------------+----------------+----------------+----------------+
 | science        | noun           | knowing        | omniscience,   |                |
 |                |                |                | prescience,    |                |
@@ -951,9 +787,6 @@
 |                |                | viewing and    | periscope      |                |
 |                |                | observing      |                |                |
 |                |                | spaces         |                |                |
-+----------------+----------------+----------------+----------------+----------------+
-| script         | noun           | written        | manuscript,    |                |
-|                |                |                | transcript     |                |
 +----------------+----------------+----------------+----------------+----------------+
 | ship           | noun           | abstract noun, | friendship,    |                |
 |                |                | state of being | relationship,  |                |
@@ -982,8 +815,6 @@
 |                |                |                | awesome,       |                |
 |                |                |                | fulsome        |                |
 +----------------+----------------+----------------+----------------+----------------+
-| stan           | noun           | land, country  | Afghanistan    |                |
-+----------------+----------------+----------------+----------------+----------------+
 | ster           | noun           | person         | youngster,     |                |
 |                |                |                | gangster       |                |
 +----------------+----------------+----------------+----------------+----------------+
@@ -1003,8 +834,6 @@
 +----------------+----------------+----------------+----------------+----------------+
 | tom  , tome    | noun           | part or        | dermatome      |                |
 |                |                | segment        |                |                |
-+----------------+----------------+----------------+----------------+----------------+
-| tropism        | noun           | to turn        | phototropism   |                |
 +----------------+----------------+----------------+----------------+----------------+
 | ty             | noun           |                | certainty,     |                |
 |                |                |                | loyalty        |                |
@@ -1035,14 +864,6 @@
 |                |                | related t      | natural|nature |                |
 |                |                |                | ,              |                |
 |                |                |                | temperature    |                |
-+----------------+----------------+----------------+----------------+----------------+
-| us             | noun           | inflammation   | ulcus          |                |
-+----------------+----------------+----------------+----------------+----------------+
-| ville          | noun           | city, town     | Nashville      |                |
-|                |                | from French    |                |                |
-+----------------+----------------+----------------+----------------+----------------+
-| vore  ,        | noun, adj      | to devour      | carnivore,     |                |
-| vorous         |                |                | herbivore      |                |
 +----------------+----------------+----------------+----------------+----------------+
 | ward  ,        | adj, adv       | direction      | southward,     |                |
 | wards          |                |                | inward, upward |                |
@@ -1083,6 +904,3 @@
 |                |                |                | apply|applicat | oun|base`      |
 |                |                |                | ion, certify|c |                |
 |                |                |                | ertification`  |                |
-+----------------+----------------+----------------+----------------+----------------+
-
-
