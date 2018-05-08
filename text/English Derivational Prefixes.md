@@ -8,7 +8,6 @@ a  | lacking in, lack of, not, without | asexual, asymmetric
 abs | away, from | abstract
 af | addition or increase | affirm
 at | change into, movement to, addition or increase | attend
-Afro | relating to Africa | Afro-American
 ambi | both | ambitendency
 amphi | two, both, on both sides | amphiaster, amphitheater, amphibian
 an  | lacking in, lack of, not, without | anemic
@@ -24,8 +23,8 @@ arch  | supreme, highest, worst | archangel
  | preeminent, extreme | archcapitalist, archinfamy
  | first in time, primitive | archfather, archform
 astro  | star | astrobiology
-astrological, astrological and | astrodiagnosis, astromedical
-aster in cells | astrosphere
+ | astrological, astrological and | astrodiagnosis, astromedical
+ | aster in cells | astrosphere
 auto | self | autobiography, automatic
 be  | equipped with, covered with, beset with (pejorative or facetious) | bedeviled, becalm, bedazzle, bewitch
  | to a great degree, thoroughly | becudgel, befuddle, bespatter
@@ -42,20 +41,17 @@ co  | joint, with, accompanying | co-worker, coordinator, cooperation, cohabit
  | in or to the same degree | coextensive, coeval
  | operating together or reciprocally | coterm
  | of the complement of an angle | cosine, codeclination
-con  | together or with | confederation
 cone | conus
-com | together or with | commingle
-col  | together or with | colleague
+col, com, con, cor | together or with | colleague, commingle, confederation, correlation
 colon | colectasia
-cor | together or with | correlation
 contra | opposite | contradict
 counter | against, in opposition to | counteract, counterpart
 cryo | ice | cryogenics
 crypto | hidden, secret | cryptography
 de  | reverse action, get rid of | de-emphasise
-down | depress
-get off of (something) | detrain, deplane
-derived or compounded from (something) | deacetyl
+ | down | depress
+ | get off of (something) | detrain, deplane
+ | derived or compounded from (something) | deacetyl
 having removal of one or more atoms of (a specified element) | dehydro-, deoxy-
 demi | half | demiembryo, demispan
 demo | people | demography
@@ -68,18 +64,15 @@ dys | abnormal, diseased, bad, unfavorable, faulty | dysplasia, dyspathy, dysfun
  | difficult, with difficulty | dysmenorrhea, dysoxidize
  | absence or reverse of | dysteleology
 down | to make something lesser, lower or worse | downgrade
-du | two | duet
-duo | two | duovirus
+du, duo | two | duet, duovirus
 eco | ecological | ecosystem
 electro | electric, electricity | electroablation
-en | to make into, to put into, to get into | enmesh
-em | to make into, to put into, to get into | empower
+en, em | to make into, to put into, to get into | enmesh, empower
 epi | upon, at, close upon, in addition | epidermis
 Euro | European | Eurocentric
 ex  | former | ex-wife
  | out of | export
 extra | outside | extracurricular
-Franco | French, France | Francophile
 fore | before | forearm, forerunner
 geo | relating to the earth or its surface | geography
 gyro | spinning on an axis | gyrokinetic
@@ -91,15 +84,12 @@ hyper | above, over | hyperthermia
 hypo | under or below something, low | hypothermia
 ideo | image, idea | ideograph
 idio | individual, personal, unique | idiographic
+il, im, in, ir | not, opposite of | illegal, immature, incoherent, irregular
 in  | in, into | insert
-not, opposite of | inexact
-Indo | relating to the Indian subcontinent | Indo-European
+ | not, opposite of | inexact
 infra | below, beneath | infrared
 inter | among, between | intercede, interstate, interact
 intra | inside, within | intravenous
-il | not, opposite of | illegal
-im | not, opposite of | immature
-ir | not, opposite of | irregular
 iso | equal | isochromatic
 macro | long | macrobiotic
 mal | bad(ly) | malfunction
@@ -118,10 +108,7 @@ many times over; in many respects | multimillionaire, multispecialist
  | affecting many parts | multiglandular
 neo | new | neolithic
 non | not | nonexistent
-ob | blocking, against, concealing | obstruct
-oc | blocking, against, concealing | occult
-of | blocking, against, concealing | offend
-op | blocking, against, concealing | oppose
+ob, oc, of, op | blocking, against, concealing | obstruct, occult, offend, oppose
 omni | all | omnipotent, omnipresent
 ortho  | correcting or straightening | orthodontics, orthotropic
  | indicates a 1,2-substituted benzene ring in organice chemistry | orthonitrophenol
@@ -135,15 +122,10 @@ para  | beside, beyond | parallel
  | isomeric with, polymeric with, or otherwise closely related to | paracasein
  | the relation of two opposite positions in the benzene ring that are separated by two carbon atoms |
  | a derivative in which two substituting groups occupy such positions | para-xylene
-paed | child
-pedo | child
-paedo | child
-paid | child
-paido | child
-ped  | foot | pedestrian
+paed, paedo, paid, paido, pedo | child
+ped, pod | foot | pedestrian, podiatrist
  | creature or object having feet or footlike projections | Pediastrum, pedrail
- | something (specified) involving feet | pedometor
-pod | foot | podiatrist
+ | something (specified) involving feet | pedometer
 per  | through, completely, wrongly, exceedingly | permeate, permute
  | in chemistry, to denote a large amount or designate combination of an element in its highest valence | perchloroethylene
 peri  | around | periabdominal
@@ -164,12 +146,7 @@ pro  | for, on the side of | pro-life
 pros | toward | Prosthesis
 proto | first, original | protoplasm, prototype
 pseudo | false, imitation | pseudonym
-pyr | fire | pyroantimonate
- | in chemistry, indicates a dimeric acid anhydride | pyrophosphoric acid
- | due to or attributed to the action of fire or heat | pyrochlore
- | of fiery color | pyrophanite
- | fever, fever producing | pyrotoxin
-pyro  | fire | pyroantimonate
+pyr, pyro | fire | pyroantimonate
  | in chemistry, indicates a dimeric acid anhydride | pyrophosphoric acid
  | due to or attributed to the action of fire or heat | pyrochlore
  | of fiery color | pyrophanite
@@ -180,10 +157,8 @@ retro | backwards | retrograde
 self | self | self-sufficient
 semi | half | semicircle
 socio | society, social, sociological | sociopath
-sub | below, under | subway
-sup | below, under | support
-super | above, over | supervisor
-supra | above, over | suprarenal
+sub, sup | below, under | subway, support
+super, supra | above, over | supervisor, suprarenal
 sur | above, over | surreal, surrender
 sy | together, with | system
 syn | together, with | synthesis
