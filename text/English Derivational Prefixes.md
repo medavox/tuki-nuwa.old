@@ -160,10 +160,7 @@ socio | society, social, sociological | sociopath
 sub, sup | below, under | subway, support
 super, supra | above, over | supervisor, suprarenal
 sur | above, over | surreal, surrender
-sy | together, with | system
-syn | together, with | synthesis
-syl | together, with | syllable
-sym | together, with | symbol
+sy, syl, sym, syn | together, with | system, syllable, symbol, synthesis
 tele | at a distance | television
 trans | across, from one place to another | transatlantic, transverse
 ultra | beyond, extremely | ultraviolet, ultrasonic
