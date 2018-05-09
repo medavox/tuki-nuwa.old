@@ -22,13 +22,6 @@
 |                |                |                | ble, improve|i |                |
 |                |                |                | mprovable`     |                |
 +----------------+----------------+----------------+----------------+----------------+
-| ably           | adv            |                | -   `pass|pass | -   `ably$|adv |
-|                |                |                | ably, fashion| | |base|$|verb|b |
-|                |                |                | fashionably`   | ase`           |
-|                |                |                | -   `notable|n | -   `able$|ver |
-|                |                |                | otably`        | b|base|ably$|a |
-|                |                |                |                | dv|base (tbd)` |
-+----------------+----------------+----------------+----------------+----------------+
 | ade            | noun           |                | lemonade,      |                |
 |                |                |                | accolade,      |                |
 |                |                |                | blockade       |                |
@@ -214,8 +207,6 @@
 |                |                |                | regicide,      |                |
 |                |                |                | fratricide     |                |
 +----------------+----------------+----------------+----------------+----------------+
-| city           | noun           | practice       | atrocity       |                |
-+----------------+----------------+----------------+----------------+----------------+
 | cy             | noun           | expressing the | diplomacy,     |                |
 |                |                | quality of an  | literacy,      |                |
 |                |                | adjective      | idiocy         |                |
@@ -317,22 +308,9 @@
 | esce           | verb           | to become, to  | convalescent|c |                |
 |                |                | change         | onvalesce      |                |
 +----------------+----------------+----------------+----------------+----------------+
-| ese            | adj, noun      | nationality,   | Chinese,       |                |
-|                |                | language       | Lebanese,      |                |
-|                |                |                | Portuguese     |                |
-+----------------+----------------+----------------+----------------+----------------+
 | esque          | adj            | in the style   | Pythonesque,   |                |
 |                |                | of             | Romanesque,    |                |
 |                |                |                | picturesque    |                |
-+----------------+----------------+----------------+----------------+----------------+
-| ess            | noun           | female         | god|goddess,   |                |
-|                |                |                | actor|actress, |                |
-|                |                |                | waiter|waitres |                |
-|                |                |                | s,             |                |
-|                |                |                | steward|stewar |                |
-|                |                |                | dess,          |                |
-|                |                |                | priest|prieste |                |
-|                |                |                | ss             |                |
 +----------------+----------------+----------------+----------------+----------------+
 | esthesis  ,    | noun           | sensation,     | synesthesia,   |                |
 | esthesia       |                | feeling        | kinesthesis    |                |
@@ -361,14 +339,6 @@
 |                |                |                | hope|hopeful,  |                |
 |                |                |                | use|useful,    |                |
 |                |                |                | help|helpful   |                |
-+----------------+----------------+----------------+----------------+----------------+
-| gate           | noun           | a scandal,     | Watergate,     |                |
-|                |                | often          | nipplegate     |                |
-|                |                | political      |                |                |
-|                |                | (back-formed   |                |                |
-|                |                | from the       |                |                |
-|                |                | Watergate      |                |                |
-|                |                | scandal)       |                |                |
 +----------------+----------------+----------------+----------------+----------------+
 | graph          | noun           |                | -   `photograp | -   `graph$|no |
 |                |                |                | h|photography` | un|base|graphy |
@@ -405,8 +375,6 @@
 |                |                |                | mentic|dementi |                |
 |                |                |                | a, dysarthric| |                |
 |                |                |                | dysarthria`    |                |
-+----------------+----------------+----------------+----------------+----------------+
-| iable          | adj            |                | sociable       |                |
 +----------------+----------------+----------------+----------------+----------------+
 | ial            | adj            |                | -   `colony|co | -   `ial$|adj| |
 |                |                |                | lonial, `      | base|y$|noun|b |
@@ -448,10 +416,6 @@
 | ible           | adj            | capable, can   | incredible,    |                |
 |                |                | do (same as    | terrible,      |                |
 |                |                | -able)         | visible        |                |
-+----------------+----------------+----------------+----------------+----------------+
-| ibly           | adv            |                | incredibly,    |                |
-|                |                |                | responsibly,   |                |
-|                |                |                | terribly       |                |
 +----------------+----------------+----------------+----------------+----------------+
 | ic             | adj            | pertaining to  | -   `amnesia|a | -   `ia$|noun| |
 |                |                |                | mnesic, academ | base|ic$|adj|b |
@@ -616,11 +580,6 @@
 |                |                |                | passivity|pass |                |
 |                |                |                | ive            |                |
 +----------------+----------------+----------------+----------------+----------------+
-| ization  ,     | noun           |                | -   `organize| | -   `ization$| |
-| isation        |                |                | organization,  | noun|base|ize$ |
-|                |                |                | categorize|cat | |verb|base`    |
-|                |                |                | egorization`   |                |
-+----------------+----------------+----------------+----------------+----------------+
 | ize  , ise     | verb           | to cause, to   | -   `vocal|voc | -   `ize$|verb |
 |                |                | be, to become, | alize, terror| | |$|noun (TBD)` |
 |                |                | to make        | terrorize, mat |                |
@@ -701,8 +660,8 @@
 +----------------+----------------+----------------+----------------+----------------+
 | ness           | noun           | abstract noun  | -   `one|onene | -   `ness$|nou |
 |                |                |                | ss, clam|clamn | n|base|$|adj|b |
-|                |                |                | ess, sad|sadne | ase`           |
-|                |                |                | ss, kind|kindn |                |
+|                |                | the name for   | ess, sad|sadne | ase`           |
+|                |                | the adjective  | ss, kind|kindn |                |
 |                |                |                | ess, ruthless| |                |
 |                |                |                | ruthlessness,  |                |
 |                |                |                | dark|darkness` |                |
@@ -716,7 +675,7 @@
 +----------------+----------------+----------------+----------------+----------------+
 | oid            | adj            | resembling     | android,       |                |
 |                |                |                | solenoid,      |                |
-|                |                |                | hominoid       |                |
+|                |                |                | hominid        |                |
 +----------------+----------------+----------------+----------------+----------------+
 | oid            | noun           | resembling     | planetoid      |                |
 +----------------+----------------+----------------+----------------+----------------+
@@ -725,7 +684,7 @@
 |                |                | scientific     |                |                |
 |                |                | subject        |                |                |
 +----------------+----------------+----------------+----------------+----------------+
-| ology          | study, science |                | biology,       |                |
+| ology          | noun           | study, science | biology,       |                |
 |                |                |                | psychology,    |                |
 |                |                |                | planetology    |                |
 +----------------+----------------+----------------+----------------+----------------+
@@ -818,8 +777,6 @@
 | ster           | noun           | person         | youngster,     |                |
 |                |                |                | gangster       |                |
 +----------------+----------------+----------------+----------------+----------------+
-| t              | adj            |                | burnt, spoilt  |                |
-+----------------+----------------+----------------+----------------+----------------+
 | th  , eth      | adj            | ordinal number | tenth,         |                |
 |                |                |                | millionth,     |                |
 |                |                |                | twentieth      |                |
@@ -868,15 +825,10 @@
 | ward  ,        | adj, adv       | direction      | southward,     |                |
 | wards          |                |                | inward, upward |                |
 +----------------+----------------+----------------+----------------+----------------+
-| ware           | noun           | software       | hardware,      |                |
-|                |                |                | software,      |                |
-|                |                |                | freeware       |                |
-+----------------+----------------+----------------+----------------+----------------+
-| ways           | adj            |                | sideways,      |                |
-|                |                |                | longways       |                |
-+----------------+----------------+----------------+----------------+----------------+
-| wise           | adj            | direction      | clockwise,     |                |
+| ways, wise     | adj            | direction      | clockwise,     |                |
 |                |                |                | lengthwise     |                |
+|                |                |                | sideways       |                |
+|                |                |                | longways       |                |
 +----------------+----------------+----------------+----------------+----------------+
 | wright         | noun           | person who     | playwright,    |                |
 |                |                | makes          | wheelwright,   |                |
