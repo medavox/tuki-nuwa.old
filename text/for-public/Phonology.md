@@ -60,7 +60,7 @@ They are usually pronounced in any of the following ways:
 
 Letter  | Pronunciation examples
 --------|-----------------------
-h		| [h], [x], [ɦ], [ħ], [ç], [ʝ], [χ], [ʁ], [ʕ]
+h		| [h], [χ], [x], [ɦ], [ħ], [ç], [ʝ], [ʁ], [ʕ]
 j		| [j], [i]
 k		| [k], [g], [q], [ɢ]
 l 		| [l], [ɫ], [ɺ], [r], basically any l- or r-like sound you can make
