@@ -10,7 +10,7 @@ private val e = System.err
 private val o = System.out
 
 /**
-I will definitely not add sounds (phonemes) to the phonology;
+I will definitely not add sounds (phonemes) to the phonology (well, except for h);
 I don't know enough about linguistic typology to choose new sounds
 (or new phonotactic rules) that are as easy for all humans to pronounce.
 
@@ -28,6 +28,8 @@ to construct new words.
 
  * Given the words in the dictionary, what are some unused sounds that could be used for new words?
  */
+private const val consonants = "hjklmnpstw"
+private const val vowels = "aiu"
 
 fun main(args: Array<String>) {
     if(args.size >= 2) {
@@ -82,22 +84,37 @@ fun main(args: Array<String>) {
                 else if(command == "lexical-frequency" || command == "f") {
                     val firstLetterFreqs: MutableMap<Char, Int> = HashMap()
                     val letterFreqs: MutableMap<Char, Int> = HashMap()
+                    var wordsWithSyllableFinalN = mutableSetOf<String>()
                     for(word in dictionary) {
                         val c = word[0]
-                        firstLetterFreqs[c] = firstLetterFreqs[c]?.plus(1) ?: 1
-
+                        if (consonants.contains(c) || vowels.contains(c)) {
+                            firstLetterFreqs[c] = firstLetterFreqs[c]?.plus(1) ?: 1
+                        }
+                        if(word.endsWith("n")) {
+                            wordsWithSyllableFinalN.add(word)
+                        }else {
+                            for(i in word.indices) {
+                                if(vowels.contains(word[i])
+                                && word.length > i+2
+                                && word[i+1] == 'n'
+                                && consonants.contains(word[i+2]) ){
+                                    wordsWithSyllableFinalN.add(word)
+                                }
+                            }
+                        }
                         for(letter in word) {
-                            letterFreqs[letter] = letterFreqs[letter]?.plus(1) ?: 1
+                            if (consonants.contains(c) || vowels.contains(c)) {
+                                letterFreqs[letter] = letterFreqs[letter]?.plus(1) ?: 1
+                            }
                         }
                     }
 
+                    o.println("${wordsWithSyllableFinalN.size} words with syllable-final n: $wordsWithSyllableFinalN")
 
                     o.println("first-letter frequencies:")
                     for((key, value) in firstLetterFreqs.toList().sortedBy {(_, v) -> v}.toMap()) {
                         o.println("$key: $value")
                     }
-
-
 
                     o.println("all-letter frequencies:")
                     for((key, value) in letterFreqs.toList().sortedBy {(_, v) -> v}.toMap()) {
@@ -156,8 +173,6 @@ fun main(args: Array<String>) {
 
 class TokiNawaSounds {
 
-    private val consonants = "hjklmnpstw"
-    private val vowels = "aiu"
 
     private val allowSyllableFinalN = true
     private val syllables = TreeSet<String>()
