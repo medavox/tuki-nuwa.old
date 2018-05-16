@@ -23,18 +23,18 @@ sb     | someone/somebody
 Grammar Words
 -------------
 
-Status:Notes | Meaning
--------------|--------
-++ | adj->v: to make sth come to have the property of the following adj phrase; to <adjective phrase>ify sth
-++ | adj->v: to have the property of the following adjectival phrase; to be <adj phrase> (probably this is a copula)
-++ | adj->v: to gain the property of the following adjectival phrase (by oneself); to become <adj phrase>, to get <adj phrase>
-++:pa | previous word is a noun; "-ness"
-+  | v->n: sth/sb which `<verb>`s/is `<verb>`ed. Marks the action as being something a noun does; this word makes the verb-phrase a noun, but could also take a noun-phrase second argument for a noun-phrase which `<verb>`s
-+  | previous word is an adjective/adverb; -y, -ly
-++ | active marker; the pertaining verb-phrase is being done BY the subject, possibly to some(thing/one) else
-++ | passive marker; the pertaining verb-phrase is being done TO the subject, possibly by some(thing/one) else
+Status:Notes | Attaches to (POS) | results in (POS) | Meaning
+-------------|-------------------|------------------|--------
+++ | adj | verb | to have the property of the following adj phrase; to be <adj phrase> (probably this is a copula)
+++ | adj | verb | to make sth come to have the property of the following adj phrase; to <adjective phrase>ify sth; to make sth `<adjective phrase>`
+++ | adj | verb | to gain the property of the following adj phrase (by oneself); to become <adj phrase>, to get <adj phrase>
+++:pa | verb | noun | the act of doing `<verb phrase>`; `<verb phrase>`-ation; previous word is a noun; "-ness"
+ | adjective | noun | `<adj phrase>`-ness
++  | verb | noun | sth/sb which `<verb>`s (a `<verb>`er), or is `<verb>`ed. Marks the action as being something a noun does; this word makes the verb-phrase a noun, but could also take a noun-phrase second argument for a noun-phrase which `<verb>`s
++  | | adjective | previous word is an adjective/adverb; -y, -ly; in the manner of; like
+++ | verb | verb | active marker; the pertaining verb-phrase is being done BY the subject, possibly to some(thing/one) else. "i eat (sth)"
+++ | verb | verb | passive marker; the pertaining verb-phrase is being done TO the subject, possibly by some(thing/one) else. "i am being eaten (by sth/sb)"
 ++ | LIKE~AS~WAY, similar to, in a similar manner to
-+  | opposite of <verb> (this is different from nata/not)
 
 Main List
 ---------
@@ -46,20 +46,20 @@ Status:Notes | Noun | Verb | Adjective | Other
 ++ | truth | | TRUE |
 ++ | pain | to be hurting, to hurt sb/sth | painful |
 ++ | speed |  speed up, accelerate (speeden) | fast, quickly | quick!
-++ | knife, blade, sharp (as in cut) thing | | sharp (as in cut, or as in sharp tasting), spicy, tangy, sour |
+++:hasi | knife, blade, sharp (as in cut) thing | | sharp (as in cut, or as in sharp tasting), spicy, tangy, sour |
 ++ | safety, protection | protect, to make sth safe | safe, protected |
 + | tree, lamp-post, telegraph pole, flagpole, electrical pylon etc: any tall, thin, freestanding structure, natural or artifical, which humans can't stand on with ease | | |
 ? | | | excited emotions; moving around a lot
 ? | | | static emotions; motionless; still
 + | happiness, laughter | be happy, to laugh | happy/laughing,funny (difference between vt 'make someone laugh' and vt 'laugh at someone')
 + | fear | | scared, scary
-+ | angry/aggressive
-+ | youth | | young |
++:anka | anger | to be angry | angry/aggressive
++:juna | youth | | young |
 + | | | artificial, man-made |
 +:natula | nature | | natural |
 + | | soften | soft, fluffy, gentle, gradual | 
 ? | | | | OK
-+:tanka | gratitude, thanks | to be grateful | grateful, thankful | thank you, thanks
++:taka | gratitude, thanks | to be grateful | grateful, thankful | thank you, thanks
 + | rough
 + | smooth |
 +: sawi | apology | to be sorry, to apologise to sb | sorry, apologetic | sorry
@@ -76,10 +76,9 @@ Status:Notes | Noun | Verb | Adjective | Other
 +: | | FEEL (body sense, eg 'feels pleasurable', 'i don't feel well', 'can you feel that?') | |
 + | free (costless/libre)
 + | work, housework, chores
-?: jan sawa nata | stranger
-+ | uncooked (used to be part of word for 'cold' -- but what about cooked food that's gone cold?)
++ | uncooked, raw (used to be part of word for 'cold' -- but what about cooked food that's gone cold?)
 + | safe, safety, protect
-+ | strong, intensity, strength (both as in physical power, and eg a flavour, or an effect)
++ | strong, intensity, strength (both as in physical power, and a flavour, or an effect)
 + | fictional, imaginary; story
 + | the physical world, of the physical world; eg book, newspaper
 + | the world of the mind, inside your head
@@ -91,12 +90,16 @@ Status:Notes | Noun | Verb | Adjective | Other
 + | dryness | to dry (sth?) | dry | 
 + | ill, sick, unwell, diseased, injured, broken
 + | ordered, organised, neat
++ | mess, chaos, tangle, disorder
 + | permanent, for good
 + | temporary, for now
 + | knot
 + | (for) each, per
 + | participatory, interactive
 + | test, examination, investigation
++ | friend
++ | vehicle
++ | question
 
 Semantic Primes
 ---------------
@@ -129,7 +132,7 @@ Status:Notes | Noun | Verb | Adjective | Other
 + | face | 
 + | fingers | 
 + | breast | nina kupa?
-+ | bones | 
++ | bone/s | 
 + | long | lina
 + | flat | 
 + | thin | 
@@ -141,15 +144,14 @@ Status:Notes | Noun | Verb | Adjective | Other
 + | in front of | 
 + | around | 
 + | sky | 
-+ | the Earth | 
++:kaja | the Earth | 
 + | stars | 
 + | ground | apa, supa
 + | creature | 
-+ | grow | kasi
 + | egg | 
 + | tail | 
 + | wings | 
-+ | be born | 
++ imanita? | be born | 
 + | mother | mama miwi
 + | father | mama misi
 + | wood | kahin kasi?
@@ -164,8 +166,10 @@ Status:Notes | Noun | Verb | Adjective | Other
 + | laugh | 
 + | sing | 
 
-Comparatives
+Comparatives/Quantifiers
 ------------
+
+Quantity, amount and intensity are all expressed with the same class of words
 
 Status:Reason | Noun | Verb | Adjective | Other
 --------------|------|------|-----------|------
@@ -176,44 +180,45 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | VERY
 + | enough, satisfactorily
 ? | least
-
++ | none, no (thing)
++  |  | reverse, opposite | opposite of <verb> (this is different from nata/not)
 
 NSM Non-Universal but Useful Words
 ----------------------------------
 
+### Including
+
 Status:Reason | Noun | Verb | Adjective | Other
 --------------|------|------|-----------|------
-+ | heart | 
-+ | mountain | 
-+ | desert | 
-+ | sea | wata satu satu
-+ | island | 
-+ | jungle / forest | kasi satu muta sasa
-+ | snow | wata hilu hilu pasita
-+ | ice | wata hilu hilu kahin
-+ | flood | 
-+ | storm | 
-+ | drought | 
-+ | earthquake |
 + | east | 
 + | west | 
 + | north | 
 + | south | 
++:sala | salt | 
++:suka | sugar | 
++ | family
++ | metal | 
+
+### Undecided
+
+Status:Reason | Noun | Verb | Adjective | Other
+--------------|------|------|-----------|------
++ | heart | 
++ | mountain | apa siwi <stone>
++ | desert | lula <dry> muta
++ | sea | wata satu satu
++ ila(n) | island | 
++ | jungle / forest | kasi satu muta sasa
++ | snow | wata hilu hilu pasita
++ | ice | wata hilu hilu kahin
++ | flood | wata muta <too> 
++ | storm | 
++ | drought | ipuki <dry> muta
++ | earthquake | 
 + | tree | kasi satu
-+ | seeds | 
 + | grass | 
 + | mosquito | 
 + | flies | 
-+ | dog | 
-+ | cat | 
-+ | horse | 
-+ | cow | 
-+ | pig | 
-+ | camel | 
-+ | buffalo | 
-+ | moose | 
-+ | family
-+ | month | 
 + | week | 
 + | clock | 
 + | hour | 
@@ -231,55 +236,48 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | flag | 
 + | passport | 
 + | vote | 
-+ | science | 
++ sijansa | science | 
 + | the law | 
 + | health | 
 + | education | 
 + | sport | 
 + | staple carb (rice wheat corn yams etc) | 
 + | flour | 
-+:sala | salt | 
-+:suka | sugar | 
 + | key | 
 + | gun | 
 + | bomb | 
 + | medicines | 
 + | paper | 
-+ | iron | 
-+ | metal | 
 + | glass | 
 + | wool | 
 + | cloth |
-+ | thread | 
-+ | gold | 
 + | rubber | 
 + | plastic | 
 + | oil | 
-+ | coal | 
 + | petrol
 + | road | 
 + | wheel | 
-+ | wire | 
 + | engine | 
 + | pipe | 
 + | telephone | 
 + | television | 
 + | radio | 
 + | phone | 
-+ | read | 
-+ | write | 
++ | read | luku tuki 
++ | write | tasani tuki
 + | book | 
 + | photo | 
 + | newspaper | 
 + | God | 
 + | poison | 
 + | music | kalama musi 
-+ | look at | 
 + | take (someone somewhere) | 
 + | burn | 
-+ | buy / pay | isun
 + | learn |
 + | clean | pali jaki nata
+
+### Not adding
+
 
 * a word for amount/intensity?
 * words for frequency -- again,
@@ -324,9 +322,9 @@ breath; breathe | nami susu
 blood | wata luhi 'red liquid'
 car | word for vehicle
 bicycle | word for vehicle
-plane | word for vehicle
-boat | word for vehicle
-train | word for vehicle
+plane | <vehicle> wasu
+boat | <vehicle> wata
+train | <vehicle> pi lina <metal>
 leather | hiwa suwilu `<dry>` 'dried animal skin'
 drink | moku i wata
 river | wata tawa
@@ -338,7 +336,21 @@ beauty; to make sth pretty; pretty, good-looking, beautiful | 'puna luku'
 less | anything that can be said with 'less', can also be said with 'more'
 completely, fully | <full> <like-as-way>
 not at all | nata, <empty> <like-as-way> 
-
+iron | <metal> <strong>, <metal> upaka
+gold | <metal> jala
+coal | <stone> mahi
+wire | lina <metal>
+seeds | kasi <egg>
+dog | 
+cat | 
+horse | 
+cow | 
+pig | 
+camel | 
+buffalo | 
+moose | 
+thread | 
+stranger | jan sawa <passive> nata
 
 Added
 =====
