@@ -8,7 +8,7 @@ amu | love | to love (a person) | love |
 apa | bottom, lower part, under, below, floor, beneath | lower, sink, drop  | low, lower, bottom, down |
 atani | difference | change, alter, modify | different | otherwise, or else
 awasa | Hunting, gathering, hunter-gathering, collection | to gather; to collect; to hunt | together, gathered, collected |
-awin | | stay, wait, remain | keep | remaining, stationary, permanent, sedentary
+awin | | stay, wait, remain; keep | remaining, stationary, permanent, sedentary
 hapa | having, ownership, property | have, contain | | kama-> receive, get, take, obtain
 hilu | cold | cool sth down, chill sth | cold |
 hina | back, rear end, butt, behind | | back, rear |
@@ -21,24 +21,23 @@ ipuku | time, period of time, moment, duration, situation, occasion | | |
 jaki | dirt, pollution, garbage, filth | pollute, dirty sth; to get dirty | dirty, gross, filthy | ew! yuck!
 jan | person, people, human, being, somebody, anybody | personify, humanize, personalize | human, somebody's, personal, of people |
 jasawi | left (NOT politically or 'remaining') | | left (spatial) |
-jawa | yellowness, the colour yellow | to make sth yellow; to be yellow | yellow, light green |
+jala | yellowness, the colour yellow | to make sth yellow; to be yellow | yellow, light green |
 kahin | hard thing, rock, stone, metal, mineral, clay | | hard, solid, stone-like, made of stone or metal (kahin kasi = wood) |
 kala | fish, sub-aquatic creature | | |
 kalama | sound, noise, voice | sound, ring, play (an instrument); make noise | noisy, loud |
 kanu | possibility, ability, power to do things, permission | make possible, enable, allow, permit; can, is able to, is allowed to, may, is possible | possible, potential | (conj) it is possible that
 kama | event, happening, chance, arrival, beginning | bring sth about, summon sth; come, become, arrive, happen, manage to | coming, future |
 kajasi | | | brown/grey: colour of slate, mud, metal
+kapi | head, mind | lead, control, rule, steer | main, leading, in charge |
 kasi | plant, leaf, herb, tree | to green sth (esp. an area); to grow | plant-based |
 kawisa | long, mostly hard object, e.g. rod, stick, branch | | |
+kilasu | grueness, the colour grue | to make sth grue-coloured | blue-green |
 kipisi | a cut | to cut sth |
 kipu | square, cube, block | | square-shaped, cube-shaped |
 kiwi | fruit, vegetable, mushroom | | |
-pasita | ko n semi-solid or squishy substance, e.g. paste, powder, gum | | squishy, paste-like|
 kulapu | group, community, society, company, people, herd, flock | to group sth/sb together; form a group, get together, to herd together | communal, shared, public, of the society |
 kuli | colour, paint | colour, paint | colourful | -coloured (comparison with sth)
-kapi | head, mind | lead, control, rule, steer | main, leading, in charge |
 kutu | ear | listen, hear listen to sb, hear sth | auditory, hearing |
-kilasu | grueness, the colour grue | to make sth grue-coloured | blue-green |
 lawan | hand, arm, branch | to touch with hand | five (5) |
 lili | | reduce, shorten sth; shrink, lessen | small, little, young, a bit, short, few, less |
 lina | long, very thin, floppy thing, e.g. string, rope, hair, thread, cord, chain, wire | to lengthen sth; to get longer, lengthen, extrude | long |
@@ -62,7 +61,7 @@ nasin | way, manner, custom, road, path, doctrine, system, method | | |
 nata | nothing, negation, zero; the state, situation or general phenomenon of being nata; absence, emptiness | | no, not, none, un-, no quantity of, the opposite of | no !
 nimi | word, name | to name sth; to call sth1 sth2; to be called, eg mi nimi jan Atan | |
 nina | bump, nose, hill, mountain, button | to protrude | |
-nuka | leg, foot | to kick | |
+nuka | leg, foot | to kick (sth) | |
 numa | number | to count something | numerical  | (ordinal numbers)
 nuwa | news, newness, novelty | renew, renovate, freshen | new, fresh, another, more |
 pakala | blunder, accident, mistake, destruction, damage, breaking | screw up, botch, ruin, break, hurt, injure, damage, spoil, ruin sth; screw up, fall apart, break | broken | damn !
@@ -71,6 +70,7 @@ pali | activity, work, deed, project | do, make, build, create sth; act, work, f
 pan | cereal, grain, rice | | |
 pana | giving, transfer, exchange | give, put, send, place, release, emit, cause | |
 pasila | simplicity | to simplify sth, to lighten (reduce the weight) of sth | simple, easy, light (as in weight)
+pasita | semi-solid or squishy substance, e.g. paste, powder, gum | | squishy, paste-like|
 pili | feelings, emotion, heart | feel, think, sense, touch | |
 pini | end, tip | finish, close, end, turn off (sth?) | completed, finished, past, done, ago |
 pipi | bug, insect, spider; arthropod, eg lobster | | |
