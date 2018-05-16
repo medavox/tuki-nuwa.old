@@ -93,3 +93,13 @@ If we can afford to leave out a sound we can't all agree on, we should.
     - found: 'sike' circle, wheel, sphere, ball, cycle, round, cyclical
 * co-operate/collaborate/work together (mitarbeiten)
     - just use 'work together', if those words are added
+
+------
+
+consider marking what part of speech a word represents by its ending, similarish to esperanto
+(but ONLY mark the POS, no conjugation or anything else!)
+
+so 'utali' could be a battle, and 'utala' is to battle
+
+use -n ending too if we REALLY need more, but that could be overly complex
+
