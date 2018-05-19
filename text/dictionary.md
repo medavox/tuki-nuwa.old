@@ -1,5 +1,6 @@
 Word | Noun | Verb | Modifier |  Other (interj, conj, prep)
 -----|------|------|----------|----------------------------
+ajunsi | left (NOT politically or 'remaining') | | left (spatial) |
 akawi | right (NOT correctness or political) | | right (spatial) |
 akisi | reptile, amphibian, scaly/slimy animal/creature | | akisi-looking, akisi-like |
 akula | money, material wealth, currency, dollar, capital | | |
@@ -8,27 +9,29 @@ amu | love | to love (a person) | love |
 apa | bottom, lower part, under, below, floor, beneath | lower, sink, drop  | low, lower, bottom, down |
 atani | difference | change, alter, modify | different | otherwise, or else
 awasa | Hunting, gathering, hunter-gathering, collection | to gather; to collect; to hunt | together, gathered, collected |
-awin | | stay, wait, remain; keep | remaining, stationary, permanent, sedentary
+awin | memory | stay, wait, remain; keep, continue, hold, remember | remaining, stationary, permanent, sedentary
 hapa | having, ownership, property | have, contain | | kama-> receive, get, take, obtain
+hansi | hair, fur, feathers | | hairy, furry, feathery |
+hasaka | knife, blade, sharp (as in cut) thing | | sharp (as in cut, or as in sharp tasting), spicy, tangy, sour |
 hilu | cold | cool sth down, chill sth | cold |
 hina | back, rear end, butt, behind | | back, rear |
 hiwa | outside, surface, skin, shell, bark, shape, peel | | |
 iju | thing, something, stuff, anything, object | objectify | of something |
-iki | negativity, badness, evil | to make bad, to worsen, to have a negative effect upon | to be bad, to suck; bad, negative, wrong, evil | oh dear! woe! alas!
-ina | inside, inner world, center, stomach | | inner, internal |
+insa | inside, inner world, center, stomach | be inside | inner, internal |
 isun | shop, store, place of commerce, trade | buy sth, trade, barter; shop | |
-ipuku | time, period of time, moment, duration, situation, occasion | | |
+ipuki | time, period of time, moment, duration, situation, occasion | | |
 jaki | dirt, pollution, garbage, filth | pollute, dirty sth; to get dirty | dirty, gross, filthy | ew! yuck!
 jan | person, people, human, being, somebody, anybody | personify, humanize, personalize | human, somebody's, personal, of people |
-jasawi | left (NOT politically or 'remaining') | | left (spatial) |
 jala | yellowness, the colour yellow | to make sth yellow; to be yellow | yellow, light green |
 kahin | hard thing, rock, stone, metal, mineral, clay | | hard, solid, stone-like, made of stone or metal (kahin kasi = wood) |
-kala | fish, sub-aquatic creature | | |
+kala | fish, sub-aquatic creature | to swim | fishy; fish-like |
 kalama | sound, noise, voice | sound, ring, play (an instrument); make noise | noisy, loud |
-kanu | possibility, ability, power to do things, permission | make possible, enable, allow, permit; can, is able to, is allowed to, may, is possible | possible, potential | (conj) it is possible that
 kama | event, happening, chance, arrival, beginning | bring sth about, summon sth; come, become, arrive, happen, manage to | coming, future |
-kajasi | | | brown/grey: colour of slate, mud, metal
+kanu | possibility, ability, power to do things, permission | make possible, enable, allow, permit; can, is able to, is allowed to, may, is possible | possible, potential | (conj) it is possible that
+kaja | the Earth | | of/related to the Earth |
+kajusi | | | brown/grey: colour of stone, mud, metal
 kapi | head, mind | lead, control, rule, steer | main, leading, in charge |
+kaputi | illness, damage, injury | damage/injure/break sth, make sth/sb unwell | ill, sick, unwell, diseased, injured, broken, malfunctional
 kasi | plant, leaf, herb, tree | to green sth (esp. an area); to grow | plant-based |
 kawisa | long, mostly hard object, e.g. rod, stick, branch | | |
 kilasu | grueness, the colour grue | to make sth grue-coloured | blue-green |
@@ -37,9 +40,11 @@ kipu | square, cube, block | | square-shaped, cube-shaped |
 kiwi | fruit, vegetable, mushroom | | |
 kulapu | group, community, society, company, people, herd, flock | to group sth/sb together; form a group, get together, to herd together | communal, shared, public, of the society |
 kuli | colour, paint | colour, paint | colourful | -coloured (comparison with sth)
+kupa | body, physical state | | of the body |
 kutu | ear | listen, hear listen to sb, hear sth | auditory, hearing |
-lawan | hand, arm, branch | to touch with hand | five (5) |
-lili | | reduce, shorten sth; shrink, lessen | small, little, young, a bit, short, few, less |
+lapi | sleep, rest | sleep, rest | sleeping, of sleep |
+lawan | hand, arm, branch, appendage | to touch with hand | five (5) |
+lili | | reduce, shorten sth; shrink, lessen | small, little, young, a bit, short, few |
 lina | long, very thin, floppy thing, e.g. string, rope, hair, thread, cord, chain, wire | to lengthen sth; to get longer, lengthen, extrude | long |
 lipu | flat and bendable thing, e.g. paper, card, ticket. Also book, page (of book, or web page) | | |
 luhi | | | red |
@@ -48,73 +53,82 @@ lula | land, earth, country, (outdoor) area | | | precedes place name, eg 'lula 
 lun | | put sth in place; be there, be present, be real/true, exist, be awake | | prep be (located) in/at/on
 lupa | hole, orifice, window, door | to make a hole in sth | |
 mahi | darkness, shadows | darken | black, dark |
+malu | negativity, badness, evil | to make bad, to worsen, to have a negative effect upon | to be bad, to suck; bad, negative, wrong, evil | oh dear! woe! alas!
 mama | parent, mother, father | to parent/raise/nuture sth | of the parent, parental, maternal, fatherly |
 misi | man, male | | male, masculine, manly, of manhood |
 miwi | woman, female, girl | | female, feminine, womanly, of womanhood |
-muli | death | kill sth/sb; die, be dead | dead, deadly, fatal |
+muhali | death | kill sth/sb; die, be dead | dead, deadly, fatal |
 muna | moon, month | | lunar |
 musi | fun, playing, game, recreation, art, entertainment | amuse, entertain sb; play, have fun | artful, fun, recreational | (interj) I'm having fun, Weeee!
-muta | amount, quantity, number-of | make many or much, increase quantity/number of sth | many, very, much, several, a lot, abundant, numerous, more |
+muta | amount, quantity, number-of |  | many, very, much, several, a lot, abundant, numerous |
+nalan | softness | soften | soft, fluffy, gentle, gradual | 
 nami | food, meal | vt eat, drink, swallow, ingest, consume | edible, potable |
 nasa | | to confuse sth/sb, make weird | silly, foolish, drunk, strange, stupid, weird |
 nasin | way, manner, custom, road, path, doctrine, system, method | | |
 nata | nothing, negation, zero; the state, situation or general phenomenon of being nata; absence, emptiness | | no, not, none, un-, no quantity of, the opposite of | no !
+natula | nature | | natural, ruthless, unforgiving, dangerous, harsh |
 nimi | word, name | to name sth; to call sth1 sth2; to be called, eg mi nimi jan Atan | |
 nina | bump, nose, hill, mountain, button | to protrude | |
 nuka | leg, foot | to kick (sth) | |
 numa | number | to count something | numerical  | (ordinal numbers)
-nuwa | news, newness, novelty | renew, renovate, freshen | new, fresh, another, more |
+nunka | semi-solid or squishy substance, e.g. paste, powder, gum | | squishy, paste-like|
+nuwa | news, newness, novelty, youth | renew, renovate, freshen | new, young, fresh, another, more |
 pakala | blunder, accident, mistake, destruction, damage, breaking | screw up, botch, ruin, break, hurt, injure, damage, spoil, ruin sth; screw up, fall apart, break | broken | damn !
 paku | container, box, bowl, cup, glass | to contain sth | |
 pali | activity, work, deed, project | do, make, build, create sth; act, work, function | active, work-related, operating, working |
 pan | cereal, grain, rice | | |
 pana | giving, transfer, exchange | give, put, send, place, release, emit, cause | |
 pasila | simplicity | to simplify sth, to lighten (reduce the weight) of sth | simple, easy, light (as in weight)
-pasita | semi-solid or squishy substance, e.g. paste, powder, gum | | squishy, paste-like|
+pata | size |  | big, tall, large |
+pisi | part, piece, component  | | |
 pili | feelings, emotion, heart | feel, think, sense, touch | |
 pini | end, tip | finish, close, end, turn off (sth?) | completed, finished, past, done, ago |
 pipi | bug, insect, spider; arthropod, eg lobster | | |
 piwa | | | | a few, a little
 puki | side, hip, next to | | neighbouring | prep in the accompaniment of, with
 puna | good, positivity | improve, fix, repair, make good | good, positive, nice, correct, right | great! good! thanks! OK! Cool! yay!
-pusiki | importance | to treat sth as important; to be important | important |
+pusiki | importance |  | important |
+putala | conflict, disharmony, competition, conflict, struggle, fight, war, battle, attack, blow, argument, physical or verbal violence | hit, strike, attack, compete against | |
+puwanu | tree, lamp-post, telegraph pole, flagpole, electrical pylon etc: any tall, thin, freestanding structure, natural or artifical, which humans can't normally stand on easily (eg, without also using their hands for balance/support) | | |
 sama | self | | same, similar, equal, of equal status or position, equivalent, | (prep) like, as, seem
-lapi | sleep, rest | sleep, rest | sleeping, of sleep |
-sasa | fire, warmth, heat, lightning, explosion, exothermic reaction, cooking source, light source | heat, warm up, cook | hot, warm, cooked |
-satu | size | enlarge, grow in size | big, tall, long, adult |
-suwilu | animal, esp. land mammal | | |
-sawa | knowledge, wisdom, intelligence, understanding | know, understand, know how to; kama learn, study | |
-kupa | body, physical state | | of the body |
+sala | salt | | salty |
+sasa | fire, warmth, heat, exothermic reaction, cooking source, light source | heat, warm up, cook | hot, warm, cooked |
+sati | truth | | true, correct |
+sawa | knowledge, wisdom, intelligence, understanding | know, understand, know how to; kama learn, study | knowledgable, wise; knowing |
 siki | circle, wheel, sphere, ball, cycle | | round, cyclical |
-simi | | | | (oth) what, which, wh- (question word)
-sipin | front, chest, torso, face, wall | | |
+sikusa | dryness | to dry out, dry sth | dry |
+simi | | | | what, which, wh- (question word)
+sinpin | front, chest, torso, face, wall | | |
 susu | air, wind, smell | to smell sth; to have a smell (good or bad) | air-like, ethereal, gaseous |
 siwi | high, up, above, top, over, | raise up | elevated, religious, formal (prep) on sth |
 sunu | sun, light (as in bright) | to emit light; illuminate sth | having the qualities or characteristics of sunu |
 supa | horizontal or supporting surface or platform, e.g furniture, table, chair, pillow, floor | | |
-suwi | sweets, sweet food | sweeten | sweet, sugary |
+suwi | sweets, sweet food, sugar | sweeten | sweet, sugary |
+suwilu | animal, esp. land mammal | | |
+tali | kind, type | categorise | |
+taka | gratitude, thanks | to be grateful | grateful, thankful | thank you, thanks
 tan | origin, cause | | | prep from, by, because of, since
-tasani | picture, image, drawing, writing | draw, write | |
+tapalu | work, housework, chores | to work; to do chores | |
+tasan | picture, image, drawing, writing | draw, write | |
 tasu | | | only, sole | (conj) but
 tawa | movement, transportation | move, displace sth; go to, walk, travel, move | moving, mobile | (prep) to, in order to, towards, for, until
 tu | duo, pair | double, separate/split/cut/divide in two | two |
 tuki | language, talking, speech, communication | say, speak; talk, chat, communicate | talking, verbal | (interj) hello! hi!
 tulu | tool, device, machine, thing, used for a specific purpose | | |
-tumu | indoor constructed space, e.g. house, home, room, building, shelter | | mod urban, domestic, household |
-uhahi | sex, sexuality | have sex (with sb/sth?) | erotic, sexual |
+tumu | indoor space, e.g. room, building, cave, hut, shelter; any structure large enough for humans to go under/inside of, which offers at least partial cover/shelter from the elements | | to cover (sth) |
 upaka | weight, difficulty | | heavy, difficult |
 upin | beginning, start | open, turn on, start | open, started |
 usu | usage | use | | (prep) with (using)
 uta | mouth, maw, muzzle, beak, proboscis etc | to taste sth | oral |
-utala | conflict, disharmony, competition, conflict, struggle, fight, war, battle, attack, blow, argument, physical or verbal violence | hit, strike, attack, compete against | |
+uwahi | sex, sexuality | have sex (with sb/sth?) | erotic, sexual |
 wali | whiteness, lightness | | white, light (colour) |
 wan | unit, element, particle, part, piece | unite, make one | one, a |
-wapa | energy, strength, power, electricity | strengthen, energize, empower | energetic, strong, electrical |
+wapa | energy, strength, power, electricity, lightning | strengthen, energize, empower | energetic, strong, electrical |
 wasu | bird, winged animal/creature | to fly | flying |
 wata | water, liquid, juice, sauce | water, wash with water | wet, liquid |
-wika | absence, distance | throw away, remove, get rid of | far, distant, away, absent, missing |
+wika | distance |  | far, distant, away  |
 wilu | desire, need, will | to want, need, wish, have to, must, will | necessary |
-win | clothing, cloth, fabric | to clothe sb; clothe, dress, decorate | |
+witan | clothing, cloth, fabric | to clothe sb; clothe, dress, decorate | |
 
 Glue Words
 ----------
