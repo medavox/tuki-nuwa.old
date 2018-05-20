@@ -143,17 +143,13 @@ fun main(args: Array<String>) {
                             totalSimilarWordsToDictionaryWords++
                         }
                     }
-                    /*o.println("unused words:")
-                    for (wurd in allPossibleWords) {
-                        o.println(wurd);
-                    }*/
 
                     o.println("total unused: ${allPossibleWords.size}")
                     o.println("dictionary words: ${dictionary.size}")
                     o.println("total similar words to dictionary words: " +
                             "$totalSimilarWordsToDictionaryWords")
 
-                    if(args.size == 3){
+                    if(args.size == 3) {
                         o.println("word containing \"${args[2]}\":")
                         var matchingWords = 0
                         for(unusedWord in allPossibleWords.filter { it.contains(args[2]) }) {
@@ -161,6 +157,49 @@ fun main(args: Array<String>) {
                             matchingWords++
                         }
                         o.println("matching words: $matchingWords")
+                    }
+                    else if(args.size == 4) {
+                        // print 1, 2 or 3 syllable possible words
+                        //or any combination thereof;
+                        //or only print words BEGINNING or ending with the given sequence
+                        //also, validate given string is phonotactically valid
+                        
+                        //to the last argument, add:
+                        //any (or none) or 1, 2 or 3 to only print word with that many syllables
+                            //(both 123 and no numbers print words with either 1, 2 or 3 syllables)
+                        //either (or neither) of s or e,
+                            //to print words that start (and/or) end with the provided string
+                        // adding both s and w prints words that start or end with it,
+                        // adding neither prints words that contain the string anywhere
+                        o.println("QUERY MODE")
+                        var startsWith = false
+                        var endsWith = false
+                        val syllableSizes:MutableList<Int> = mutableListOf()
+                        for(character in args[3]) {
+                            when {
+                                character.isDigit() -> syllableSizes.add(character.toString().toInt())
+                                character == 's' -> startsWith = true
+                                character == 'e' -> endsWith = true
+                            }
+                        }
+                        //syllableSizes = mutableListOf<Int>(1, 2, 3)
+                        var matchingWords = 0
+                        for(unusedWord in allPossibleWords.filter { when {
+                            startsWith && endsWith -> it.startsWith(args[2]) || it.endsWith(args[2])
+                            startsWith && !endsWith -> it.startsWith(args[2])
+                            !startsWith && endsWith -> it.endsWith(args[2])
+                            !startsWith && !endsWith -> it.contains(args[2])
+                            else -> false//should never reach this
+                        }}) {
+                            val syllablesByVowel = unusedWord.count { it in vowels }
+                            //o.println("syllables of $unusedWord: $syllablesByVowel")
+                            if(syllablesByVowel in syllableSizes || syllableSizes.isEmpty()) {
+                                o.println(unusedWord)
+                                matchingWords++
+                            }
+                        }
+                        o.println("matching words: $matchingWords")
+
                     }
                 }
             }
@@ -187,6 +226,7 @@ class TokiNawaSounds {
         //firstly, generate initial-only syllables
         for (c in vowels) {
             wordInitialOnlySyllables.add(c.toString())
+            wordInitialOnlySyllables.add(c.toString()+"n")
         }
 
         //then, generate all other possible syllables
@@ -199,6 +239,7 @@ class TokiNawaSounds {
                     continue
                 }
                 syllables.add(c + v)
+                syllables.add(c + v + "n")
             }
         }
 
