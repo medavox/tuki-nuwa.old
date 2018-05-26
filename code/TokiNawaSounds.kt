@@ -163,7 +163,7 @@ fun main(args: Array<String>) {
                         //or any combination thereof;
                         //or only print words BEGINNING or ending with the given sequence
                         //also, validate given string is phonotactically valid
-                        
+
                         //to the last argument, add:
                         //any (or none) or 1, 2 or 3 to only print word with that many syllables
                             //(both 123 and no numbers print words with either 1, 2 or 3 syllables)
@@ -276,17 +276,8 @@ class TokiNawaSounds {
         //empty string represents missing initial consonant
         for(firstSyllable in wordInitialSyllables) {
             for(secondSyllable in syllables) {
-                val twoSyls = firstSyllable+secondSyllable
-                var shouldSkipThisOne = false
-                /*val simis = similarWordsTo(twoSyls)
-                for(similar in simis) {
-                    if(twos.contains(similar)) {
-                        shouldSkipThisOne = true
-                        break
-                    }
-                }*/
-                if(!shouldSkipThisOne) {
-                    twos.add(twoSyls)
+                if(!(firstSyllable.endsWith("n") && secondSyllable.startsWith("n"))) {
+                    twos.add(firstSyllable+secondSyllable)
                 }
             }
         }
@@ -300,18 +291,9 @@ class TokiNawaSounds {
         for(firstSyllable in wordInitialSyllables) {
             for(secondSyllable in syllables) {
                 for(thirdSyllable in syllables) {
-                    val triSyls = firstSyllable+secondSyllable+thirdSyllable
-                    var shouldSkipThisOne = false
-
-                    /*val simis = similarWordsTo(triSyls)
-                    for(similar in simis) {
-                        if(tris.contains(similar)) {
-                            shouldSkipThisOne = true
-                            break
-                        }
-                    }*/
-                    if(!shouldSkipThisOne) {
-                        tris.add(triSyls)
+                    if((!(firstSyllable.endsWith("n") && secondSyllable.startsWith("n"))
+                    || (secondSyllable.endsWith("n") && thirdSyllable.startsWith("n")))) {
+                        tris.add(firstSyllable+secondSyllable+thirdSyllable)
                     }
                 }
             }
@@ -396,8 +378,19 @@ class TokiNawaSounds {
             return arrayOf()
         }
         val similarWords = LinkedList<String>()
+        val vowelsInWord = word.count { it in vowels }
+        if(vowelsInWord > 1) {//if the word contains >1 vowel
+            for(i in 0 until vowels.length) {
+                //and they are all the same vowel
+                if((word.length - word.replace(vowels[i].toString(), "").length) == vowelsInWord ) {
+                    //add the words where we replace that vowel with the other two vowels
+                    //eg, kipisi => kupusu, kapasa
+                    similarWords.add(word.replace(vowels[i], vowels[(i+1) % vowels.length]))
+                    similarWords.add(word.replace(vowels[i], vowels[(i+2) % vowels.length]))
+                }
+            }
+        }
         for (i in 0 until word.length) {
-
             //replace u with the other vowels, and the other vowels for u
             if (word[i] == 'a') {//replace a with u
                 similarWords.add(replaceCharAt(word, i, 'u'))
@@ -411,16 +404,6 @@ class TokiNawaSounds {
             if (word[i] == 'i') {//replace i with u
                 similarWords.add(replaceCharAt(word, i, 'u'))
             }
-/*
-            if(consonants.contains(word[i])) {
-                for (conso in consonants) {
-                    if (conso != word[i]) {
-                        val replaced = word.toCharArray()
-                        replaced[i] = conso
-                        similarWords.add(String(replaced))
-                    }
-                }
-            }*/
 
             if (word[i] == 'n') {
                 if (i != word.length - 1) {//replace non-final n with m
@@ -458,7 +441,6 @@ class TokiNawaSounds {
                 }
                 //similarWords.add(replaceCharAt(word, i, 'p'))
             }
-
 
             //add phonotactically-valid anagrams beginning with the same letter
             val afterFirst = word.substring(1)
