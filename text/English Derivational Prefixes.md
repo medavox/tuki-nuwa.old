@@ -13,7 +13,6 @@ amphi | two, both, on both sides | amphiaster, amphitheater, amphibian
 an  | lacking in, lack of, not, without | anemic
 up, against | anode
 ana | up, against | anatoxin
-Anglo | relating to England | Anglo-Irish
 ante | before | antenatal
 anti | opposite, against | anti-war, antivirus, anti-human
 apo  | away, different from | apomorphine
@@ -66,7 +65,6 @@ dys | abnormal, diseased, bad, unfavorable, faulty | dysplasia, dyspathy, dysfun
 down | to make something lesser, lower or worse | downgrade
 du, duo | two | duet, duovirus
 eco | ecological | ecosystem
-electro | electric, electricity | electroablation
 en, em | to make into, to put into, to get into | enmesh, empower
 epi | upon, at, close upon, in addition | epidermis
 Euro | European | Eurocentric
