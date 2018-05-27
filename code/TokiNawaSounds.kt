@@ -75,7 +75,7 @@ fun main(args: Array<String>) {
             //args[0].equals("lint")
             val dict = File(args[1])
             if(!dict.exists() || !dict.isFile || !dict.canRead() || dict.length() < 5) {
-                e.println("invalid file specified.")
+                e.println("invalid file \"$dict\" specified.")
             }else {
                 val dictionary = t.scrapeWordsFromDictionary(dict)
                 if(command == "lint" || command == "l") {
@@ -218,7 +218,7 @@ class TokiNawaSounds {
     private val wordInitialOnlySyllables = TreeSet<String>()
     private val wordInitialSyllables = TreeSet<String>()
 
-    private val forbiddenSyllables = arrayOf("ji", "ti", "wu", "hu")
+    private val forbiddenSyllables = arrayOf("ji", "ti", "wu")
 
     init{
         //generate all possible syllables
