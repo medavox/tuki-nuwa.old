@@ -9,14 +9,14 @@ SOMEONE			| jan
 PEOPLE			| jan
 SOMETHING~THING | iju
 BODY 			| kupa
-KIND
-PART
+KIND            | tali
+PART            | pisi
 THIS 			| ni
 THE SAME 		| sama
-OTHER~ELSE
+OTHER~ELSE      | atani
 ONE 			| wan
 TWO 			| tu
-SOME
+SOME            | sumin
 ALL 			| ali
 MUCH~MANY 		| muta
 LITTLE~FEW 		| piwa
@@ -32,9 +32,9 @@ SEE 			| luku
 HEAR 			| kuti
 SAY 			| tuki
 WORDS 			| nimi
-TRUE
+TRUE            | satu
 DO 				| pali
-HAPPEN
+HAPPEN          | (pasa/kama)
 MOVE 			| tawa
 BE (SOMEWHERE)
 THERE IS
