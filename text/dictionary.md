@@ -8,7 +8,7 @@ ali | life, the universe, everything | | all, every, complete, whole |
 amika | friend | befriend sb, make friends | friendly
 amu | love | to love (a person) | love |
 apa | bottom, lower part, under, below, floor, beneath | lower, sink, drop  | low, lower, bottom, down |
-atani | difference | change, alter, modify | different | otherwise, or else
+atani | difference | change, alter, modify | different, other | otherwise, or else
 awasa | Hunting, gathering, hunter-gathering, collection | to gather; to collect; to hunt | together, gathered, collected |
 awin | memory | stay, wait, remain; keep, continue, hold, remember | remaining, stationary, permanent, sedentary
 hansi | hair, fur, feathers | | hairy, furry, feathery |
@@ -26,14 +26,14 @@ jaki | dirt, pollution, garbage, filth | pollute, dirty sth | dirty, gross, filt
 jala | yellowness, the colour yellow | to make sth yellow | yellow, light green |
 jan | person, people, human, being, somebody, anybody | personify, anthropomorphise, humanize, personalize | human, somebody's, personal, of people |
 kahin | hard thing, rock, stone, metal, mineral, clay | | hard, solid, stone-like, made of stone or metal (kahin kasi = wood) |
-kaja | the Earth | | of/related to the Earth |
+kaja | the Earth | | of/related to the Earth; earthly |
 kajusi | | | brown/grey: colour of stone, mud, metal
 kala | fish, sub-aquatic creature | to swim | fishy; fish-like |
 kalama | sound, noise, voice | to sound <adj> (eg loud, pleasant, annoyiing, repetitive), sound sth (eg a bell, an alarm) play (an instrument); make noise | noisy, loud |
 kama | event, happening, chance, arrival, beginning | bring sth about, summon sth; come, become, arrive, happen, | coming, future |
 kanu | possibility, ability, power to do things, permission | make possible, enable, allow, permit; puha -> can, is able to, is allowed to, may, is possible | possible, potential | (conj) it is possible that
 kapi | head, mind | lead, control, rule, steer | main, leading, in charge |
-kaputi | illness, damage, injury | damage/injure/break sth, make sth/sb unwell | ill, sick, unwell, diseased, injured, broken, malfunctional
+kaputi | illness, damage, injury, breakage | damage/injure/break sth, make sth/sb unwell | ill, sick, unwell, diseased, injured, broken, malfunctional
 kasi | plant, leaf, herb, tree | to grow larger | plant-based |
 kawisa | long, mostly hard object, e.g. rod, stick, branch | | |
 kilasu | grueness, the colour grue | to make sth grue-coloured | blue-green |
@@ -86,7 +86,7 @@ pasila | simplicity | to simplify sth, to lighten (reduce the weight) of sth | s
 pata | size |  | big, tall, large |
 pili | feelings, emotion, heart | feel, think, sense, touch | |
 pilusi | speed |  speed up, accelerate (speeden) | fast, quickly | quick!
-pini | end, tip | finish, close, end, turn off (sth?) | completed, finished, past, done, ago |
+pini | end, tip | finish, close, end, turn off (sth) | completed, finished, past, done, ago |
 pipi | bug, insect, spider; arthropod, eg lobster | | |
 pisi | part, piece, component  | | |
 piwa | | | | a few, a little
@@ -146,14 +146,16 @@ ha   | ah, ha, uh, oh, ooh, aw, well
 hi   | (interj) hey! (calling sb's attention)
 i 	 | marks start of object noun-phrase (introduces a direct object)
 ju   | or
+jupa | adj->verb | to make sth come to have the property of the following adj phrase; to <adjective phrase>ify sth; to make sth `<adjective phrase>`; sasa tawa li jupa hilu i mi  = the wind is making me cold. mi jupa <safe> i tumu  = I'm making the room safe
 ka   | also, too, even, indeed (emphasizes the word(s) before it)
 ki   | question-marker: "is it the case that/is it that/est-ce que"; comes before statement.
 li 	 | separator "between any subject except mi and si and its verb; also used to introduce a new verb for the same subject"
 lu   | she, he, it, they; her, his, its, their
 mi   | i/we; my/our
-mu   | (interj) woof! meow! moo! etc. (mammal/bird noises)
+na   | precedes the indirect object, (second object), in a sentence with a ditransitive verb; eg 'he gives her the ball' = lu li pana i lu __na__ siki. i
 ni   | this, that
 pi   | (sep) of, belonging to
+puha | passive marker (goes after a verb); the verb-phrase is being done TO the subject, possibly by some(thing/one). mi moku puha! = "i am being eaten!"
 si   | you, your
 u    | addressive marker: <jan Atan u> = "hey, adam", "@adam"; (sep) U Imperative: <u namu!> = "eat!"
 wa   | context-phrase separator, topicaliser
