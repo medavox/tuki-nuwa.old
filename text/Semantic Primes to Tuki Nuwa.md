@@ -42,7 +42,7 @@ BE (SOMEONE/SOMETHING)
 (IS) MINE
 LIVE
 DIE 			| muli
-WHEN~TIME
+WHEN~TIME       | ipuki
 NOW 			| ipuki ni (la)
 BEFORE
 AFTER
@@ -56,7 +56,7 @@ ABOVE 			| siwi
 BELOW			| apa
 FAR 			| wika
 NEAR
-SIDE 			| puki
+SIDE
 INSIDE 			| ina
 TOUCH 			| (allegedly pili, but this is too confusing)
 NOT 			| nata
@@ -65,7 +65,7 @@ CAN 			| kanu
 BECAUSE 		| tan
 IF 				| ... la
 VERY 			| (allegedly muta, but this is too confusing)
-MORE
+MORE            | mulu
 LIKE~AS~WAY
 
 Semantic Molecules

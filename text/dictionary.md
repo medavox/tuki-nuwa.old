@@ -1,6 +1,7 @@
 Word | Noun | Verb | Modifier |  Other (interj, conj, prep)
 -----|------|------|----------|----------------------------
 ajunsi | left (NOT politically or 'remaining') | | left (spatial) |
+ajuta | help | help | helpful | 
 akawi | right (NOT correctness or political) | | right (spatial) |
 akisi | reptile, amphibian, scaly/slimy animal/creature | | akisi-looking, akisi-like |
 akula | money, material wealth, currency, dollar, capital | | |
@@ -18,6 +19,7 @@ hasuwa | pain | to hurt (sb/sth), to cause pain (to sb/sth) | painful |
 hilu | cold | cool sth down, chill sth; to cool, cool down | cold |
 hina | back, rear end, butt, behind | | back, rear |
 hiwa | outside, surface, skin, shell, husk, bark, shape, peel | to peel, skin, dehusk sb/sth | outer, external |
+huta | | | too (french 'trop'), as in 'too much', 'too heavy' NOT 'me too'
 iju | thing, something, stuff, anything, object | | of something |
 insa | inside, inner world, center, stomach | | inner, internal |
 ipuki | time, period of time, moment, duration, situation, occasion | | of or relating to time; temporal |
@@ -47,8 +49,8 @@ kutu | ear | listen, hear listen to sb, hear sth | auditory, hearing |
 lapi | sleep, rest | sleep, rest | sleeping, of sleep |
 lawan | hand, arm, branch, appendage | to touch with hand | five (5) |
 lili | smallness (eg size) | reduce, shorten sth; shrink, lessen | small, little, a bit, short, few |
-lina | ?LENGTH? long, very thin, floppy thing, e.g. string, rope, hair, thread, cord, chain, wire | to lengthen sth; to get longer, lengthen, extrude | long |
-lipu | flat and bendable thing, e.g. paper, card, ticket. Also book, page (of book, or web page) | | |
+linja | ?LENGTH? long, very thin, floppy thing, e.g. string, rope, hairs, thread, cord, chain, wire | to lengthen sth; to get longer, lengthen, extrude | long |
+lipu | flat and bendable thing, e.g. paper, card, ticket, leaf. Also book, page (of book, or web page) | | |
 luhi | | | red |
 luku | eye | see, look at, watch, read sth/sb; (imperative) look, watch out, pay attention | visual(ly) |
 lula | land, earth, country, (outdoor) area | | | precedes place name, eg 'lula Mewika'
@@ -83,7 +85,6 @@ pan | cereal, grain, rice; any staple food (usually a carbohydrate source) | | |
 pana | giving, transfer, exchange | give, put, send, place, release, emit, cause | |
 pasa | occurrence | happen, occur, take place, come to be
 pasila | simplicity | to simplify sth, to lighten (reduce the weight) of sth | simple, easy, light (as in weight)
-pata | size |  | big, tall, large |
 pili | feelings, emotion, heart | feel, think, sense, touch | |
 pilusi | speed |  speed up, accelerate (speeden) | fast, quickly | quick!
 pini | end, tip | finish, close, end, turn off (sth) | completed, finished, past, done, ago |
@@ -91,14 +92,15 @@ pipi | bug, insect, spider; arthropod, eg lobster | | |
 pisi | part, piece, component  | | |
 piwa | | | | a few, a little
 puki | side, hip, next to | | neighbouring | prep in the accompaniment of, with
-puna | good, positivity | improve, fix, repair, make good | good, positive, nice | great! good! thanks! OK! Cool! yay!
+pulan | fullness, completion, whole | to fill sth, to fill (up) | full, fully, complete, completely, whole, wholely
+puna | good, positivity | improve, fix, repair, make good | good, positive, nice | great! good! OK! Cool! yay!
 pusiki | importance |  | important |
 putala | conflict, disharmony, competition, conflict, struggle, fight, war, battle, attack, blow, argument, physical or verbal violence | hit, strike, attack, compete against | |
 puwanu | tree, lamp-post, telegraph pole, flagpole, electrical pylon etc: any tall, thin, freestanding structure, natural or artifical, which humans can't normally stand on easily (eg, without also using their hands for balance/support) | | |
 sala | salt | | salty |
 sama | self, similarity | | same, similar, equal, of equal status or position, equivalent | (prep) like, as, seem
 sasa | fire, warmth, heat, exothermic reaction, cooking source, light source | heat, warm up, cook | hot, warm, cooked |
-satu | truth | | true, right, correct |
+satu | size |  | big, tall, large |
 sawa | knowledge, wisdom, intelligence, understanding | know, understand, know how to; kama learn, study | knowledgable, wise; knowing |
 siki | circle, wheel, sphere, ball, cycle | | round, cyclical |
 sikusa | dryness | to dry out, dry sth | dry |
@@ -106,14 +108,15 @@ silumin | grease, oil (cooking, engine or crude), fat (culinary) | lubricate/gre
 simi | | | | what, which, wh- (question word)
 sinpin | front, face, wall | | |
 siwi | high, up, above, top, over, | raise up | elevated, religious, formal (prep) on sth |
+sumin | SOME, somewhat, quite; an uncounted quantity/amount/number of things/people
 sunu | sun, light (as in bright) | to emit light; illuminate sth | having the qualities or characteristics of sunu |
 supa | horizontal or supporting surface or platform, e.g furniture, table, chair, pillow, floor | | |
 susu | air, wind, smell | to smell sth; to have a smell (good or bad) | air-like, ethereal, gaseous |
 suwi | sweets, sweet food, sugar | sweeten | sweet, sugary |
 suwilu | animal, esp. land mammal | | |
-taka | gratitude, thanks | to be grateful | grateful, thankful | thank you, thanks
 tali | kind, type | categorise | |
 tan | origin, cause | | | prep from, by, because of, since
+tanka | gratitude, thanks | to be grateful | grateful, thankful | thank you, thanks
 tapalu | work, housework, chores | to work; to do chores | |
 tasan | picture, image, drawing, writing | draw, write | |
 tasu | | | only, sole | (conj) but
@@ -127,12 +130,14 @@ upin | beginning, start | open, turn on, start | open, started |
 usu | usage | use | | (prep) with (using)
 uta | mouth, maw, muzzle, beak, proboscis etc | to taste sth | oral |
 uwahi | sex, sexuality | have sex (with sb/sth?) | erotic, sexual |
+uwinu | direction | move towards | -wards, towards, in the direction of
+wajapi | fear | to be scared | scared, scary
 wali | whiteness, lightness | | white, light (colour) |
 wan | unit, element, particle, part, piece | unite, make one | one, a |
-wapa | energy, strength, power, electricity, lightning | strengthen, energize, empower | energetic, strong, powerful, electrical |
-wasu | bird, winged animal/creature | to fly | flying |
+wapa | energy,  electricity, strength, power, intensity, lightning | strengthen, energize, empower, electrify | energetic, electrical, strong, powerful, intensity |
+wasu | bird, winged animal/creature | to fly | of flight; having the power of flight; something which can fly |
 wata | water, liquid, juice, sauce | to water sth; to apply water (to sth); to rinse | wet, liquid |
-wika | distance |  | far, distant, away  |
+wika | distance | move away from, to distance oneself from sth | far, distant, away  |
 wilu | desire, need, will | to want, need, wish, have to, must, will | necessary |
 witan | clothing, cloth, fabric | to clothe sb; clothe, dress, decorate | |
 
@@ -144,9 +149,11 @@ Word | Meaning
 a    | and
 ha   | ah, ha, uh, oh, ooh, aw, well
 hi   | (interj) hey! (calling sb's attention)
-i 	 | marks start of object noun-phrase (introduces a direct object)
+hinsu | future-tense marker; replaces li in a sentence. Ipuki kama la, mi hinsu pali i lu. "I'll do it later."
+i    | marks start of object noun-phrase (introduces a direct object)
+jatun | past-tense marker; replaces li in a sentence. 
 ju   | or
-jupa | adj->verb | to make sth come to have the property of the following adj phrase; to <adjective phrase>ify sth; to make sth `<adjective phrase>`; sasa tawa li jupa hilu i mi  = the wind is making me cold. mi jupa <safe> i tumu  = I'm making the room safe
+jupa | adj->verb: to make sth come to have the property of the following adj phrase; to <adjective phrase>ify sth; to make sth `<adjective phrase>`; sasa tawa li jupa hilu i mi  = the wind is making me cold. mi jupa <safe> i tumu  = I'm making the room safe
 ka   | also, too, even, indeed (emphasizes the word(s) before it)
 ki   | question-marker: "is it the case that/is it that/est-ce que"; comes before statement.
 li 	 | separator "between any subject except mi and si and its verb; also used to introduce a new verb for the same subject"

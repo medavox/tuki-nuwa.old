@@ -23,4 +23,35 @@ A statement can be turned into a question by preceding it with *ki*. This word r
 
 *jan miwi puna luku u, ki si wilu isun e win kapi?* do you want to buy a hat, pretty lady?
 
-*ki jan lili li lapi?* (are the children/is the child) asleep?
+*ki jan nuwa li lapi?* (are the children/is the child) asleep?
+
+Topic Marker
+===========
+
+*Wa* can be used in a number of ways. 
+
+It can be used for describing __when__ something happened:
+
+*Ipuki pini wa, mi nami nata e kiwi suwi*
+
+In the past, I didn't eat fruit (or I didn't eat the fruit)
+
+It can also be used to separate a complex subject- or object-phrase from the rest of the sentence
+
+Past, Present and Future
+======
+
+When a verb takes place in the present, we use li to seperate the noun doing the verb, from the verb itself.
+
+If it happens in the future or the past, we use different words blah1 and blah2:
+
+
+
+Reflexive Pronouns
+======
+
+If someone does something to oneself, we use *sama*:
+
+*lu li nimi lu sama na Alex*
+
+she calls herself Alex

@@ -7,6 +7,8 @@ then later delete the word if I can create a decent equivalent phrase which mean
 THe hardest part of creating a new word is finding a good-sounding lexeme for it,
 so that can be deferred until I know the word is definitely being added.
 
+In the meantime, words without a lexeme will be referred to by a short version of their definition, in <angle brackets>.
+
 ### Key
 
 symbol | meaning
@@ -26,17 +28,16 @@ Grammar Words
 Status:Notes | Attaches to (POS) | results in (POS) | Meaning
 -------------|-------------------|------------------|--------
 ? probably this is a copula | adj | verb | to have the property of the following adj phrase; to be <adj phrase>
-++jupa | adj | verb | to make sth come to have the property of the following adj phrase; to <adjective phrase>ify sth; to make sth `<adjective phrase>`; consider using pana (give)?
-++:iku | adj | verb | to gain the property of the following adj phrase (by oneself); to become <adj phrase>, to get <adj phrase>; consider using kama (come to)
-++:nisa | verb, adjective | noun | next adj- or verb-phrase is a noun; "-ness"`<adj phrase>`-ness; state of being `<adj phrase>`; the act of doing `<verb phrase>`; `<verb phrase>`-ation. Goes before the affected phrase
-?:ula when used to make a verb into a modifier for a noun, nisa can be used instead | verb | noun | sth which/sb who `<verb>`s (a `<verb>`er), or is `<verb>`ed. Marks the action as being something a noun does; this word makes the verb-phrase a noun, but could also take a noun-phrase second argument for a noun-phrase which `<verb>`s. precedes the phrase it attaches to
++:iku | adj | verb | to gain the property of the following adj phrase (by oneself); to become <adj phrase>, to get <adj phrase>; consider using kama (come to)
++:nisa | verb, adjective | noun | next adj- or verb-phrase is a noun; "-ness"`<adj phrase>`-ness; state of being `<adj phrase>`; the act of doing `<verb phrase>`; `<verb phrase>`-ation. Goes before the affected phrase
 + liki  | verb, noun | adjective | previous word is an adjective/adverb; -y, -ly; in the manner of; like; LIKE~AS~WAY, similar to, in a similar manner to
-++ sintu | verb | verb | active marker; the pertaining verb-phrase is being done BY the subject, possibly to some(thing/one) else. "i eat (sth)"
-++ puha | verb | verb | passive marker; the pertaining verb-phrase is being done TO the subject, possibly by some(thing/one) else. "i am being eaten (by sth/sb)"
-++na | precedes the indirect object, or second object, in a sentence containing a ditransitive verb; eg 'he gives her the ball' = lu li pana i lu na siki
 
-all verbs are active by default. This may make sintu redundant
 nisa might be unecessary, as the position of the phrase in the sentence indicates whether a word is a noun
+it's not unecessary, because nouns may be used as part of a phrase, where their POS is ambiguous
+
+to Xify = jupa
+to be Xified jupa X puha
+to become X = iku
 
 Comparatives/Quantifiers
 ------------
@@ -45,44 +46,41 @@ Quantity, amount and intensity are all expressed with the same class of words:
 
 Status:Reason | Noun | Verb | Adjective | Other
 --------------|------|------|-----------|------
-+:huta | | | too (french 'trop'), as in 'too much', 'too heavy' NOT 'me too'
-+:pulan | fullness, completion, whole | to fill sth, to be full | full, fully, complete, completely, whole, wholely
+(too is covered by word huta)
+(fully is covered by word pulan)
 ? | most, the most
-<MORE is covered by word mulu>
-<VERY/MANY is covered by existing word `muta`>
+(MORE is covered by word mulu)
+(VERY/MANY is covered by existing word `muta`)
 +:satisu | enough, satisfactorily
-+:sumin | SOME, somewhat, quite; an uncounted quantity/amount/number
-<(slightly, a little, a bit) is covered by existing word lili>
-+:kika | | | NEAR, close, almost, nearly, mostly
-+ | hardly, barely, not very
-+:minja | less
+(SOME is provided by word sumin)
+((slightly, a little, a bit) is covered by existing word lili)
++:nuni | | | NEAR, close, almost, nearly, mostly
++ | hardly, barely, only-just
++:mina | less
 ? | least
-+:nuni | absence | throw away, remove, get rid of | none, no (thing); absent, missing, without | -less
-+:anti |  | reverse, opposite | opposite of <verb> (this is different from nata/not)
+?:pulan anti | emptiness | to empty sth, to be empty | empty 
++:kika | absence | throw away, remove, get rid of | none, no (thing); absent, missing, without | -less
++:anti | reversal | reverse, opposite | opposite of <verb> (this is different from nata/not)
 
 Main List
 ---------
 
 Status:Notes | Noun | Verb | Adjective | Other
 -------------|------|------|-----------|------
-++ | safety, protection | protect, to make sth safe | safe, protected |
 ? | | | excited emotions; moving around a lot
 ? | | | static emotions; motionless; still
 +lamuli | happiness, laughter | be happy, to laugh | happy/laughing,funny (difference between vt 'make someone laugh' and vt 'laugh at someone'?)
-+:wajapi | fear | to be scared | scared, scary
 +:anka | anger | to be angry | angry/aggressive
-+:atapisu | | | artificial, man-made |
++:atapisu, jatun pali pi jan | | | artificial, man-made |
 ?:uki | | | | OK
 + | rough
 + | smooth |
 +: suluwi | apology | to be sorry, to apologise to sb | sorry, apologetic | sorry
 + | adhesion | to stick (to sth) | sticky, adhesive |
--:overlap with wapa | strength, intensity | | strong, intense |
-? | danger | | dangerous |
++ | danger | | dangerous |
 ?:overlap with susu | smell | to smell
-?: ipuki numa tu | | | again |
-+:ajuta | help | help | helpful | 
-?:pinsi; similarity to pili | thought(s) | THINK | | |
+?: ipuki wan mulu | | | again |
+?:pinsa/sinjan/kinta/sinta/misali/tumaju/tunka; similarity to pili | thought(s) | THINK | | |
 + | | FEEL (body sense, eg 'feels good', 'i don't feel well', 'can you feel that?') | |
 + | uncooked, raw (used to be part of word for 'cold' -- but what about cooked food that's gone cold?)
 + | safe, safety, protect
@@ -90,56 +88,70 @@ Status:Notes | Noun | Verb | Adjective | Other
 + | fictional, imaginary; story
 + | the world of the mind, inside your head
 electronic
-+kunputela | computer; the software world; the internet; social media | | of computers; |
-+ | the spritual world, eg religious
-+ | emptiness | to empty sth, to be empty | empty 
++kunputila | computer; the software world; the internet; social media | | of computers; |
++ | the spritual world, eg religious, holy, divine, spiritual
 +:sinsan | ordered, organised, neat, straight  (geometrically)
-+ | mess, chaos, tangle, disorder
++:wiluja | mess, chaos, tangle, disorder
 + | temporary, for now
-+ | knot
++ | knot (connection? mess? order?)
 + | (for) each, per
 + | participatory, interactive
-+ | test, examination, investigation
++ | test, examination, investigation, check
 + | question, problem | ask
 + | answer, solution | answer (sth), solve (sth)
 +hama | home, house | | urban, domestic, household |
 + | thick
-+ | direction | towards | -wards, towards, in the direction of
 + | shape
-+ | curvy,
 + | squat
 + | | bounce | bouncy, springy, resilient; prone to returning to its original shape or position
-?: expressible with either more or different? | another
 + | share
-+ | also, too (as in 'me too'), as well
 + | limit
 + | edge
 + | obligation, requirement | to force, to require | should, must
-+ | | wake, wake up, awake | awake
++ | the state of being awake | wake, wake up, awake | awake
 + | quality (as in grade)
 + | place, location
++:kata | four
++ | high-status
+?:may be insulting to be labelled as such | low-status
++ | truth; the truth | | true, right, correct |
+false, incorrect, wrong, unreal, pretend, fake
++ | click, crack
++:pamili | family
++:mitalu | metal | 
++ | village, town, city 
++:luku puna means seeing well, and puna luku means positivity/Good visually; the concept of beauty isn't being expressed by 'good', or probably any other phrase. However, 'looking good' or 'looks good' do express this. hmmm. | beauty, aesthetics | | pretty, beautiful, handsome, good-looking, aesthetically pleasing |
++ | theft | steal | stolen
++ | | like, enjoy, prefer
++ | | turn, twist, rotate
+push, pull
+
+Numbers
+-----
+
+1 | (wan) -- maybe `in`?
+2 | (tu)
+3 | san
+4 | kata
+5 | lawan (hand)
+6 | pulan (full/whole)
+
 
 Semantic Primes
 ---------------
 
 Status:Notes | Meaning
 -------------|--------
-+ | BE (SOMEWHERE)
-+ | THERE IS
-+ | BE (SOMEONE/SOMETHING)
-+ | (IS) MINE
++ maja, ilija | THERE IS; a lot of lanugages just use 'is' before whatever there is
 ? | LIVE
-+ | TIME~WHEN
-+ | NOW
-+ | BEFORE
-+ api | AFTER
-+ | FOR SOME TIME
-+ | A LONG TIME
-+ | A SHORT TIME
++:ilin | BEFORE
++ hilanu | AFTER
++ | (FOR) SOME TIME
 + | MOMENT
 + | PLACE~WHERE~SOMEWHERE
 +:pusu | TOUCH
-+ | OTHER~ELSE
++ | BE (SOMEONE/SOMETHING)
++ | BE (SOMEWHERE)
 
 Semantic Molecules
 ------------------
@@ -154,12 +166,10 @@ Status:Notes | Noun | Verb | Adjective | Other
 + | breast | nina kupa?
 + | bone | 
 + | long | lina
-+ | flat | 
++:pilatu | flat | 
 + | thin | 
 + | hard | kahin
 + | be on something | 
-+ | at the top | 
-+ | at the bottom | 
 + | centre, middle | | in the middle, central | 
 + | in front of | 
 + | around | 
@@ -185,12 +195,21 @@ Status:Notes | Noun | Verb | Adjective | Other
 NSM Non-Universal but Useful Words
 ----------------------------------
 
-### Including
+(NSM Words we're definitely including now go in the Main List)
 
-Status:Reason | Noun | Verb | Adjective | Other
---------------|------|------|-----------|------
-+ | family
-+ | metal | 
+International Words
+--------
+
+These are words that we inherit from global law, culture and diplomacy.
+
+Word | Meaning
+-----|--------
+sijansa | science
+pasaputu | passport
+(h?)upitalu | hospital
+sikula | school | 
+numija, likalitu | the law, legal
+
 
 ### Undecided
 
@@ -198,36 +217,28 @@ Status:Reason | Noun | Verb | Adjective | Other
 --------------|------|------|-----------|------
 + | heart | 
 + | mountain | apa siwi <stone>
-+ | desert | lula <dry> muta
++ | desert | lula sikusa satu
 + | sea | wata satu satu
 + ila(n) | island | 
 + | jungle / forest | kasi satu muta sasa
 + | snow | wata hilu hilu pasita
 + | ice | wata hilu hilu kahin
 + | flood | wata muta <too> 'too much water'
-+ | drought | ipuki <dry> muta
++ | drought | ipuki sikusa muta
 + | earthquake | 
 + | grass | 
 + | mosquito | 
 + | flies | 
 + | week | 
-+ | clock | 
++ | clock | tulu ipuki
 + | hour | 
 +:sikun | second | 
-+ | village, town, city | 
-+ ikula | school | 
-+ | hospital
 + | teacher | 
 + | doctor | 
 + | nurse | 
-+ kuwamin | government | 
 + | capital | 
 + | border | 
-+ | flag | witan pi tasan lula
-+:pasaputu | passport | 
 + | vote | 
-+ sijansa | science | 
-+ numija | the law | 
 + | education | pana nisa sawa
 + | sport | 
 + | staple carb (rice wheat corn yams etc) | 
@@ -238,7 +249,7 @@ Status:Reason | Noun | Verb | Adjective | Other
 + | paper | 
 + | rubber | 
 + | plastic | 
-+ | petrol | wata pi sasa usu liki (useful fire water)/(water of useful fire)
++ | petrol | wata sasa pi usu (useful fire water)/(water of useful fire)
 + | road | 
 + | engine | 
 + | pipe | 
@@ -268,9 +279,6 @@ Status:Reason | Noun | Verb | Adjective | Other
         rarely
     - found: ipuki muta=many times, i.e. often
 
-
-how to say undo?
-
 Probably not adding
 -------------------
 
@@ -281,7 +289,7 @@ baby | jan pi nuwa pulan liki, or jan nuwa "new person"
 stop, stopped, paused | *kama nata `<verb>`* come to not `<verb>` ; pini
 rain | wata tawa apa 'water moving down', wata <sky> 'sky water'
 wind | susu tawa 
-snake | akisi sama lina
+snake | akisi lina 'rope lizard'
 togetherness; together | sama kulapu; awasa
 war | utala satu
 film | tasani tawa "moving picture"
@@ -289,7 +297,7 @@ meat | moku pi suwilu
 breath; breathe | nami susu 'eat air'
 blood | wata luhi 'red liquid'
 car | tulu tawa; ula tawa
-bicycle | tulu tawa pi siki tu
+bicycle | tulu tawa pi siki tu 'moving tool of two wheels'
 plane | tulu tawa pi wasu
 boat | tulu tawa pi wata
 train | tulu tawa pi lina <metal>
@@ -300,7 +308,6 @@ teeth | hasi uta "mouth knives"
 wife | miwi mi 'my woman'
 husband | misi mi 'my man'
 jagged | hasa
-beauty; to make sth pretty; pretty, good-looking, beautiful | 'puna luku'
 less | anything that can be said with 'less', can also be said with 'more'
 completely, fully | <full> <like-as-way>
 not at all | nata, <empty> <like-as-way> 
@@ -341,3 +348,20 @@ storm | <sky> <angry> 'angry sky'; <sky> kalama 'loud sky'
 free (costless or libre) | wilu i akula <none/without> 'wants/needs no money'; <none/without> wilu akula 'no need of money'; wilu nata i akula 'doesn't want money'; hapa puha nata 'not owned (have passive not)'
 private | insa wa
 public | hiwa wa
+A LONG TIME | ipuki muta
+A SHORT TIME | ipuki lili
+another | expressible with either mulu or atani
+TIME~WHEN | ipuki
+also, too (as in 'me too'), as well | ka
+NOW | ipuki ni (would have been jusun)
+flag | witan pi tasan lula
+kuwamin | government | 
+at the top | lun siwi
+at the bottom | lun apa
+sintu: verb -> verb: active marker; verb-phrase argument is being done BY the subject, possibly to some(thing/one) else. "i eat (sth)" | all verbs are active by default anyway
+?:ula: verb -> noun: sth which/sb who `<verb>`s (a `<verb>`er). This word makes the verb-phrase a noun. Precedes the phrase it attaches to | : nisa can be used instead: ula + <verb> = <verb>er, something which <verb>s. But <noun> nisa + <verb> = a <verb>ing <noun>
+undo | pali anti
+sikaha: safety, protection; protect, to make sth safe; safe, protected | = <danger> kika
+curvy | too specific, and too close to siki
+strength, intensity; strong, intense | overlap with wapa
+(IS) MINE | sth li hapa puha i mi

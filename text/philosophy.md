@@ -130,7 +130,12 @@ For instance, I think the complete tense is much clearer than the perfect tense.
 
 no separate words for artifical/natural versions of things; eg room = cave
 
-don't have two words which only differ in meaning between male/female, human/animal/machine, artifical/natural,  animate/inanimate -- where possible.
+don't have two words which only differ in meaning between 
+male/female,
+human/animal/machine,
+artifical/natural,
+animate/inanimate -- where possible.
+
 eg, room === cave; hand === paw; injured === damaged
 
 might need to include words to specify which category when necessary
@@ -215,7 +220,7 @@ and, of course, time. whether a verb took place in the past, present, or future.
 
 ---------
 
-adopt doo as a default auxiliary in any sentence that doesn't have some other modal/auxiliary verb (such as ar, haf, or con), which means that ordinary verbs like vend (“go”) no longer have past tense forms of their own: it's just ei doo vend/ei did vend
+adopt do as a default auxiliary in any sentence that doesn't have some other modal/auxiliary verb (such as is, have, or con), which means that ordinary verbs like vend (“go”) no longer have past tense forms of their own: it's just `i do go/i did go`
 
 ----
 
@@ -224,3 +229,42 @@ consider replacing all loanword lexemes with completely original constructions -
 Alternatively only use words from widely-spread lingua francas: latin, arabic, something sanskrit-based;
 
 and then MAYBE other prestige languages: english, french, russian
+
+------
+
+This language could be designed to work alongside any shared vocabulary two speakers may have;
+eg if both speakers know the words, 'taxi',
+(which can be checked by asking `ki si sawa i nimi "taxi"?`)
+
+that word can be used instead of a roundabout phrase
+
+-------
+
+Chinese has not been used as a source of words, simply because it is beyond the capabilities of the author to read chinese,
+or any of the overly complex historical romanisation systems.
+
+Also, Chinese words distinguish by tone, meaning our toneless language would likely lose too much information
+for chinese loanwords to be recognisable anyway.
+
+------
+
+every verb is present-tense active by default.
+
+-----
+
+even if using single-vowel word endings to denote parts of speech didn't work,
+still try and find a way to create a regular system of how words sound given their meaning,
+so learners can make a likely guess at a word's meaning based on how it sounds.
+
+The words don't vary by this system; they just follow a predictable pattern,
+which helps in guessing their meaning
+
+-----
+
+provide a facility for defining new words for the duration of a conversation (or article, chapter, book etc).
+These loanwords can come from shared knowledge the speakers have (words common to their language),
+and don't have to strictly follow Tuki Nuwa's phonology rules.
+
+It's helpful to define these loanwords at the beginning of the discourse.
+These loanwords are expected to mostly consist of nouns specific to the topic,
+serving as ad-hoc vocabulary which make conversations shorter.

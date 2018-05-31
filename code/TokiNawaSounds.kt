@@ -109,7 +109,7 @@ fun main(args: Array<String>) {
                         }
                     }
 
-                    o.println("${wordsWithSyllableFinalN.size} words with syllable-final n: $wordsWithSyllableFinalN")
+                    //o.println("${wordsWithSyllableFinalN.size} words with syllable-final n: $wordsWithSyllableFinalN")
 
                     o.println("first-letter frequencies:")
                     for((key, value) in firstLetterFreqs.toList().sortedBy {(_, v) -> v}.toMap()) {
@@ -145,7 +145,6 @@ fun main(args: Array<String>) {
                     }
 
                     o.println("total unused: ${allPossibleWords.size}")
-                    o.println("dictionary words: ${dictionary.size}")
                     o.println("total similar words to dictionary words: " +
                             "$totalSimilarWordsToDictionaryWords")
 
@@ -467,18 +466,19 @@ class TokiNawaSounds {
         val byLine = wholeDict.split("\n".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
         val words = mutableListOf<String>()
         for (i in 2 until byLine.size) {//start after the table heading
-            val pipes = byLine[i].count {it == '|'}
-            if (pipes != 4 && pipes != 1) {//if there aren't 4 pipes on the line, it's not a table row
+            //o.println("line: "+byLine[i]);
+            val pat = Pattern.compile("([$consonants$vowels]+)[ \t]*\\|.*")
+            val mat = pat.matcher(byLine[i])
+            if(!mat.matches()) {
+                //e.println("line ${i+1} is not a word row:\"${byLine[i]}\"")
                 continue
             }
-            //o.println("line: "+byLine[i]);
-            val pat = Pattern.compile("([a-z]+)[ \t]*\\|.*")
-            val mat = pat.matcher(byLine[i])
             //o.println("group count: "+mat.groupCount());
             //o.println("group :"+mat.group());
             //o.println("matches: "+mat.matches());
             words.add(mat.replaceAll("$1"))
         }
+        o.println("dictionary words: ${words.size}")
         return words.toTypedArray()
     }
 
