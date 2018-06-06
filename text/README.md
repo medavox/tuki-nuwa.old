@@ -8,9 +8,13 @@ Goals
 3. be more expressive than toki pona
 
 4. be easy to understand
+    - both in terms of meaning and hearing
 
 The goal of this offshoot is to make an improved version of Toki Pona that is more useful 
 as an auxlang.
+
+It uses work from Griffith University's Natural Semantic Metalanguage project,
+
 
 Although speakers can use phrases to describe things that other languages have a word for,
 Toki Pona today lacks words for some basic building-block concepts.
@@ -47,65 +51,10 @@ High != hierarchy
 
 ----------
 
-* remove 'divine' meaning from 'sewi'
-* remove 'crazy' meaning from 'nasa'
-* remove 'lower part' meaning from 'noka'. replace with 'noka pini' = leg ending
-* add meanings 'barter/trade' to 'esun'(v)
-* remove meaning 'money' from word 'mani'?
+* remove 'humble', 'lowly', 'bowing down' meanings from anpa
     - Money is neither simple, good nor necessary to lead a good life
     - In fact why do we even need a word for cattle?
     - why not 'sowelo moku suli' (hopefully meaning large food land-quadruped)?
-* remove 'humble', 'lowly', 'bowing down' meanings from anpa
-* add 'start, beginning' meanings to 'open'
-
-New Words
-=========
-
-* proper comparatives:
-    - 'molo' more
-    - less 
-    - (most? 
-    - least?)
-
-* how about a word for amount/intensity?
-* spatial words for left, right
-* words for frequency -- again, never, often, sometimes, rarely
-    - found: tenpo mute=many times, i.e. often
-* shape,
-    - maybe some shape descriptive terms like flat, straight, curvy, pointy, squat, longthin
-    - found:
-        - 'palisa': stick, rod
-* pain (n), hurt (v)
-metal
-    found: 
-* hard/softness
-    - found: kiwen= hard object, metal, rock, stone
-* soft, fluffy, gentle, gradual; (v) soften
-* help
-* free (costless/libre)
-* work, housework, chores,
-* together
-* keep, stop, again
-* stranger
-* sharp (as in knife)/spicy/sour/tangy
-* sorry
-* thank you
-* fast
-* danger
-* smell
-    - found: kon
-* breath, breathing
-* OK
-* artificial, man-made
-* uncooked
-    - used to part of word for 'cold',
-    but what about cooked food that's gone cold??
-
-
-Reinstated Words
-================
-
-* 'majuna' old, age
 
 New Grammar-Words
 =================
@@ -140,32 +89,41 @@ Two syllables are said to be 'half-identical' if they share either a consonant o
 
 Two words are considered to be 'too similar' if they only differ by a half-similar syllable.
 
-To do: Include ending -n sounds in this model
+To do: avoid minimal pairs
+-----
+
+Thanks to the use of a new sound (h) to increase the number of single- and dual- syllable words,
+removing the syllable-final n,
+and using the last vowel as a part-of-speech marker,
+
+we now have a lot of words that only differ by a single sound/letter.
+This probably makes the language sound samey, 
+and makes words hard to distinguish or keep separate in one's mind.
+
+We need a new approach.
+
+Firstly, we need to use more 3-syllable constructions,
+because we can't use the word-final syllable anymore, as it marks part-of-speech.
+
+But we don't want to make commonly-used words too long.
+
+So how about a 3-tiered system:
+
+Single-syllable words are reserved for glue words that don't take endings.
+They end in their own vowel, and optionally start with a consonant: (C)V.
+
+Double-syllable lexemes are used for common words (be, do, go, food/feed etc).
+Their first vowel is part of the word, and the second is from the POS-ending.
+They have the following structure: (C)VcE, where E is a POS-ending vowel, not chosen by the word root.
+Small c represents a reduced set of consonants; not all consonants may occur in the final position.
+
+Triple-syllable words are for everything else.
+They have the following structure: (C)VCVcE
+
+
 
 Phonology
 =========
-
-I will definitely not add sounds (phonemes) to the phonology;
-I don't know enough about linguistic typology to choose new sounds
-(or new phonotactic rules) that are as easy for all humans to pronounce.
-
-Instead, I'm merely using the raw material given to me 
-by Toki Pona's phonology and phonotactics
-to construct new words.
-
-But in order to use that raw material well, I need to know exactly what it consists of.
-So let's work out the possible syllables in Toki Pona.
-
-9 consonants (p t k m n s j l w)
-5 vowels (a e i o u)
-
-5 lone-vowel syllables: a e i o u
-
-41 CV syllable words, minus 4 disallowed sounds (ji, ti, wo, and wu)
-
-41 more CVn syllables
-
-dual-syllable words:
 
 "Toki Pona's syllables all follow a pattern: consonant + vowel + optional n. 
 If a syllable is at the beginning of a word, the consonant is optional
@@ -181,53 +139,23 @@ The Argument for removing sounds
 We don't even need as many different sounds as toki pona already has,
 in order to express the tiny number of words it has.
 
-Conlang Critic suggests that toki pona could use 3 vowels
-to be made even easier for speakers of 3-vowel languages (eg for speakers of Arabic).
-
 Should we remove one of the nasal sounds?
 they CAN be hard to distinguish from each other when speaking
-
-* Merge i and e vowels
-
-These sounds have always been hard to keep separate in my head,
-possibly because of the english dialect I was raised in.
-
-I can tell them apart, but I can't always remember which one goes where.
-
-I can't imagine I'm the only one that struggles to disinguish these sounds.
 
 As I said earlier, toki pona has an overabundance of sounds;
 it doesn't need all the sounds it does have.
 
 So why not simplify?
 
-* There is a similar argument for l and w.
-
-/l/, and its merged phoneme  /r/, vary a lot in their pronunciation.
-These variations may prove to be mutually unintelligible.
-If we can afford to leave out a sound we can't all agree on, we should.
-
 If Toki Nawa sounds a bit like baby speak, that probably means I've achieved my aim:
 It should sound so simplistic as to be familiar to everyone.
 
-So, Toki Nawa's phonemes are:-
-
-p t k m n s w j
-
-a i o u
-
 I'm still not sure about differentiating m and n, as these are easily mistaken for one another.
 
-This new sound-set means that some close-sounding words are currently homophones; I'll need to fix that.
 
-I've removed syllable-final n sounds. N can now only be used as a consonant, or at the end of the whole word -- 
-NOT at the end of a syllable, next to another consonant.
-
-
-### New Phonotactic Provisional Rules
+### Possible New Phonotactic Rules
 
 * should all vowels in a word harmonise?
-* should all consonant clusters be removed? (nanpa, unpa, tenpo, monsi, linja)
 * require all words start with a consonant, end with a vowel?
     - reduces sandhi, allows words to flow better?
 
@@ -237,62 +165,3 @@ Orthography
 
 * Map all words to Emojis
 * Map all words to Pokemon!
-
-Ideas Implemented in Dictionary Table
--------------------------------------
-
-### 'Suli':
-
-* meanings as of change: 
-    *mod* big, tall, long, adult, important
-    *vt* enlarge, lengthen
-    *n* size
-* remove 'important' meaning from 'suli'. 
-    - Not all big things are important, not all small things aren't
-* remove 'heavy' meaning from 'suli'
-    - rolling importance, size and weight into one word is a major source of confusion  
-
-
-* remove 'simple' meaning from 'pona',
-    - 'evil', 'complex' meanings from 'ike'
-
--------
-
-* 'opaka' heavy, difficult
-* 'pusiki' important (from welsh bwysig)
-* 'kapesi' brown/grey: colour of slate, mud, metal
-* 'leko' square, cube, block, square-shaped, cube-shaped
-* 'pasila' easy, simple, light (opposite of heavy)
-
------
-
-* ilo -> tuka
-    - reduce confusion with ijo, which is s
-    - loosely inspired by German 'Werkzeug'
-* replace sina -> si
-    - the word for 'you' is very common; it would be better if it was as short as possible.
-* replace (namako, sin) -> nawa
-    - 'sin' is too easily confused with 'sina' (now 'si'), and namako is now superfluous.
-* replace sitelen -> tesen
-    - from french 'dessin', but with a harmonised second vowel
-    - 'sitelen' is a false friend in English -- it means drawing/writing, not (web)site
-    - tesen is also shorter
-* shorten 'kepeken' -> 'usu' (from latin 'usus', and English 'use', with harmonised vowels)
-    - 'kepeken' doesn't *sound* like a toki pona word to me. 
-    (maybe it has phonotactic rules that have emerged as a result of its vocabulary?)
-    - It's also quite long.
-* palisa -> kalisa
-    - to avoid similarity with pasila
-
-
-Discarded Ideas
----------------
-
-* Colour, -coloured (so you can describe a colour using comparisons to other things)
-    - there is already the word 'kule' which can be used as above
-* 'mete' get/take/receive -- instead use passivity marker with give
-    - although this prevents us from using 'mete ike' as 'stealing'
-* stone/ball/egg/round
-    - found: 'sike' circle, wheel, sphere, ball, cycle, round, cyclical
-* co-operate/collaborate/work together (mitarbeiten)
-    - just use 'work together', if those words are added

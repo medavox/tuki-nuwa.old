@@ -1,0 +1,42 @@
+*
+{
+	font-family: "Verdana", Sans-serif;
+}
+body
+{
+	font-size:12pt;
+}
+h1
+{
+	font-size:1.8em;
+}
+pre.sourceCode
+{
+	border: thin solid;
+	background-color: #f4f4f4;
+}
+code
+{
+	width: 100%;
+	font-family: Monospace;
+}
+th
+{
+	background-color: #bbb
+}
+td, th
+{
+	padding: 5px;
+}
+table
+{
+	border: 1px solid black;
+}
+tr:nth-child(even)
+{
+	background-color: #e0e0e0
+}
+span
+{
+	font-family: Courier New;
+}

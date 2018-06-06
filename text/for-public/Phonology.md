@@ -60,7 +60,7 @@ They are usually pronounced in any of the following ways:
 
 Letter  | Pronunciation examples
 --------|-----------------------
-h		| [h], [x], [ɦ], [ħ], [ç], [ʝ], [χ], [ʁ], [ʕ]
+h		| [h], [χ], [x], [ɦ], [ħ], [ç], [ʝ], [ʁ], [ʕ]
 j		| [j], [i]
 k		| [k], [g], [q], [ɢ]
 l 		| [l], [ɫ], [ɺ], [r], basically any l- or r-like sound you can make
@@ -93,14 +93,28 @@ when we whisper, speak with our mouth full, sing, or shout.
 
 Don't worry!
 
-Phonotactics & Prosody
-=========
-
-Or, In What Order Letters Can Appear, And How To Pronounce Words
---------
-
-Toki Nawa follows a consonant-vowel structure.
-The first syllable of a word might just be a vowel.
 
 Stress is always on the second-to-last syllable.
 In a two-syllable word, this is the first syllable :)
+
+Phonotactics
+=========
+
+Or, In What Order Letters Can Appear
+--------
+
+Toki Nawa syllables follows a consonant-vowel structure.
+The first syllable of a word might just be a vowel.
+
+Words may be one, two or three syllables, including the POS ending.
+
+N sounds may ONLY occur at the beginning of a root word. 
+After that, they might be used to used to distinguish additional POS tags,
+eg `nuka` 'leg/foot', `nuku` 'to kick' vs `nukuna` 'the act of kicking'
+
+(LUUUUUUPAAAAAAAAAA! ⚽)
+
+[todo: move the following section to another file, eg grammar]
+
+glue words (nima lili taki) don't take endings.
+They are usually very small, one or two syllables.
